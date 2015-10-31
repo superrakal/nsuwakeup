@@ -38,3 +38,10 @@ namespace :deploy do
   end
 end
 
+namespace :bower do
+  desc 'Install bower components'
+  task :install do
+    run "cd #{current_release}/frontend && bower install --allow-root"
+  end
+end
+
