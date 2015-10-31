@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/funnel-output_path-K5nLhOfS.tmp/ember-cli-content-security-policy.js

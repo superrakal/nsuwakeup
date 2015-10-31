@@ -1,0 +1,42 @@
+.title.text-center
+  h1 Подтверждение предзаказа
+.col-md-12
+  table.table.table-hover
+    thead
+      tr
+        th id Заказа
+        th Кофе
+        th Сироп(ы)
+        th Стоимость
+    tbody
+      tr
+        td
+          = model.id
+        td
+          = model.drink.name
+          |&nbsp;(
+          = model.drink.volume
+          |&nbsp;мл.)
+        td
+          = each syurup in model.syurups
+            = syurup.name
+            |&nbsp;
+        td
+          = model.drink.price
+          |&nbsp;руб.
+.col-md-12.confirm_preorder.text-center
+  = if isConfirmed
+    .alert.alert-success.alert-dismissible.fade.in role="alert"
+      button.close aria-label="Close" data-dismiss="alert" type="button"
+        span aria-hidden="true"  ×
+      p Ваш заказ принят. Заберите его у точки выдачи вовремя! &nbsp;
+      strong Хорошего дня :)
+  = else
+    button.btn.btn-success.btn-lg{action 'confirm'} Подтвердить предзаказ
+.col-md-12
+  blockquote
+    p Огласим некоторые правила. Ваш предзаказ доступен к выдаче в течении двух часов с момента оформления и, соответственно, изготовления.
+    p Если Вы не забрали свой заказ в указанный срок, то он автоматически анулируется, кофе выливается, а Вы добавляетесь в черный список нашего заведения.
+    p При оплате штрафа за ложный предзаказ Вы убираетесь из черного списка.
+    footer Команда WakeUp! Coffee
+

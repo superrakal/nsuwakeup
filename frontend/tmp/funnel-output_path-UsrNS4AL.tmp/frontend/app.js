@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/babel-output_path-tTrNtKmL.tmp/frontend/app.js

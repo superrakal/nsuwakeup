@@ -1,0 +1,19 @@
+.title.text-center
+  h1 Выбор кофе
+.items
+  = each drink in drinks
+    .col-lg-3.col-md-4.col-sm-6.col-xs-12.item
+      .panel.panel-default.text-center
+        .panel-body
+          img.img-responsive src=drink.image
+          .additional
+            .price.pull-left
+              = drink.price
+              |&nbsp;руб.&nbsp;(
+              = drink.volume
+              |&nbsp;мл.)
+            .action.pull-right
+              button.btn.btn-success{action 'choose' drink} Выбрать
+        .panel-footer.text-center
+          = drink.name
+

@@ -1,0 +1,16 @@
+P
+  | Id заказа:&nbsp;
+  = @preorder.id
+P
+  | Тип кофе:&nbsp;
+  = @preorder.drink.name
+P
+  | Сироп(ы):&nbsp;
+  - @preorder.syurups.each do |syurup|
+    = syurup.name
+    |&nbsp;
+
+hr
+  h2
+    |Стоимость:&nbsp;
+    = @preorder.drink.price

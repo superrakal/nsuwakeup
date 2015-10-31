@@ -1,0 +1,17 @@
+.col-lg-3.col-md-4.col-sm-6.col-xs-12.item
+  .panel.panel-default.text-center
+    .panel-body
+      img.img-responsive src=syurup.image
+      .additional
+        .price.pull-left
+          = if syurup.is_available
+            |В наличии
+          = else
+            |Нет в наличии :(
+        .action.pull-right
+          = if isAdded
+            button.btn.btn-danger{action 'remove'} Убрать
+          = else
+            button.btn.btn-success{action 'add'} Добавить
+    .panel-footer.text-center
+      = syurup.name

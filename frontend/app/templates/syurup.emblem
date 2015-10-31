@@ -1,0 +1,7 @@
+.title.text-center
+  h1 Выбор сиропа(ов)
+.items.col-md-12
+  = each syurup in syurups
+    syurup-component syurup=syurup preorder=model
+.col-md-12.text-center
+  button.btn.btn-lg.btn-success{action 'confirm'} Оформить

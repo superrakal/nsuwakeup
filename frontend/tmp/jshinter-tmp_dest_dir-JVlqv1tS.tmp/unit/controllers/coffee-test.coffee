@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tests/unit/controllers/coffee-test.coffee
