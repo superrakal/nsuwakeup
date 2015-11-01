@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/class-tmp_cache_dir-HrTHLEAy.tmp/assets/frontend.js

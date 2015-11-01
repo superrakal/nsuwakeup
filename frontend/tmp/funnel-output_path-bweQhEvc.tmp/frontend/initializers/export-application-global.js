@@ -1,1 +1,1 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/tree_merger-tmp_dest_dir-nh0rNz5S.tmp/frontend/initializers/export-application-global.js
+/home/egor/RubymineProjects/wakeup/frontend/tmp/tree_merger-tmp_dest_dir-BBlzEuwG.tmp/frontend/initializers/export-application-global.js

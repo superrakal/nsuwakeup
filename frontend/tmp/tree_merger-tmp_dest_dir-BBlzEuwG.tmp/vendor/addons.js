@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/class-tmp_cache_dir-4qbg0K2S.tmp/addons.js

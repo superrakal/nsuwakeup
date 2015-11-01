@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/class-tmp_cache_dir-T5AF5wCJ.tmp/assets/vendor.js

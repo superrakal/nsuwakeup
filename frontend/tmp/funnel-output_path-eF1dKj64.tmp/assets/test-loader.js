@@ -1,1 +1,1 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/tree_merger-tmp_dest_dir-fSqkC4yi.tmp/bower_components/ember-cli-test-loader/test-loader.js
+/home/egor/RubymineProjects/wakeup/frontend/tmp/tree_merger-tmp_dest_dir-1xbU3UtI.tmp/bower_components/ember-cli-test-loader/test-loader.js
