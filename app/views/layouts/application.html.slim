@@ -7,6 +7,9 @@ html
     meta content="width=device-width, initial-scale=1" name="viewport"
     = stylesheet_link_tag    'application', media: 'all'
     = javascript_include_tag 'application'
+    script src="//vk.com/js/api/openapi.js?120" type="text/javascript"
+    javascript:
+      VK.init({apiId: 4335361, onlyWidgets: true});
     = csrf_meta_tags
     = favicon_link_tag
   body

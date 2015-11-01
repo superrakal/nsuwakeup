@@ -22381,3 +22381,32 @@ Processing by Api::V1::SyurupsController#show as JSON
   MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3047ms
   MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4253ms
 Completed 200 OK in 6ms (Views: 2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:03:29 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (5.7ms)
+Completed 200 OK in 112ms (Views: 112.1ms)
+
+
+Started GET "/welcome/auth_by_vk" for 127.0.0.1 at 2015-11-01 21:03:31 +0600
+Processing by WelcomeController#auth_by_vk as HTML
+Redirected to https://oauth.vk.com/authorize?client_id=4335361&redirect_uri=http%3A%2F%2Flocal.vcap.me%3A3000%2Fwelcome%2Fvk_auth_callback&response_type=code&scope=notify%2Cfriends%2Cphotos%2Cemail%2Cfirst_name%2Clast_name&state=8e2b2f9e4012be98865b3d27f39406c1
+Completed 302 Found in 1ms
+
+
+Started GET "/welcome/vk_auth_callback?code=f1f8a5936027a72320&state=8e2b2f9e4012be98865b3d27f39406c1" for 127.0.0.1 at 2015-11-01 21:03:32 +0600
+Processing by WelcomeController#vk_auth_callback as HTML
+  Parameters: {"code"=>"f1f8a5936027a72320", "state"=>"8e2b2f9e4012be98865b3d27f39406c1"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3331ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"vk_id"=>"id221246142"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3362ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2356ms
+Redirected to http://local.vcap.me:3000/
+Completed 302 Found in 259ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:03:33 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3216ms
+  Rendered welcome/index.html.slim within layouts/application (35.9ms)
+Completed 200 OK in 140ms (Views: 140.2ms)

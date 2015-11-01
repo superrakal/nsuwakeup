@@ -5266,3 +5266,122 @@ SourcemapConcat (3)                           | 83ms (27 ms)
 TemplateCompiler (2)                          | 32ms (16 ms)        
 ES6: App Tree (1)                             | 24ms                
 
+file added components/comments-component.coffee
+file added templates/components/comments-component.hbs
+file changed components/comments-component.coffee
+file changed templates/components/comments-component.hbs
+file added integration/components/comments-component-test.coffee
+file changed integration/components/comments-component-test.coffee
+
+Build successful - 435ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 96ms                
+Funnel                                        | 46ms                
+Babel                                         | 25ms                
+CoffeeScriptFilter                            | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 96ms                
+Funnel (33)                                   | 68ms (2 ms)         
+Babel (3)                                     | 39ms (13 ms)        
+CoffeeScriptFilter (2)                        | 34ms (17 ms)        
+TreeMerger (139)                              | 22ms (0 ms)         
+
+file deleted templates/components/comments-component.hbs
+file added templates/components/comments-component.emblem
+File: frontend/templates/components/comments-component.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file changed templates/components/comments-component.emblem
+
+Build successful - 343ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 97ms                
+Funnel: App JS Files                          | 70ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 97ms                
+Funnel: App JS Files (1)                      | 70ms                
+SourcemapConcat (3)                           | 17ms (5 ms)         
+CoffeeScriptFilter (2)                        | 17ms (8 ms)         
+Funnel (33)                                   | 17ms (0 ms)         
+
+file added templates/root.emblem___jb_bak___
+file deleted templates/root.emblem___jb_bak___
+file added templates/root.emblem___jb_old___
+file changed templates/root.emblem
+file deleted templates/root.emblem___jb_old___
+
+Build successful - 341ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 97ms                
+ES6: App Tree                                 | 57ms                
+Funnel: App JS Files                          | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 97ms                
+ES6: App Tree (1)                             | 57ms                
+Funnel: App JS Files (1)                      | 20ms                
+SourcemapConcat (3)                           | 17ms (5 ms)         
+
+file changed components/comments-component.coffee
+
+Build successful - 348ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 97ms                
+ES6: App Tree                                 | 53ms                
+Funnel: App JS Files                          | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 97ms                
+ES6: App Tree (1)                             | 53ms                
+Funnel: App JS Files (1)                      | 19ms                
+SourcemapConcat (3)                           | 17ms (5 ms)         
+Funnel (33)                                   | 17ms (0 ms)         
+
+file changed components/comments-component.coffee
+
+Build successful - 356ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 97ms                
+ES6: App Tree                                 | 51ms                
+Funnel: App JS Files                          | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 97ms                
+ES6: App Tree (1)                             | 51ms                
+SourcemapConcat (3)                           | 24ms (8 ms)         
+CoffeeScriptFilter (2)                        | 21ms (10 ms)        
+Funnel: App JS Files (1)                      | 18ms                
+
+file changed templates/components/comments-component.emblem
+
+Build successful - 372ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 103ms               
+Concat: App                                   | 56ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 103ms               
+Concat: App (1)                               | 56ms                
+CoffeeScriptFilter (2)                        | 21ms (10 ms)        
+TemplateCompiler (2)                          | 20ms (10 ms)        
+SourcemapConcat (3)                           | 19ms (6 ms)         
+
