@@ -4639,3 +4639,216 @@ Funnel: App JS Files (1)                      | 102ms
 SourcemapConcat (3)                           | 29ms (9 ms)         
 ES6: App Tree (1)                             | 26ms                
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2696ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1903ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1903ms              
+Babel (3)                                     | 299ms (99 ms)       
+
+file changed templates/root.emblem
+
+Build successful - 458ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 108ms               
+Funnel: App JS Files                          | 87ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 108ms               
+Funnel: App JS Files (1)                      | 87ms                
+SourcemapConcat (3)                           | 23ms (7 ms)         
+
+file added templates/root.emblem___jb_bak___
+file deleted templates/root.emblem___jb_bak___
+file added templates/root.emblem___jb_old___
+file changed templates/root.emblem
+file deleted templates/root.emblem___jb_old___
+
+Build successful - 375ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 98ms                
+Funnel: App JS Files                          | 73ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 98ms                
+Funnel: App JS Files (1)                      | 73ms                
+
+file added models/preorder.coffee___jb_bak___
+file deleted models/preorder.coffee___jb_bak___
+file added models/preorder.coffee___jb_old___
+file changed models/preorder.coffee
+file deleted models/preorder.coffee___jb_old___
+
+Build successful - 370ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 100ms               
+ES6: App Tree                                 | 64ms                
+Funnel: App JS Files                          | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 100ms               
+ES6: App Tree (1)                             | 64ms                
+Funnel: App JS Files (1)                      | 19ms                
+CoffeeScriptFilter (2)                        | 19ms (9 ms)         
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file changed templates/inform.emblem
+
+Build successful - 411ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 106ms               
+ES6: App Tree                                 | 87ms                
+Funnel: App JS Files                          | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 106ms               
+ES6: App Tree (1)                             | 87ms                
+Funnel: App JS Files (1)                      | 32ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2365ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1844ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1844ms              
+
+file changed templates/inform.emblem
+
+Build successful - 391ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 148ms               
+Funnel: App JS Files                          | 22ms                
+Concat: Test Support JS                       | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 148ms               
+Funnel: App JS Files (1)                      | 22ms                
+Concat: Test Support JS (1)                   | 19ms                
+
+file added templates/inform.emblem___jb_bak___
+file changed templates/inform.emblem___jb_bak___
+file added templates/inform.emblem___jb_old___
+file deleted templates/inform.emblem___jb_bak___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 427ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 178ms               
+TreeMerger (appAndDependencies)               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 178ms               
+TreeMerger (appAndDependencies) (1)           | 23ms                
+Funnel (33)                                   | 22ms (0 ms)         
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 454ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 135ms               
+ES6: App Tree                                 | 71ms                
+TreeMerger (appAndDependencies)               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 135ms               
+ES6: App Tree (1)                             | 71ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+Funnel (33)                                   | 23ms (0 ms)         
+
+file changed controllers/inform.coffee
+
+Build successful - 416ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 107ms               
+Concat: App                                   | 69ms                
+Babel                                         | 37ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 107ms               
+Concat: App (1)                               | 69ms                
+Babel (3)                                     | 39ms (13 ms)        
+SourcemapConcat (3)                           | 25ms (8 ms)         
+
+file changed controllers/inform.coffee
+
+Build successful - 386ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 97ms                
+Concat: App                                   | 66ms                
+Funnel: App JS Files                          | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 97ms                
+Concat: App (1)                               | 66ms                
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+SourcemapConcat (3)                           | 23ms (7 ms)         
+Funnel: App JS Files (1)                      | 19ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2498ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 2016ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 2016ms              
+

@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/jshinter-tmp_dest_dir-P20uNnSz.tmp/test-helper.jshint.js

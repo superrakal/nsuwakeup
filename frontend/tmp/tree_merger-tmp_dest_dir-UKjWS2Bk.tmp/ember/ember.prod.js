@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/funnel-output_path-LfZvmRYP.tmp/ember/ember.prod.js

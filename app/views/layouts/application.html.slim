@@ -2,10 +2,13 @@ doctype html
 html
   head
     title WakeUp! NSU
+    meta charset="utf-8"
+    meta content="IE=edge" http-equiv="X-UA-Compatible"
+    meta content="width=device-width, initial-scale=1" name="viewport"
     = stylesheet_link_tag    'application', media: 'all'
     = javascript_include_tag 'application'
-
     = csrf_meta_tags
+    = favicon_link_tag
   body
     - if !user_signed_in?
       .sign_in_box
@@ -15,6 +18,7 @@ html
             i.fa.fa-vk.fa-2x.pull-left
             |Войти
         .social_buttons
+          p Расскажите о нас!
           .pluso data-background="transparent" data-options="big,square,line,horizontal,counter,theme=02" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print"
     - else
       = include_ember_script_tags :frontend

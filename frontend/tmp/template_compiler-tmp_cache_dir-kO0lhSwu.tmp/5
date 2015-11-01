@@ -1,0 +1,1 @@
+<div class="title text-center"><h1>Выбор сиропа(ов)</h1></div><div class="items col-md-12">{{#each syurup in syurups}}{{syurup-component syurup=syurup preorder=model}}{{/each}}</div><div class="col-md-12 text-center"><button {{action 'confirm'}} class="btn btn-lg btn-success">Оформить</button></div>

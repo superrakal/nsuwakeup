@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/funnel-output_path-XbHjXwaF.tmp/frontend/tests/helpers/start-app.jshint.js

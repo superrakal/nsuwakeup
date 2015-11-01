@@ -18761,3 +18761,1263 @@ Started GET "/" for 127.0.0.1 at 2015-11-01 12:10:40 +0600
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.slim within layouts/application (0.0ms)
 Completed 200 OK in 105ms (Views: 104.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:45:40 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (9.8ms)
+Completed 200 OK in 948ms (Views: 947.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:45:47 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 189ms (Views: 188.7ms)
+
+
+Started GET "/welcome/auth_by_vk" for 127.0.0.1 at 2015-11-01 16:46:23 +0600
+Processing by WelcomeController#auth_by_vk as HTML
+Redirected to https://oauth.vk.com/authorize?client_id=4335361&redirect_uri=http%3A%2F%2Fnsuwakeup.ru%2Fwelcome%2Fvk_auth_callback&response_type=code&scope=notify%2Cfriends%2Cphotos%2Cemail%2Cfirst_name%2Clast_name&state=99dffae6c59abd7729c19cd82fb811c8
+Completed 302 Found in 10ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:47:06 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 149ms (Views: 149.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:49:48 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 199ms (Views: 198.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:49:49 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 135ms (Views: 135.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:49:57 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 232ms (Views: 231.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:50:17 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 225ms (Views: 224.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:50:23 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 222ms (Views: 221.6ms)
+
+
+Started GET "/welcome/auth_by_vk" for 127.0.0.1 at 2015-11-01 16:50:29 +0600
+Processing by WelcomeController#auth_by_vk as HTML
+Redirected to https://oauth.vk.com/authorize?client_id=4335361&redirect_uri=http%3A%2F%2Fnsuwakeup.ru%2Fwelcome%2Fvk_auth_callback&response_type=code&scope=notify%2Cfriends%2Cphotos%2Cemail%2Cfirst_name%2Clast_name&state=e01ad42881767bec7274441db75fc64c
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:51:45 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 7ms
+
+Slim::Parser::SyntaxError - Malformed indentation
+  /home/egor/RubymineProjects/wakeup/app/views/layouts/application.html.slim, Line 40, Column 6
+    = yield
+    ^
+:
+  app/views/layouts/application.html.slim:40:in `'
+  slim (3.0.6) lib/slim/parser.rb:503:in `syntax_error!'
+  slim (3.0.6) lib/slim/parser.rb:184:in `parse_line'
+  slim (3.0.6) lib/slim/parser.rb:90:in `call'
+  temple (0.7.6) lib/temple/engine.rb:50:in `block in call'
+  temple (0.7.6) lib/temple/engine.rb:50:in `each'
+  temple (0.7.6) lib/temple/engine.rb:50:in `inject'
+  temple (0.7.6) lib/temple/engine.rb:50:in `call'
+  temple (0.7.6) lib/temple/mixins/template.rb:10:in `compile'
+  temple (0.7.6) lib/temple/templates/rails.rb:8:in `call'
+  actionview (4.2.3) lib/action_view/template.rb:270:in `compile'
+  actionview (4.2.3) lib/action_view/template.rb:245:in `block (2 levels) in compile!'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:244:in `block in compile!'
+  actionview (4.2.3) lib/action_view/template.rb:232:in `synchronize'
+  actionview (4.2.3) lib/action_view/template.rb:232:in `compile!'
+  actionview (4.2.3) lib/action_view/template.rb:144:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  remotipart (1.2.1) lib/remotipart/render_overrides.rb:14:in `render_with_remotipart'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  ember-cli-rails (0.4.0) lib/ember-cli/middleware.rb:14:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/3ab6368169ef2784/variables" for 127.0.0.1 at 2015-11-01 16:51:45 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:52:06 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 216ms (Views: 215.5ms)
+
+
+Started GET "/welcome/auth_by_vk" for 127.0.0.1 at 2015-11-01 16:52:09 +0600
+Processing by WelcomeController#auth_by_vk as HTML
+Redirected to https://oauth.vk.com/authorize?client_id=4335361&redirect_uri=http%3A%2F%2Fnsuwakeup.ru%2Fwelcome%2Fvk_auth_callback&response_type=code&scope=notify%2Cfriends%2Cphotos%2Cemail%2Cfirst_name%2Clast_name&state=1e09650ab80fa0673eb8d15996f03741
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:52:31 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 860ms (Views: 860.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:53:48 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 30ms
+
+Sass::SyntaxError - Invalid CSS after "...c,cyrillic-ext)": expected media query list, was ";":
+  app/assets/stylesheets/welcome.sass:2:in `'
+  sass (3.4.19) lib/sass/scss/parser.rb:1161:in `expected'
+  sass (3.4.19) lib/sass/scss/parser.rb:1097:in `expected'
+  sass (3.4.19) lib/sass/scss/parser.rb:66:in `parse_media_query_list'
+  sass (3.4.19) lib/sass/engine.rb:1019:in `parse_import_arg'
+  sass (3.4.19) lib/sass/engine.rb:986:in `block in parse_import_directive'
+  sass (3.4.19) lib/sass/engine.rb:985:in `loop'
+  sass (3.4.19) lib/sass/engine.rb:985:in `parse_import_directive'
+  sass (3.4.19) lib/sass/engine.rb:798:in `parse_directive'
+  sass (3.4.19) lib/sass/engine.rb:645:in `parse_line'
+  sass (3.4.19) lib/sass/engine.rb:535:in `build_tree'
+  sass (3.4.19) lib/sass/engine.rb:554:in `block in append_children'
+  sass (3.4.19) lib/sass/engine.rb:553:in `each'
+  sass (3.4.19) lib/sass/engine.rb:553:in `append_children'
+  sass (3.4.19) lib/sass/engine.rb:406:in `_to_tree'
+  sass (3.4.19) lib/sass/engine.rb:309:in `to_tree'
+  sass (3.4.19) lib/sass/engine.rb:343:in `_dependencies'
+  sass (3.4.19) lib/sass/engine.rb:331:in `dependencies'
+   () home/egor/.rvm/gems/ruby-2.1.6/bundler/gems/compass-rails-a1c890628d61/lib/compass-rails/patches/sass_importer.rb:36:in `evaluate'
+  tilt (2.0.1) lib/tilt/template.rb:96:in `render'
+  sprockets (3.4.0) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:56:in `reverse_each'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.4.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.4.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.4.0) lib/sprockets/loader.rb:318:in `fetch_asset_from_dependency_cache'
+  sprockets (3.4.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:47:in `yield'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.4.0) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.4.0) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.4.0) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:56:in `reverse_each'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.4.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.4.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.4.0) lib/sprockets/loader.rb:318:in `fetch_asset_from_dependency_cache'
+  sprockets (3.4.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:47:in `yield'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.4.0) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.4.0) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.4.0) lib/sprockets/base.rb:92:in `[]'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:158:in `map'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.slim:8:in `_app_views_layouts_application_html_slim__1573873017773544333_70305645374960'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  remotipart (1.2.1) lib/remotipart/render_overrides.rb:14:in `render_with_remotipart'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  ember-cli-rails (0.4.0) lib/ember-cli/middleware.rb:14:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/ede5495daaafd828/variables" for 127.0.0.1 at 2015-11-01 16:53:48 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:53:49 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 27ms
+
+Sass::SyntaxError - Invalid CSS after "...c,cyrillic-ext)": expected media query list, was ";":
+  app/assets/stylesheets/welcome.sass:2:in `'
+  sass (3.4.19) lib/sass/scss/parser.rb:1161:in `expected'
+  sass (3.4.19) lib/sass/scss/parser.rb:1097:in `expected'
+  sass (3.4.19) lib/sass/scss/parser.rb:66:in `parse_media_query_list'
+  sass (3.4.19) lib/sass/engine.rb:1019:in `parse_import_arg'
+  sass (3.4.19) lib/sass/engine.rb:986:in `block in parse_import_directive'
+  sass (3.4.19) lib/sass/engine.rb:985:in `loop'
+  sass (3.4.19) lib/sass/engine.rb:985:in `parse_import_directive'
+  sass (3.4.19) lib/sass/engine.rb:798:in `parse_directive'
+  sass (3.4.19) lib/sass/engine.rb:645:in `parse_line'
+  sass (3.4.19) lib/sass/engine.rb:535:in `build_tree'
+  sass (3.4.19) lib/sass/engine.rb:554:in `block in append_children'
+  sass (3.4.19) lib/sass/engine.rb:553:in `each'
+  sass (3.4.19) lib/sass/engine.rb:553:in `append_children'
+  sass (3.4.19) lib/sass/engine.rb:406:in `_to_tree'
+  sass (3.4.19) lib/sass/engine.rb:309:in `to_tree'
+  sass (3.4.19) lib/sass/engine.rb:343:in `_dependencies'
+  sass (3.4.19) lib/sass/engine.rb:331:in `dependencies'
+   () home/egor/.rvm/gems/ruby-2.1.6/bundler/gems/compass-rails-a1c890628d61/lib/compass-rails/patches/sass_importer.rb:36:in `evaluate'
+  tilt (2.0.1) lib/tilt/template.rb:96:in `render'
+  sprockets (3.4.0) lib/sprockets/legacy_tilt_processor.rb:25:in `call'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:56:in `reverse_each'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.4.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.4.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.4.0) lib/sprockets/loader.rb:318:in `fetch_asset_from_dependency_cache'
+  sprockets (3.4.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:47:in `yield'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.4.0) lib/sprockets/bundle.rb:23:in `block in call'
+  sprockets (3.4.0) lib/sprockets/utils.rb:183:in `dfs'
+  sprockets (3.4.0) lib/sprockets/bundle.rb:24:in `call'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:75:in `call_processor'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:57:in `block in call_processors'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:56:in `reverse_each'
+  sprockets (3.4.0) lib/sprockets/processor_utils.rb:56:in `call_processors'
+  sprockets (3.4.0) lib/sprockets/loader.rb:134:in `load_from_unloaded'
+  sprockets (3.4.0) lib/sprockets/loader.rb:60:in `block in load'
+  sprockets (3.4.0) lib/sprockets/loader.rb:318:in `fetch_asset_from_dependency_cache'
+  sprockets (3.4.0) lib/sprockets/loader.rb:44:in `load'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:20:in `block in initialize'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:47:in `yield'
+  sprockets (3.4.0) lib/sprockets/cached_environment.rb:47:in `load'
+  sprockets (3.4.0) lib/sprockets/base.rb:66:in `find_asset'
+  sprockets (3.4.0) lib/sprockets/environment.rb:30:in `find_asset'
+  sprockets (3.4.0) lib/sprockets/base.rb:92:in `[]'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:230:in `lookup_asset_for_path'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:190:in `check_errors_for'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:159:in `block in stylesheet_link_tag'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:158:in `map'
+  sprockets-rails (2.3.3) lib/sprockets/rails/helper.rb:158:in `stylesheet_link_tag'
+  app/views/layouts/application.html.slim:8:in `_app_views_layouts_application_html_slim__1573873017773544333_70305645374960'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  remotipart (1.2.1) lib/remotipart/render_overrides.rb:14:in `render_with_remotipart'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  ember-cli-rails (0.4.0) lib/ember-cli/middleware.rb:14:in `call'
+  rack-pjax (0.8.0) lib/rack/pjax.rb:12:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  remotipart (1.2.1) lib/remotipart/middleware.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/f80b2cc3b1390b8f/variables" for 127.0.0.1 at 2015-11-01 16:53:49 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:53:53 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 212ms (Views: 211.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:54:22 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 249ms (Views: 249.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:55:03 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 235ms (Views: 234.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:55:05 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 156ms (Views: 155.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:55:14 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 152ms (Views: 151.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:55:32 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 293ms (Views: 292.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:56:03 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 222ms (Views: 221.7ms)
+
+
+Started GET "/api/v1/preorders" for 127.0.0.1 at 2015-11-01 16:56:29 +0600
+Processing by Api::V1::PreordersController#index as JSON
+Completed 401 Unauthorized in 3ms
+
+
+Started GET "/api/v1/preorders" for 127.0.0.1 at 2015-11-01 16:56:37 +0600
+Processing by Api::V1::PreordersController#index as JSON
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 16:56:45 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 162ms (Views: 161.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:02:44 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (9.6ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 1473ms (Views: 1472.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:02:55 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 158ms (Views: 158.2ms)
+
+
+Started GET "/welcome/auth_by_vk" for 127.0.0.1 at 2015-11-01 17:02:57 +0600
+Processing by WelcomeController#auth_by_vk as HTML
+Redirected to https://oauth.vk.com/authorize?client_id=4335361&redirect_uri=http%3A%2F%2Flocal.vcap.me%3A3000%2Fwelcome%2Fvk_auth_callback&response_type=code&scope=notify%2Cfriends%2Cphotos%2Cemail%2Cfirst_name%2Clast_name&state=c2ef8be17d0a60c3f1eab59833e90fff
+Completed 302 Found in 5ms
+
+
+Started GET "/welcome/vk_auth_callback?code=f9367ab368c041ac48&state=c2ef8be17d0a60c3f1eab59833e90fff" for 127.0.0.1 at 2015-11-01 17:02:59 +0600
+Processing by WelcomeController#vk_auth_callback as HTML
+  Parameters: {"code"=>"f9367ab368c041ac48", "state"=>"c2ef8be17d0a60c3f1eab59833e90fff"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6232ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"vk_id"=>"id221246142"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 5.5263ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=wakeup_development collection=users selector={"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')} update={"$set"=>{"last_sign_in_at"=>2015-11-01 06:07:11 UTC, "current_sign_in_at"=>2015-11-01 11:02:59 UTC, "sign_in_count"=>6}} flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.4508ms
+Redirected to http://local.vcap.me:3000/
+Completed 302 Found in 276ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:02:59 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3479ms
+Completed 200 OK in 170ms (Views: 169.7ms)
+
+
+Started GET "/api/v1/preorders" for 127.0.0.1 at 2015-11-01 17:03:02 +0600
+Processing by Api::V1::PreordersController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3600ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2453ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2377ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1197ms
+Completed 200 OK in 26ms (Views: 13.3ms)
+
+
+Started POST "/api/v1/preorders" for 127.0.0.1 at 2015-11-01 17:03:02 +0600
+Value for params[:preorder][:syurup_ids] was set to nil, because it was one of [], [null] or [null, null, ...]. Go to http://guides.rubyonrails.org/security.html#unsafe-query-generation for more information.
+Processing by Api::V1::PreordersController#create as JSON
+  Parameters: {"preorder"=>{"comments"=>nil, "drink_id"=>nil, "syurup_ids"=>nil}}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2902ms
+Unpermitted parameter: syurup_ids
+  MOPED: 127.0.0.1:27017 INSERT       database=wakeup_development collection=preorders documents=[{"_id"=>BSON::ObjectId('5635f166d3054d1020000000'), "drink_id"=>nil, "comments"=>nil, "user_vk_id"=>"id221246142"}] flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.6969ms
+Completed 201 Created in 18ms (Views: 1.3ms)
+
+
+Started GET "/api/v1/drinks" for 127.0.0.1 at 2015-11-01 17:03:02 +0600
+Processing by Api::V1::DrinksController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3703ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2835ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2716ms
+Completed 200 OK in 9ms (Views: 6.4ms)
+
+
+Started PUT "/api/v1/preorders/5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:03:04 +0600
+Value for params[:preorder][:syurup_ids] was set to nil, because it was one of [], [null] or [null, null, ...]. Go to http://guides.rubyonrails.org/security.html#unsafe-query-generation for more information.
+Processing by Api::V1::PreordersController#update as JSON
+  Parameters: {"preorder"=>{"comments"=>nil, "drink_id"=>"5634b585d3054d26ea000000", "syurup_ids"=>nil}, "id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3150ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1938ms
+Unpermitted parameter: syurup_ids
+  MOPED: 127.0.0.1:27017 UPDATE       database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} update={"$set"=>{"drink_id"=>BSON::ObjectId('5634b585d3054d26ea000000')}} flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.3037ms
+Unpermitted parameter: syurup_ids
+Completed 204 No Content in 7ms
+
+
+Started GET "/api/v1/syurups" for 127.0.0.1 at 2015-11-01 17:03:04 +0600
+Processing by Api::V1::SyurupsController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3903ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2859ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2372ms
+Completed 200 OK in 7ms (Views: 4.5ms)
+
+
+Started PUT "/api/v1/preorders/5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:03:19 +0600
+Processing by Api::V1::PreordersController#update as JSON
+  Parameters: {"preorder"=>{"comments"=>nil, "drink_id"=>"5634b585d3054d26ea000000", "syurup_ids"=>["5634f6d5d3054d1eed000000"]}, "id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4151ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2351ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} update={"$addToSet"=>{"syurup_ids"=>{"$each"=>[BSON::ObjectId('5634f6d5d3054d1eed000000')]}}} flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.4120ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=wakeup_development collection=syurups selector={"$and"=>[{"_id"=>{"$in"=>[BSON::ObjectId('5634f6d5d3054d1eed000000')]}}]} update={"$addToSet"=>{"preorder_ids"=>BSON::ObjectId('5635f166d3054d1020000000')}} flags=[:multi]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.4027ms
+Completed 204 No Content in 8ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:05:02 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4640ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4621ms
+Completed 200 OK in 251ms (Views: 251.3ms)
+
+
+Started GET "/api/v1/preorders/5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:05:02 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2768ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2496ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1993ms
+Completed 200 OK in 5ms (Views: 0.5ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 17:05:03 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2978ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5014ms
+Completed 200 OK in 6ms (Views: 2.8ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 17:05:03 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3433ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2580ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.8795ms
+Completed 200 OK in 9ms (Views: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:05:10 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3464ms
+Completed 200 OK in 221ms (Views: 221.3ms)
+
+
+Started GET "/api/v1/preorders/5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:05:10 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3235ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1667ms
+Completed 200 OK in 5ms (Views: 0.5ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 17:05:11 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3250ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4501ms
+Completed 200 OK in 6ms (Views: 2.8ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 17:05:11 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3412ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3510ms
+Completed 200 OK in 5ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:05:22 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4137ms
+Completed 200 OK in 263ms (Views: 263.1ms)
+
+
+Started GET "/api/v1/preorders/5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:05:22 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3583ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2000ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2060ms
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 17:05:22 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.4396ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3331ms
+Completed 200 OK in 7ms (Views: 2.4ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 17:05:22 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3018ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2284ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3891ms
+Completed 200 OK in 7ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:06:03 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3011ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2556ms
+Completed 200 OK in 188ms (Views: 188.2ms)
+
+
+Started GET "/api/v1/preorders/5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:06:04 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2551ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1912ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1683ms
+Completed 200 OK in 5ms (Views: 0.5ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 17:06:04 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4449ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3276ms
+Completed 200 OK in 7ms (Views: 2.5ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 17:06:04 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3080ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2396ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4249ms
+Completed 200 OK in 7ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:06:14 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4425ms
+Completed 200 OK in 285ms (Views: 285.0ms)
+
+
+Started GET "/api/v1/preorders/5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:06:15 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3598ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2472ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1574ms
+Completed 200 OK in 5ms (Views: 0.5ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 17:06:15 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3781ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3438ms
+Completed 200 OK in 6ms (Views: 2.9ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 17:06:15 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6413ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6814ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3088ms
+Completed 200 OK in 9ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:06:30 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3057ms
+Completed 200 OK in 242ms (Views: 241.7ms)
+
+
+Started GET "/api/v1/preorders/5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:06:31 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3421ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1893ms
+Completed 200 OK in 4ms (Views: 0.4ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 17:06:31 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3519ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5734ms
+Completed 200 OK in 6ms (Views: 3.1ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 17:06:31 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.9908ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4349ms
+Completed 200 OK in 9ms (Views: 2.9ms)
+
+
+Started GET "/api/v1/preorders/new?id=5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:06:42 +0600
+Processing by Api::V1::PreordersController#new as */*
+  Parameters: {"id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2875ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1688ms
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from new at /home/egor/RubymineProjects/wakeup/app/controllers/api/v1/preorders_controller.rb:20)
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"$query"=>{"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2985ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"$and"=>[{"_id"=>{"$in"=>[BSON::ObjectId('5634f6d5d3054d1eed000000')]}}]} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2592ms
+  Rendered preorder_mailer/new_preorder.html.slim (5.0ms)
+
+PreorderMailer#new_preorder: processed outbound mail in 184.5ms
+
+Sent mail to topol009@mail.ru (6.5ms)
+Date: Sun, 01 Nov 2015 17:06:42 +0600
+From: from@example.com
+To: topol009@mail.ru
+Message-ID: <5635f242c1b11_10203fcd9d9b63386421a@topolnyaknsu.mail>
+Subject: =?UTF-8?Q?=D0=9D=D0=BE=D0=B2=D1=8B=D0=B9?=
+ =?UTF-8?Q?_=D0=BF=D1=80=D0=B5=D0=B4=D0=B7=D0=B0=D0=BA=D0=B0=D0=B7?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: base64
+
+PFA+SWQg0LfQsNC60LDQt9CwOiZuYnNwOzU2MzVmMTY2ZDMwNTRkMTAyMDAw
+MDAwMDwvUD48UD7QotC40L8g0LrQvtGE0LU6Jm5ic3A70JvQsNGC0YLQtTwv
+UD48UD7QodC40YDQvtC/KNGLKTombmJzcDthc2Rhc2RhZCZuYnNwOzwvUD4K
+PGhyPgogIDxoMj4KICAgINCh0YLQvtC40LzQvtGB0YLRjDombmJzcDsxMDAm
+bmJzcDsg0YDRg9CxLgogIDwvaDI+CjwvaHI+
+
+Completed 200 OK in 205ms (Views: 0.6ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-11-01 17:06:48 +0600
+Processing by RailsAdmin::MainController#dashboard as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=wakeup_development command={:count=>"drinks", :query=>{}} runtime: 0.3476ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=wakeup_development command={:count=>"preorders", :query=>{}} runtime: 0.1659ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=wakeup_development command={:count=>"syurups", :query=>{}} runtime: 0.1502ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=wakeup_development command={:count=>"users", :query=>{}} runtime: 0.1566ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (11.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (1.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (4.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (2.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (2.2ms)
+Completed 200 OK in 3598ms (Views: 3504.0ms)
+
+
+Started GET "/admin/preorder?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-11-01 17:06:54 +0600
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"preorder"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4678ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>{"$in"=>[BSON::ObjectId('5634b585d3054d26ea000000')]}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2973ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"$and"=>[{"_id"=>{"$in"=>[BSON::ObjectId('5634f6d5d3054d1eed000000')]}}]} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3309ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=wakeup_development command={:count=>"preorders", :query=>{}} runtime: 0.2332ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.2782ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (25.8ms)
+Completed 200 OK in 36ms (Views: 30.5ms)
+
+
+Started GET "/admin/preorder/5635f166d3054d1020000000/edit?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-11-01 17:06:57 +0600
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"preorder", "id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3667ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (2.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"$query"=>{"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3734ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=wakeup_development command={:count=>"drinks", :query=>{}} runtime: 0.1912ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2685ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_filtering_select.html.haml (7.5ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"$and"=>[{"_id"=>{"$in"=>[BSON::ObjectId('5634f6d5d3054d1eed000000')]}}]} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3908ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=wakeup_development command={:count=>"syurups", :query=>{}} runtime: 0.2193ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2737ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (6.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (2.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (30.7ms)
+Completed 200 OK in 41ms (Views: 36.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:07:59 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.2ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3235ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2317ms
+Completed 200 OK in 144ms (Views: 144.3ms)
+
+
+Started GET "/api/v1/preorders/5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:08:00 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3791ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1519ms
+Completed 200 OK in 6ms (Views: 0.5ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 17:08:00 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3219ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3114ms
+Completed 200 OK in 5ms (Views: 2.1ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 17:08:00 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3219ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2317ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4163ms
+Completed 200 OK in 8ms (Views: 3.3ms)
+
+
+Started GET "/api/v1/preorders/new?id=5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:08:06 +0600
+Processing by Api::V1::PreordersController#new as */*
+  Parameters: {"id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3178ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2019ms
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from new at /home/egor/RubymineProjects/wakeup/app/controllers/api/v1/preorders_controller.rb:20)
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"$query"=>{"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2139ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"$and"=>[{"_id"=>{"$in"=>[BSON::ObjectId('5634f6d5d3054d1eed000000')]}}]} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2511ms
+  Rendered preorder_mailer/new_preorder.html.slim (1.5ms)
+
+PreorderMailer#new_preorder: processed outbound mail in 7.0ms
+
+Sent mail to topol009@mail.ru (2.2ms)
+Date: Sun, 01 Nov 2015 17:08:06 +0600
+From: from@example.com
+To: topol009@mail.ru
+Message-ID: <5635f296aac42_10203fcd9d5d962064318@topolnyaknsu.mail>
+Subject: =?UTF-8?Q?=D0=9D=D0=BE=D0=B2=D1=8B=D0=B9?=
+ =?UTF-8?Q?_=D0=BF=D1=80=D0=B5=D0=B4=D0=B7=D0=B0=D0=BA=D0=B0=D0=B7?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: base64
+
+PFA+SWQg0LfQsNC60LDQt9CwOiZuYnNwOzU2MzVmMTY2ZDMwNTRkMTAyMDAw
+MDAwMDwvUD48UD7QotC40L8g0LrQvtGE0LU6Jm5ic3A70JvQsNGC0YLQtTwv
+UD48UD7QodC40YDQvtC/KNGLKTombmJzcDthc2Rhc2RhZCZuYnNwOzwvUD4K
+PGhyPgogIDxoMj4KICAgINCh0YLQvtC40LzQvtGB0YLRjDombmJzcDsxMDAm
+bmJzcDsg0YDRg9CxLgogIDwvaDI+CjwvaHI+
+
+Completed 200 OK in 14ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:09:07 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3090ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1924ms
+Completed 200 OK in 237ms (Views: 237.2ms)
+
+
+Started GET "/api/v1/preorders/5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:09:08 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2825ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2685ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2563ms
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 17:09:08 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2997ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3529ms
+Completed 200 OK in 5ms (Views: 2.1ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 17:09:08 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3009ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2236ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3431ms
+Completed 200 OK in 6ms (Views: 2.2ms)
+
+
+Started PUT "/api/v1/preorders/5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:09:10 +0600
+Processing by Api::V1::PreordersController#update as JSON
+  Parameters: {"preorder"=>{"comments"=>"123232132", "drink_id"=>"5634b585d3054d26ea000000", "syurup_ids"=>["5634f6d5d3054d1eed000000"]}, "id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3262ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2103ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} update={"$set"=>{"comments"=>"123232132"}} flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.4580ms
+Completed 204 No Content in 6ms
+
+
+Started GET "/api/v1/preorders/new?id=5635f166d3054d1020000000" for 127.0.0.1 at 2015-11-01 17:09:10 +0600
+Processing by Api::V1::PreordersController#new as */*
+  Parameters: {"id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3617ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2155ms
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from new at /home/egor/RubymineProjects/wakeup/app/controllers/api/v1/preorders_controller.rb:20)
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"$query"=>{"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3524ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"$and"=>[{"_id"=>{"$in"=>[BSON::ObjectId('5634f6d5d3054d1eed000000')]}}]} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5772ms
+  Rendered preorder_mailer/new_preorder.html.slim (2.4ms)
+
+PreorderMailer#new_preorder: processed outbound mail in 8.5ms
+
+Sent mail to topol009@mail.ru (3.2ms)
+Date: Sun, 01 Nov 2015 17:09:10 +0600
+From: from@example.com
+To: topol009@mail.ru
+Message-ID: <5635f2d6a072b_10203fcd962c2df86441e@topolnyaknsu.mail>
+Subject: =?UTF-8?Q?=D0=9D=D0=BE=D0=B2=D1=8B=D0=B9?=
+ =?UTF-8?Q?_=D0=BF=D1=80=D0=B5=D0=B4=D0=B7=D0=B0=D0=BA=D0=B0=D0=B7?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: base64
+
+PFA+SWQg0LfQsNC60LDQt9CwOiZuYnNwOzU2MzVmMTY2ZDMwNTRkMTAyMDAw
+MDAwMDwvUD48UD7QotC40L8g0LrQvtGE0LU6Jm5ic3A70JvQsNGC0YLQtTwv
+UD48UD7QodC40YDQvtC/KNGLKTombmJzcDthc2Rhc2RhZCZuYnNwOzwvUD4K
+PGhyPgogIDxoMj4KICAgINCh0YLQvtC40LzQvtGB0YLRjDombmJzcDsxMDAm
+bmJzcDsg0YDRg9CxLgogIDwvaDI+CjwvaHI+
+
+Completed 200 OK in 19ms (Views: 0.6ms)
+
+
+Started GET "/admin/preorder/5635f166d3054d1020000000/edit" for 127.0.0.1 at 2015-11-01 17:09:12 +0600
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"model_name"=>"preorder", "id"=>"5635f166d3054d1020000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('5635f166d3054d1020000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8368ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"$query"=>{"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3548ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2861ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_filtering_select.html.haml (3.7ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"$and"=>[{"_id"=>{"$in"=>[BSON::ObjectId('5634f6d5d3054d1eed000000')]}}]} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3593ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2365ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_form_filtering_multiselect.html.haml (3.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/_submit_buttons.html.haml (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/application (16.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_navigation.html.haml (1.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (2.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.6.8/app/views/layouts/rails_admin/pjax.html.haml (4.3ms)
+Completed 200 OK in 201ms (Views: 196.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:09:35 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3161ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2551ms
+Completed 200 OK in 144ms (Views: 143.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:09:44 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3338ms
+Completed 200 OK in 135ms (Views: 135.1ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-11-01 17:09:48 +0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"X9pKzlYr1V9X75RqNjjaGVRip9pLaITV8O3pDJVLmak5edgAImOQX5JqO/PXD870OLx1yFHaCv1xCl9+OZTqqQ=="}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3641ms
+Redirected to http://local.vcap.me:3000/
+Completed 302 Found in 4ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:09:48 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 145ms (Views: 144.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:10:39 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 123ms (Views: 123.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:11:13 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 124ms (Views: 124.3ms)
+
+
+Started GET "/welcome/auth_by_vk" for 127.0.0.1 at 2015-11-01 17:11:15 +0600
+Processing by WelcomeController#auth_by_vk as HTML
+Redirected to https://oauth.vk.com/authorize?client_id=4335361&redirect_uri=http%3A%2F%2Flocal.vcap.me%3A3000%2Fwelcome%2Fvk_auth_callback&response_type=code&scope=notify%2Cfriends%2Cphotos%2Cemail%2Cfirst_name%2Clast_name&state=694d7b1008c3880ab10b70254c729df7
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 17:11:23 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (11.8ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 845ms (Views: 845.1ms)
+
+
+Started GET "/welcome/auth_by_vk" for 127.0.0.1 at 2015-11-01 17:11:33 +0600
+Processing by WelcomeController#auth_by_vk as HTML
+Redirected to https://oauth.vk.com/authorize?client_id=4335361&redirect_uri=http%3A%2F%2Fnsuwakeup.ru%2Fwelcome%2Fvk_auth_callback&response_type=code&scope=notify%2Cfriends%2Cphotos%2Cemail%2Cfirst_name%2Clast_name&state=25d1e4feaa3672110a7939d4151cfa40
+Completed 302 Found in 4ms

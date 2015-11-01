@@ -46,7 +46,7 @@ module Api
 
       private
         def preorder_params
-          params.require(:preorder).permit :drink_id, {syurup_ids: []}
+          params.require(:preorder).permit :drink_id, :comments, {syurup_ids: []}
         end
     end
   end

@@ -11,6 +11,10 @@ P
     |&nbsp;
 
 hr
+  = if @preorder.comments.present?
+    p
+      |Комментарий к заказу:
+      = @preorder.comments
   h2
     |Стоимость:&nbsp;
     = @preorder.drink.price
