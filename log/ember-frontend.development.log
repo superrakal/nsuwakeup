@@ -5594,3 +5594,69 @@ SourcemapConcat (3)                           | 65ms (21 ms)
 ES6: App Tree (1)                             | 18ms                
 Funnel: App JS Files (1)                      | 18ms                
 
+file changed components/comments-component.coffee
+file added templates/root.emblem___jb_bak___
+file deleted templates/root.emblem___jb_bak___
+file added templates/root.emblem___jb_old___
+file changed templates/root.emblem
+file deleted templates/root.emblem___jb_old___
+
+Build successful - 418ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 108ms               
+Concat: App                                   | 56ms                
+Babel                                         | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 108ms               
+Concat: App (1)                               | 56ms                
+Babel (3)                                     | 25ms (8 ms)         
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+TemplateCompiler (2)                          | 23ms (11 ms)        
+
+file changed components/comments-component.coffee
+
+Build successful - 341ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 96ms                
+SourcemapConcat                               | 55ms                
+Funnel: App JS Files                          | 17ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 96ms                
+SourcemapConcat (3)                           | 64ms (21 ms)        
+Funnel: App JS Files (1)                      | 17ms                
+
+file added components/comments-component.coffee___jb_bak___
+file deleted components/comments-component.coffee___jb_bak___
+file changed components/comments-component.coffee
+File: frontend/components/comments-component.coffee (5)
+unexpected identifier
+[stdin]:5:87: error: unexpected identifier
+    VK.Widgets.Comments("vk_comments", {limit: 15, width: $('.container').width() - 50px, attach: "*"});
+                                                                                      ^^
+file added components/comments-component.coffee___jb_old___
+file changed components/comments-component.coffee
+file deleted components/comments-component.coffee___jb_old___
+
+Build successful - 350ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 106ms               
+ES6: App Tree                                 | 60ms                
+Funnel: App JS Files                          | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 106ms               
+ES6: App Tree (1)                             | 60ms                
+Funnel: App JS Files (1)                      | 18ms                
+SourcemapConcat (3)                           | 17ms (5 ms)         
+

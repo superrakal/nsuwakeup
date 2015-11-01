@@ -28,7 +28,7 @@
         .panel-footer.text-center Забрать заказ
   .make_order.text-center
     button.btn.btn-lg.btn-success{action 'create_preorder'} Оформить предзаказ
-  .reviews.text-center
+  .comments.text-center
     h1.mark-style Оставьте отзыв!
     comments-component
 
