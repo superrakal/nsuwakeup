@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   end
 
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
-  devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
+  devise_for :users
+  get 'welcome/vk_auth_callback'
+  get 'welcome/auth_by_vk'
   root 'welcome#index'
 end

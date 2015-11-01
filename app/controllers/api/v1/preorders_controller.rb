@@ -2,6 +2,7 @@ module Api
   module V1
     class PreordersController < ApplicationController
 
+      before_action :authenticate_user!
       respond_to :json
 
       def index
@@ -22,6 +23,7 @@ module Api
 
       def create
         @preorder = Preorder.new preorder_params
+        @preorder.user_vk_id = current_user.vk_id
         if @preorder.save
           respond_with @preorder, status: :created, location: false
         else
