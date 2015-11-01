@@ -1,1 +1,1 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/custom_replace-tmp_dest_dir-dzg8FsYK.tmp/vendor-prefix.js
+/home/egor/RubymineProjects/wakeup/frontend/tmp/custom_replace-tmp_dest_dir-pPIQBD93.tmp/vendor-prefix.js

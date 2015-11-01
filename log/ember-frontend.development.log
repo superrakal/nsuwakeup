@@ -5385,3 +5385,212 @@ CoffeeScriptFilter (2)                        | 21ms (10 ms)
 TemplateCompiler (2)                          | 20ms (10 ms)        
 SourcemapConcat (3)                           | 19ms (6 ms)         
 
+file changed components/comments-component.coffee
+
+Build successful - 378ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 98ms                
+Concat: App                                   | 62ms                
+Babel                                         | 21ms                
+Funnel: App JS Files                          | 19ms                
+CoffeeScriptFilter                            | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 98ms                
+Concat: App (1)                               | 62ms                
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Babel (3)                                     | 23ms (7 ms)         
+Funnel: App JS Files (1)                      | 19ms                
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 357ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 99ms                
+Concat: App                                   | 57ms                
+Funnel: App JS Files                          | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 99ms                
+Concat: App (1)                               | 57ms                
+SourcemapConcat (3)                           | 18ms (6 ms)         
+TemplateCompiler (2)                          | 18ms (9 ms)         
+Funnel: App JS Files (1)                      | 18ms                
+
+file changed templates/inform.emblem
+
+Build successful - 348ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 101ms               
+Concat: App                                   | 56ms                
+Funnel: App JS Files                          | 19ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 101ms               
+Concat: App (1)                               | 56ms                
+Funnel: App JS Files (1)                      | 19ms                
+SourcemapConcat (3)                           | 19ms (6 ms)         
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file changed templates/inform.emblem
+
+Build successful - 359ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 99ms                
+Concat: App                                   | 59ms                
+Funnel: App JS Files                          | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 99ms                
+Concat: App (1)                               | 59ms                
+SourcemapConcat (3)                           | 19ms (6 ms)         
+Funnel: App JS Files (1)                      | 18ms                
+
+file changed templates/inform.emblem
+
+Build successful - 367ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 99ms                
+Concat: App                                   | 64ms                
+Funnel: App JS Files                          | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 99ms                
+Concat: App (1)                               | 64ms                
+SourcemapConcat (3)                           | 20ms (6 ms)         
+Funnel: App JS Files (1)                      | 18ms                
+
+file changed templates/inform.emblem
+
+Build successful - 377ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 95ms                
+Concat: App                                   | 53ms                
+ES6: App Tree                                 | 22ms                
+Funnel: App JS Files                          | 21ms                
+TemplateCompiler                              | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 95ms                
+Concat: App (1)                               | 53ms                
+TemplateCompiler (2)                          | 33ms (16 ms)        
+ES6: App Tree (1)                             | 22ms                
+Funnel: App JS Files (1)                      | 21ms                
+SourcemapConcat (3)                           | 18ms (6 ms)         
+
+file changed templates/inform.emblem
+
+Build successful - 358ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 94ms                
+ES6: App Tree                                 | 67ms                
+Funnel: App JS Files                          | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 94ms                
+ES6: App Tree (1)                             | 67ms                
+Funnel: App JS Files (1)                      | 18ms                
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 372ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 105ms               
+Funnel: App JS Files                          | 64ms                
+ES6: App Tree                                 | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 105ms               
+Funnel: App JS Files (1)                      | 64ms                
+ES6: App Tree (1)                             | 21ms                
+
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 362ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 104ms               
+Funnel: App JS Files                          | 62ms                
+ES6: App Tree                                 | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 104ms               
+Funnel: App JS Files (1)                      | 62ms                
+ES6: App Tree (1)                             | 20ms                
+
+file changed templates/inform.emblem
+
+Build successful - 363ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 97ms                
+SourcemapConcat                               | 58ms                
+Funnel: App JS Files                          | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 97ms                
+SourcemapConcat (3)                           | 68ms (22 ms)        
+Funnel: App JS Files (1)                      | 23ms                
+TreeMerger (139)                              | 19ms (0 ms)         
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 365ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 99ms                
+SourcemapConcat                               | 55ms                
+ES6: App Tree                                 | 18ms                
+Funnel: App JS Files                          | 18ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 99ms                
+SourcemapConcat (3)                           | 65ms (21 ms)        
+ES6: App Tree (1)                             | 18ms                
+Funnel: App JS Files (1)                      | 18ms                
+

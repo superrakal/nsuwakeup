@@ -10,12 +10,18 @@ a
 .make_order
   margin-bottom: 50px
 
+.panel
+  border: 2px solid black
+  position: relative
+  .panel-heading
+    background-color: $mint !important
+    text-transform: uppercase
+    font-weight: bold
+
 .steps
   margin-top: 50px
   .step
-    .panel
-      border: 2px solid black
-      position: relative
+
     .panel-body
       text-align: center
     .panel-footer
@@ -70,12 +76,28 @@ a
     a
       line-height: 40px
 
+.comments
+  textarea
+    width: 600px
+    min-height: 150px
+    resize: none
+    padding: 5px
+    &, &:focus, &:hover, &:active
+      border: 2px solid black
+      box-shadow: none
+    border-radius: 4px
+
 @media (max-width: 991px)
   .step
     margin-bottom: 35px
   .comments
     textarea
       width: 400px
+
+@media (max-width: 768px)
+  .comments
+    textarea
+      width: 280px
 
 
 .social_buttons
@@ -87,16 +109,8 @@ a
   a
     font-size: 18px
 
-.comments
-  textarea
-    width: 600px
-    min-height: 150px
-    resize: none
-    padding: 5px
-    &, &:focus, &:hover, &:active
-      border: 2px solid black
-      box-shadow: none
-    border-radius: 4px
+.items
+  margin-bottom: 30px
 
 .admin_form
   width: 400px

@@ -1,29 +1,33 @@
 .title.text-center
   h1 Подтверждение предзаказа
 .col-md-12
-  table.table.table-hover
-    thead
-      tr
-        th id Заказа
-        th Кофе
-        th Сироп(ы)
-        th Стоимость
-    tbody
-      tr
-        td
-          = model.id
-        td
-          = model.drink.name
-          |&nbsp;(
-          = model.drink.volume
-          |&nbsp;мл.)
-        td
-          = each syurup in model.syurups
-            = syurup.name
-            |&nbsp;
-        td
-          = model.drink.price
-          |&nbsp;руб.
+  .col-lg-3.col-md-3.col-sm-12.col-xs-12
+    .panel.panel-default.text-center
+      .panel-heading id Заказа
+      .panel-body
+        = model.id
+  .col-lg-3.col-md-3.col-sm-12.col-xs-12
+    .panel.panel-default.text-center
+      .panel-heading Кофе
+      .panel-body
+        = model.drink.name
+        |&nbsp;(
+        = model.drink.volume
+        |&nbsp;мл.)
+  .col-lg-3.col-md-3.col-sm-12.col-xs-12
+    .panel.panel-default.text-center
+      .panel-heading Сироп(ы)
+      .panel-body
+        = each syurup in model.syurups
+          = syurup.name
+          |&nbsp;
+  .col-lg-3.col-md-3.col-sm-12.col-xs-12
+    .panel.panel-default.text-center
+      .panel-heading Стоимость
+      .panel-body
+        = model.drink.price
+        |&nbsp;руб.
+
 .col-md-12.comments.text-center
   h3 Вы можете оставить комментарий к заказу.
   small Если у Вас есть скидочная карта, то скидка предоставляется при личной демонстрации наличия карты.

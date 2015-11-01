@@ -1,1 +1,1 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/tree_merger-tmp_dest_dir-BKdLWmOL.tmp/frontend/templates/components/comments-component.js
+/home/egor/RubymineProjects/wakeup/frontend/tmp/template_compiler-tmp_cache_dir-v1mrjP6e.tmp/19

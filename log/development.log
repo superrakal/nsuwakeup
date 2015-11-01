@@ -22410,3 +22410,614 @@ Processing by WelcomeController#index as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3216ms
   Rendered welcome/index.html.slim within layouts/application (35.9ms)
 Completed 200 OK in 140ms (Views: 140.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:20:56 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2823ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2046ms
+  Rendered welcome/index.html.slim within layouts/application (35.0ms)
+Completed 200 OK in 201ms (Views: 200.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:21:09 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (1.8ms)
+Completed 200 OK in 123ms (Views: 122.9ms)
+
+
+Started GET "/welcome/auth_by_vk" for 127.0.0.1 at 2015-11-01 21:21:11 +0600
+Processing by WelcomeController#auth_by_vk as HTML
+Redirected to https://oauth.vk.com/authorize?client_id=4335361&redirect_uri=http%3A%2F%2Flocal.vcap.me%3A3000%2Fwelcome%2Fvk_auth_callback&response_type=code&scope=notify%2Cfriends%2Cphotos%2Cemail%2Cfirst_name%2Clast_name&state=e540f654728b969e3266be544acf8c2e
+Completed 302 Found in 1ms
+
+
+Started GET "/welcome/vk_auth_callback?code=7d45081ffb54c7631d&state=e540f654728b969e3266be544acf8c2e" for 127.0.0.1 at 2015-11-01 21:21:12 +0600
+Processing by WelcomeController#vk_auth_callback as HTML
+  Parameters: {"code"=>"7d45081ffb54c7631d", "state"=>"e540f654728b969e3266be544acf8c2e"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"vk_id"=>"id221246142"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.5691ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3850ms
+Redirected to http://local.vcap.me:3000/
+Completed 302 Found in 488ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:21:13 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4642ms
+  Rendered welcome/index.html.slim within layouts/application (18.3ms)
+Completed 200 OK in 125ms (Views: 124.8ms)
+
+
+Started GET "/api/v1/preorders" for 127.0.0.1 at 2015-11-01 21:21:18 +0600
+Processing by Api::V1::PreordersController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3140ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2069ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1843ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1643ms
+Completed 200 OK in 5ms (Views: 1.5ms)
+
+
+Started POST "/api/v1/preorders" for 127.0.0.1 at 2015-11-01 21:21:18 +0600
+Value for params[:preorder][:syurup_ids] was set to nil, because it was one of [], [null] or [null, null, ...]. Go to http://guides.rubyonrails.org/security.html#unsafe-query-generation for more information.
+Processing by Api::V1::PreordersController#create as JSON
+  Parameters: {"preorder"=>{"comments"=>nil, "drink_id"=>nil, "syurup_ids"=>nil}}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3188ms
+Unpermitted parameter: syurup_ids
+  MOPED: 127.0.0.1:27017 INSERT       database=wakeup_development collection=preorders documents=[{"_id"=>BSON::ObjectId('56362deed3054d1dca000004'), "drink_id"=>nil, "comments"=>nil, "user_vk_id"=>"id221246142"}] flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.2668ms
+Completed 201 Created in 5ms (Views: 0.4ms)
+
+
+Started GET "/api/v1/drinks" for 127.0.0.1 at 2015-11-01 21:21:18 +0600
+Processing by Api::V1::DrinksController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3469ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2511ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3035ms
+Completed 200 OK in 6ms (Views: 3.8ms)
+
+
+Started PUT "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:21:20 +0600
+Value for params[:preorder][:syurup_ids] was set to nil, because it was one of [], [null] or [null, null, ...]. Go to http://guides.rubyonrails.org/security.html#unsafe-query-generation for more information.
+Processing by Api::V1::PreordersController#update as JSON
+  Parameters: {"preorder"=>{"comments"=>nil, "drink_id"=>"5634b585d3054d26ea000000", "syurup_ids"=>nil}, "id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3109ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1817ms
+Unpermitted parameter: syurup_ids
+  MOPED: 127.0.0.1:27017 UPDATE       database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} update={"$set"=>{"drink_id"=>BSON::ObjectId('5634b585d3054d26ea000000')}} flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.2635ms
+Unpermitted parameter: syurup_ids
+Completed 204 No Content in 5ms
+
+
+Started GET "/api/v1/syurups" for 127.0.0.1 at 2015-11-01 21:21:20 +0600
+Processing by Api::V1::SyurupsController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4220ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2701ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2596ms
+Completed 200 OK in 7ms (Views: 4.0ms)
+
+
+Started PUT "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:21:23 +0600
+Processing by Api::V1::PreordersController#update as JSON
+  Parameters: {"preorder"=>{"comments"=>nil, "drink_id"=>"5634b585d3054d26ea000000", "syurup_ids"=>["5634f6d5d3054d1eed000000"]}, "id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6173ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4191ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} update={"$addToSet"=>{"syurup_ids"=>{"$each"=>[BSON::ObjectId('5634f6d5d3054d1eed000000')]}}} flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.7067ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=wakeup_development collection=syurups selector={"$and"=>[{"_id"=>{"$in"=>[BSON::ObjectId('5634f6d5d3054d1eed000000')]}}]} update={"$addToSet"=>{"preorder_ids"=>BSON::ObjectId('56362deed3054d1dca000004')}} flags=[:multi]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.6223ms
+Completed 204 No Content in 12ms
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:22:24 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2704ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2301ms
+  Rendered welcome/index.html.slim within layouts/application (17.9ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 261ms (Views: 261.3ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:22:25 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4647ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3238ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2604ms
+Completed 200 OK in 7ms (Views: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:22:43 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3388ms
+  Rendered welcome/index.html.slim within layouts/application (19.2ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 239ms (Views: 238.5ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:22:44 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3488ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2787ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2301ms
+Completed 200 OK in 6ms (Views: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:22:57 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3581ms
+  Rendered welcome/index.html.slim within layouts/application (20.3ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 187ms (Views: 186.4ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:22:58 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3216ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1526ms
+Completed 200 OK in 4ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:24:14 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3383ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2778ms
+  Rendered welcome/index.html.slim within layouts/application (37.3ms)
+Completed 200 OK in 146ms (Views: 145.9ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:24:15 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3693ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2198ms
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:24:30 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2472ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1814ms
+  Rendered welcome/index.html.slim within layouts/application (17.3ms)
+Completed 200 OK in 124ms (Views: 123.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:24:45 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3667ms
+  Rendered welcome/index.html.slim within layouts/application (94.5ms)
+Completed 200 OK in 206ms (Views: 205.6ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:24:46 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4060ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3645ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3383ms
+Completed 200 OK in 9ms (Views: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:26:36 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.4117ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3664ms
+  Rendered welcome/index.html.slim within layouts/application (42.2ms)
+Completed 200 OK in 180ms (Views: 179.8ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:26:37 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2861ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2487ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1860ms
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:26:59 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3283ms
+  Rendered welcome/index.html.slim within layouts/application (35.3ms)
+Completed 200 OK in 141ms (Views: 140.9ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:26:59 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4199ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2065ms
+Completed 200 OK in 5ms (Views: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:27:20 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4756ms
+  Rendered welcome/index.html.slim within layouts/application (38.6ms)
+Completed 200 OK in 200ms (Views: 200.1ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:27:21 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3095ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2873ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1888ms
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:27:27 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3288ms
+  Rendered welcome/index.html.slim within layouts/application (50.6ms)
+Completed 200 OK in 215ms (Views: 214.6ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:27:28 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3152ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2010ms
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 21:27:28 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3104ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 1.3216ms
+Completed 200 OK in 6ms (Views: 3.1ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 21:27:28 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4544ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3381ms
+Completed 200 OK in 6ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:28:03 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2613ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2041ms
+  Rendered welcome/index.html.slim within layouts/application (81.1ms)
+Completed 200 OK in 191ms (Views: 190.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:28:28 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3102ms
+  Rendered welcome/index.html.slim within layouts/application (17.3ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 191ms (Views: 191.1ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:28:29 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2856ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.1998ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1628ms
+Completed 200 OK in 5ms (Views: 0.5ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 21:28:29 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3197ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2875ms
+Completed 200 OK in 5ms (Views: 1.9ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 21:28:29 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3173ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2069ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3026ms
+Completed 200 OK in 5ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:28:44 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3004ms
+  Rendered welcome/index.html.slim within layouts/application (19.8ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 193ms (Views: 192.8ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:28:44 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2887ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2017ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1495ms
+Completed 200 OK in 5ms (Views: 0.4ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 21:28:44 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3533ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7389ms
+Completed 200 OK in 8ms (Views: 3.2ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 21:28:44 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3693ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3834ms
+Completed 200 OK in 7ms (Views: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:29:03 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3531ms
+  Rendered welcome/index.html.slim within layouts/application (17.4ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 232ms (Views: 231.7ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:29:04 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2844ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2053ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1781ms
+Completed 200 OK in 5ms (Views: 0.5ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 21:29:04 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2890ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3364ms
+Completed 200 OK in 5ms (Views: 2.1ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 21:29:04 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3414ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2537ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4313ms
+Completed 200 OK in 8ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:29:13 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3638ms
+  Rendered welcome/index.html.slim within layouts/application (24.6ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 257ms (Views: 256.8ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:29:14 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3507ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1724ms
+Completed 200 OK in 4ms (Views: 0.4ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 21:29:14 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3219ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3636ms
+Completed 200 OK in 6ms (Views: 2.8ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 21:29:14 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4218ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4537ms
+Completed 200 OK in 8ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:29:32 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3088ms
+  Rendered welcome/index.html.slim within layouts/application (17.6ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 189ms (Views: 188.6ms)
+
+
+Started GET "/api/v1/preorders/56362deed3054d1dca000004" for 127.0.0.1 at 2015-11-01 21:29:33 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56362deed3054d1dca000004"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4377ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362deed3054d1dca000004')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2384ms
+Completed 200 OK in 7ms (Views: 0.7ms)
+
+
+Started GET "/api/v1/drinks/5634b585d3054d26ea000000" for 127.0.0.1 at 2015-11-01 21:29:33 +0600
+Processing by Api::V1::DrinksController#show as JSON
+  Parameters: {"id"=>"5634b585d3054d26ea000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={"_id"=>BSON::ObjectId('5634b585d3054d26ea000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3521ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3242ms
+Completed 200 OK in 5ms (Views: 2.1ms)
+
+
+Started GET "/api/v1/syurups/5634f6d5d3054d1eed000000" for 127.0.0.1 at 2015-11-01 21:29:33 +0600
+Processing by Api::V1::SyurupsController#show as JSON
+  Parameters: {"id"=>"5634f6d5d3054d1eed000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={"_id"=>BSON::ObjectId('5634f6d5d3054d1eed000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3681ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4129ms
+Completed 200 OK in 6ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:29:53 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.8502ms
+  Rendered welcome/index.html.slim within layouts/application (49.0ms)
+Completed 200 OK in 193ms (Views: 193.1ms)
+
+
+Started GET "/api/v1/preorders" for 127.0.0.1 at 2015-11-01 21:29:57 +0600
+Processing by Api::V1::PreordersController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3128ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3357ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2353ms
+Completed 200 OK in 6ms (Views: 2.1ms)
+
+
+Started POST "/api/v1/preorders" for 127.0.0.1 at 2015-11-01 21:29:57 +0600
+Value for params[:preorder][:syurup_ids] was set to nil, because it was one of [], [null] or [null, null, ...]. Go to http://guides.rubyonrails.org/security.html#unsafe-query-generation for more information.
+Processing by Api::V1::PreordersController#create as JSON
+  Parameters: {"preorder"=>{"comments"=>nil, "drink_id"=>nil, "syurup_ids"=>nil}}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2952ms
+Unpermitted parameter: syurup_ids
+  MOPED: 127.0.0.1:27017 INSERT       database=wakeup_development collection=preorders documents=[{"_id"=>BSON::ObjectId('56362ff5d3054d1dca000005'), "drink_id"=>nil, "comments"=>nil, "user_vk_id"=>"id221246142"}] flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.2251ms
+Completed 201 Created in 4ms (Views: 0.3ms)
+
+
+Started GET "/api/v1/drinks" for 127.0.0.1 at 2015-11-01 21:29:57 +0600
+Processing by Api::V1::DrinksController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3486ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1662ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1862ms
+Completed 200 OK in 5ms (Views: 2.7ms)
+
+
+Started PUT "/api/v1/preorders/56362ff5d3054d1dca000005" for 127.0.0.1 at 2015-11-01 21:29:58 +0600
+Value for params[:preorder][:syurup_ids] was set to nil, because it was one of [], [null] or [null, null, ...]. Go to http://guides.rubyonrails.org/security.html#unsafe-query-generation for more information.
+Processing by Api::V1::PreordersController#update as JSON
+  Parameters: {"preorder"=>{"comments"=>nil, "drink_id"=>"5634b585d3054d26ea000000", "syurup_ids"=>nil}, "id"=>"56362ff5d3054d1dca000005"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.6139ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362ff5d3054d1dca000005')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3889ms
+Unpermitted parameter: syurup_ids
+  MOPED: 127.0.0.1:27017 UPDATE       database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56362ff5d3054d1dca000005')} update={"$set"=>{"drink_id"=>BSON::ObjectId('5634b585d3054d26ea000000')}} flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.6151ms
+Unpermitted parameter: syurup_ids
+Completed 204 No Content in 12ms
+
+
+Started GET "/api/v1/syurups" for 127.0.0.1 at 2015-11-01 21:29:58 +0600
+Processing by Api::V1::SyurupsController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3238ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1841ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2072ms
+Completed 200 OK in 5ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:30:02 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3355ms
+  Rendered welcome/index.html.slim within layouts/application (16.8ms)
+Completed 200 OK in 125ms (Views: 124.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:30:40 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3002ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2646ms
+  Rendered welcome/index.html.slim within layouts/application (18.7ms)
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Warning. Error encountered while saving cache a521685be50de6bc03f4b71a1e03e700091e7253/welcome.sassc: can't dump IO
+
+Completed 200 OK in 246ms (Views: 246.2ms)
+
+
+Started GET "/api/v1/preorders" for 127.0.0.1 at 2015-11-01 21:30:41 +0600
+Processing by Api::V1::PreordersController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2868ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2234ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3066ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1798ms
+Completed 200 OK in 6ms (Views: 2.0ms)
+
+
+Started POST "/api/v1/preorders" for 127.0.0.1 at 2015-11-01 21:30:41 +0600
+Value for params[:preorder][:syurup_ids] was set to nil, because it was one of [], [null] or [null, null, ...]. Go to http://guides.rubyonrails.org/security.html#unsafe-query-generation for more information.
+Processing by Api::V1::PreordersController#create as JSON
+  Parameters: {"preorder"=>{"comments"=>nil, "drink_id"=>nil, "syurup_ids"=>nil}}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2861ms
+Unpermitted parameter: syurup_ids
+  MOPED: 127.0.0.1:27017 INSERT       database=wakeup_development collection=preorders documents=[{"_id"=>BSON::ObjectId('56363021d3054d1dca000006'), "drink_id"=>nil, "comments"=>nil, "user_vk_id"=>"id221246142"}] flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.2198ms
+Completed 201 Created in 4ms (Views: 0.3ms)
+
+
+Started GET "/api/v1/drinks" for 127.0.0.1 at 2015-11-01 21:30:41 +0600
+Processing by Api::V1::DrinksController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2921ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1755ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=drinks selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1547ms
+Completed 200 OK in 5ms (Views: 2.6ms)
+
+
+Started PUT "/api/v1/preorders/56363021d3054d1dca000006" for 127.0.0.1 at 2015-11-01 21:30:42 +0600
+Value for params[:preorder][:syurup_ids] was set to nil, because it was one of [], [null] or [null, null, ...]. Go to http://guides.rubyonrails.org/security.html#unsafe-query-generation for more information.
+Processing by Api::V1::PreordersController#update as JSON
+  Parameters: {"preorder"=>{"comments"=>nil, "drink_id"=>"5634b585d3054d26ea000000", "syurup_ids"=>nil}, "id"=>"56363021d3054d1dca000006"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3152ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56363021d3054d1dca000006')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1483ms
+Unpermitted parameter: syurup_ids
+  MOPED: 127.0.0.1:27017 UPDATE       database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56363021d3054d1dca000006')} update={"$set"=>{"drink_id"=>BSON::ObjectId('5634b585d3054d26ea000000')}} flags=[]
+                         COMMAND      database=wakeup_development command={:getlasterror=>1, :w=>1} runtime: 0.2484ms
+Unpermitted parameter: syurup_ids
+Completed 204 No Content in 5ms
+
+
+Started GET "/api/v1/syurups" for 127.0.0.1 at 2015-11-01 21:30:42 +0600
+Processing by Api::V1::SyurupsController#index as JSON
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2842ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1731ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1636ms
+Completed 200 OK in 5ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-01 21:30:44 +0600
+Processing by WelcomeController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.4780ms
+  Rendered welcome/index.html.slim within layouts/application (19.3ms)
+Completed 200 OK in 128ms (Views: 128.0ms)
+
+
+Started GET "/api/v1/syurups" for 127.0.0.1 at 2015-11-01 21:30:44 +0600
+Processing by Api::V1::SyurupsController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2868ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2005ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1786ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=syurups selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1709ms
+Completed 200 OK in 5ms (Views: 3.2ms)
+
+
+Started GET "/api/v1/preorders/56363021d3054d1dca000006" for 127.0.0.1 at 2015-11-01 21:30:44 +0600
+Processing by Api::V1::PreordersController#show as JSON
+  Parameters: {"id"=>"56363021d3054d1dca000006"}
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=users selector={"$query"=>{"_id"=>BSON::ObjectId('5635a7c5d3054d2161000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.3338ms
+  MOPED: 127.0.0.1:27017 QUERY        database=wakeup_development collection=preorders selector={"_id"=>BSON::ObjectId('56363021d3054d1dca000006')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2186ms
+Completed 200 OK in 4ms (Views: 0.5ms)

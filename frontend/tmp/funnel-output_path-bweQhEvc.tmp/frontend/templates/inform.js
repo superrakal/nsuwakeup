@@ -1,1 +1,1 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/template_compiler-tmp_cache_dir-v1mrjP6e.tmp/15
+/home/egor/RubymineProjects/wakeup/frontend/tmp/tree_merger-tmp_dest_dir-nh0rNz5S.tmp/frontend/templates/inform.js

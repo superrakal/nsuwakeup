@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/tree_merger-tmp_dest_dir-dLOfWYH0.tmp/controllers/array.js
