@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/funnel-output_path-Kz8TvgW0.tmp/qunit/qunit/qunit.js
