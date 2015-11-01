@@ -3,7 +3,7 @@ VkontakteApi.configure do |config|
   # (не нужны при использовании сторонней авторизации)
   config.app_id       = '4335361'
   config.app_secret   = 'MrJLwKIFnKCajyNHGOUI'
-  config.redirect_uri = 'http://nsuwakeup.ru/welcome/vk_auth_callback'
+  config.redirect_uri = 'http://local.vcap.me:3000/welcome/vk_auth_callback'
 
   # faraday-адаптер для сетевых запросов
   config.adapter = :net_http

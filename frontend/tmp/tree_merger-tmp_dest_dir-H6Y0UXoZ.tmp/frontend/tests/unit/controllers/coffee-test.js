@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/babel-output_path-i1uPaW9B.tmp/frontend/tests/unit/controllers/coffee-test.js

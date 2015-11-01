@@ -1,1 +1,41 @@
-#ember
+- if !user_signed_in?
+  .sign_in_box
+    =image_tag 'logo.jpg'
+    .actions
+      a.btn.btn-lg.btn-success href=welcome_auth_by_vk_path
+        i.fa.fa-vk.fa-2x.pull-left
+        |Войти
+- else
+  = include_ember_script_tags :frontend
+  = include_ember_stylesheet_tags :frontend
+  nav.navbar.navbar-default role="navigation"
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle.collapsed data-target="#top-menu" data-toggle="collapse" type="button"
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand href="/"
+          .small_logo
+      #top-menu.collapse.navbar-collapse
+        ul.nav.navbar-nav.navbar-right
+          li
+            = link_to "Выйти", destroy_user_session_path, :method => :delete
+  #ember
+
+- if !user_signed_in?
+  javascript:
+    type = "text/javascript" > (function () {
+              if (window.pluso)if (typeof window.pluso.start == "function") return;
+              if (window.ifpluso == undefined) {
+                window.ifpluso = 1;
+                var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+                s.type = 'text/javascript';
+                s.charset = 'UTF-8';
+                s.async = true;
+                s.src = ('https:' == window.location.protocol ? 'https' : 'http') + '://share.pluso.ru/pluso-like.js';
+                var h = d[g]('body')[0];
+                h.appendChild(s);
+              }
+            })();

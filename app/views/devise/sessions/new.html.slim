@@ -1,0 +1,14 @@
+.admin_form.text-center
+  a href='/'
+    .logo_R
+  h1.text-uppercase
+    | Админпанель
+  = form_for(resource, as: resource_name, url: session_path(resource_name), :html => {:id => "new_user"}) do |f|
+    = devise_error_messages!
+    .form-group
+      = f.email_field :email, :placeholder => "e-mail", :class => "form-control"
+    .form-group
+      = f.password_field :password, :placeholder => "Пароль", :class => "form-control"
+    .actions
+      button.btn.btn-success.btn-lg.btn-block type='submit'
+        |Войти

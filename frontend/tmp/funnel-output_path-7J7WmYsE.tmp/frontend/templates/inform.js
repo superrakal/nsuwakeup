@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/tree_merger-tmp_dest_dir-H6Y0UXoZ.tmp/frontend/templates/inform.js

@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-disable-proxy-controllers/app/controllers/array.js

@@ -2,9 +2,11 @@
 
 InformController = Ember.Controller.extend
   isConfirmed: false
+  isConfirming: false
 
   actions:
     confirm: ->
+      @set 'isConfirming', true
       @model.save().then =>
         Ember.$.ajax
           type: 'GET'
@@ -12,6 +14,7 @@ InformController = Ember.Controller.extend
           async: false
           success: =>
             @set 'isConfirmed', true
+            @set 'isConfirming', false
 
 
 `export default InformController`

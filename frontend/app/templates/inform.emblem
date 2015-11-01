@@ -26,7 +26,10 @@
           |&nbsp;руб.
 .col-md-12.comments.text-center
   h3 Вы можете оставить комментарий к заказу.
-  = textarea value=model.comments placeholder='Оставьте Ваши пожелания и мы постараемся их воплотить в жизни'
+  small Если у Вас есть скидочная карта, то скидка предоставляется при личной демонстрации наличия карты.
+  br
+  br
+  = textarea value=model.comments placeholder='Оставьте Ваши пожелания и мы постараемся их воплотить в жизнь'
 .col-md-12.confirm_preorder.text-center
   = if isConfirmed
     .alert.alert-success.alert-dismissible.fade.in role="alert"
@@ -35,7 +38,10 @@
       p Ваш заказ принят. Заберите его у точки выдачи вовремя! &nbsp;
       strong Хорошего дня :)
   = else
-    button.btn.btn-success.btn-lg{action 'confirm'} Подтвердить предзаказ
+    = if isConfirming
+      i.fa.fa-circle-o-notch.fa-spin.fa-3x
+    = else
+      button.btn.btn-success.btn-lg{action 'confirm'} Подтвердить предзаказ
 .col-md-12
   blockquote
     p Огласим некоторые правила. Ваш предзаказ доступен к выдаче в течении двух часов с момента оформления и, соответственно, изготовления.
