@@ -1,10 +1,10 @@
-P
+h3
   | Id заказа:&nbsp;
   = @preorder.id
-P
+h3
   | Тип кофе:&nbsp;
   = @preorder.drink.name
-P
+h3
   | Сироп(ы):&nbsp;
   - @preorder.syurups.each do |syurup|
     = syurup.name
@@ -12,12 +12,12 @@ P
 
 hr
   = if @preorder.comments.present?
-    p
+    h3
       |Комментарий к заказу:&nbsp;
       = @preorder.comments
   h3
     |Время заказа: &nbsp;
-    = @preorder.created_at.strftime("%H:%M")
+    = ((@preorder.created_at)+6.hours).strftime("%H:%M")
   h2
     |Стоимость:&nbsp;
     = @preorder.drink.price
