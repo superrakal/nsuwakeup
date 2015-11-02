@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tests/unit/models/drink-test.coffee

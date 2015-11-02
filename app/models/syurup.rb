@@ -3,7 +3,6 @@ class Syurup
   include Mongoid::Paperclip
 
   field :name
-  field :price,  type: Integer
   field :is_available, type: Boolean, default: true
 
   has_mongoid_attached_file :image,

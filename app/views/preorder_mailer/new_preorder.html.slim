@@ -15,6 +15,9 @@ hr
     p
       |Комментарий к заказу:&nbsp;
       = @preorder.comments
+  h3
+    |Время заказа: &nbsp;
+    = @preorder.created_at.strftime("%T")
   h2
     |Стоимость:&nbsp;
     = @preorder.drink.price

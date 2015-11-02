@@ -8,6 +8,7 @@ class User
   field :token,        type: String, default: ""
   field :first_name,   type: String, default: ""
   field :last_name,    type: String, default: ""
+  field :isBanned,     type: Boolean, default: false
 
   ## Database authenticatable
   field :email,              type: String, default: ""
