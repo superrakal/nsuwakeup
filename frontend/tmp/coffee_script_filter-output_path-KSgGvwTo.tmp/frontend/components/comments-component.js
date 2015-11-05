@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-1PytCLY5.tmp/frontend/components/comments-component.js

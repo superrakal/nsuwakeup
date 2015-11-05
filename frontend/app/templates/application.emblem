@@ -20,7 +20,7 @@ nav.navbar.navbar-default role="navigation"
             span.caret
           ul.dropdown-menu
             li
-              a
+              = link-to 'mypreorders'
                 |Мои заказы (
                 = model.preorders_count
                 |)

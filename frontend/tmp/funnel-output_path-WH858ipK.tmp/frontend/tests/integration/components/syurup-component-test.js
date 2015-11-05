@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/babel-output_path-TcUR8lmr.tmp/frontend/tests/integration/components/syurup-component-test.js

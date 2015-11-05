@@ -7317,3 +7317,786 @@ Funnel: App JS Files (1)                      | 22ms
 CoffeeScriptFilter (2)                        | 20ms (10 ms)        
 TreeMerger (appAndDependencies) (1)           | 20ms                
 
+file added routes/my-preorders.coffee
+file changed routes/my-preorders.coffee
+file added templates/my-preorders.hbs
+file changed templates/my-preorders.hbs
+file changed router.coffee
+file added unit/routes/my-preorders-test.coffee
+file changed unit/routes/my-preorders-test.coffee
+
+Build successful - 406ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 107ms               
+ES6: App Tree                                 | 62ms                
+Funnel: App JS Files                          | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 107ms               
+ES6: App Tree (1)                             | 62ms                
+SourcemapConcat (3)                           | 29ms (9 ms)         
+Funnel: App JS Files (1)                      | 22ms                
+Funnel (34)                                   | 20ms (0 ms)         
+CoffeeScriptFilter (2)                        | 20ms (10 ms)        
+
+file deleted templates/my-preorders.hbs
+
+Build successful - 436ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 102ms               
+ES6: App Tree                                 | 62ms                
+TreeMerger (appAndDependencies)               | 27ms                
+Funnel: App JS Files                          | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 102ms               
+ES6: App Tree (1)                             | 62ms                
+SourcemapConcat (3)                           | 29ms (9 ms)         
+TreeMerger (appAndDependencies) (1)           | 27ms                
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+Funnel (34)                                   | 24ms (0 ms)         
+TreeMerger (146)                              | 23ms (0 ms)         
+Funnel: App JS Files (1)                      | 22ms                
+
+file added routes/mypreorders.coffee
+file changed routes/mypreorders.coffee
+file added templates/mypreorders.hbs
+file changed templates/mypreorders.hbs
+file changed router.coffee
+file added unit/routes/mypreorders-test.coffee
+file changed unit/routes/mypreorders-test.coffee
+
+Build successful - 400ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 103ms               
+ES6: App Tree                                 | 63ms                
+Funnel: App JS Files                          | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 103ms               
+ES6: App Tree (1)                             | 63ms                
+SourcemapConcat (3)                           | 28ms (9 ms)         
+Funnel: App JS Files (1)                      | 23ms                
+CoffeeScriptFilter (2)                        | 20ms (10 ms)        
+
+file deleted templates/mypreorders.hbs
+file added templates/mypreorders.emblem
+File: frontend/templates/mypreorders.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file deleted routes/my-preorders.coffee
+ENOENT, no such file or directory '/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-1PytCLY5.tmp/frontend/routes/my-preorders.coffee'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-1PytCLY5.tmp/frontend/routes/my-preorders.coffee'
+  at Object.fs.unlinkSync (fs.js:765:18)
+  at CoffeeScriptFilter.<anonymous> (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:60:8)
+  at Array.forEach (native)
+  at CoffeeScriptFilter.build (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:59:35)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/read_compat.js:61:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added router.coffee___jb_bak___
+file changed router.coffee___jb_bak___
+file deleted router.coffee___jb_bak___
+file changed router.coffee
+File: frontend/templates/mypreorders.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file added templates/mypreorders.emblem___jb_bak___
+file deleted templates/mypreorders.emblem___jb_bak___
+file changed templates/mypreorders.emblem
+file added router.coffee___jb_bak___
+file deleted router.coffee___jb_bak___
+file added router.coffee___jb_old___
+file changed router.coffee
+file deleted router.coffee___jb_old___
+
+Build successful - 403ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 112ms               
+ES6: App Tree                                 | 63ms                
+Funnel: App JS Files                          | 22ms                
+Concat: Test Support JS                       | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 112ms               
+ES6: App Tree (1)                             | 63ms                
+SourcemapConcat (3)                           | 29ms (9 ms)         
+Funnel: App JS Files (1)                      | 22ms                
+Funnel (34)                                   | 21ms (0 ms)         
+Concat: Test Support JS (1)                   | 21ms                
+
+file changed templates/application.emblem
+
+Build successful - 411ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 109ms               
+ES6: App Tree                                 | 65ms                
+Funnel: App JS Files                          | 22ms                
+Concat: Test Support JS                       | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 109ms               
+ES6: App Tree (1)                             | 65ms                
+SourcemapConcat (3)                           | 31ms (10 ms)        
+Funnel: App JS Files (1)                      | 22ms                
+Concat: Test Support JS (1)                   | 20ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 414ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 106ms               
+ES6: App Tree                                 | 67ms                
+Funnel: App JS Files                          | 23ms                
+TreeMerger (appAndDependencies)               | 21ms                
+Concat: Test Support JS                       | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 106ms               
+ES6: App Tree (1)                             | 67ms                
+SourcemapConcat (3)                           | 30ms (10 ms)        
+Funnel: App JS Files (1)                      | 23ms                
+TreeMerger (appAndDependencies) (1)           | 21ms                
+Concat: Test Support JS (1)                   | 20ms                
+
+file added templates/mypreorders.emblem___jb_bak___
+file deleted templates/mypreorders.emblem___jb_bak___
+file added templates/mypreorders.emblem___jb_old___
+file changed templates/mypreorders.emblem
+file deleted templates/mypreorders.emblem___jb_old___
+
+Build successful - 404ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 106ms               
+ES6: App Tree                                 | 63ms                
+TreeMerger (appAndDependencies)               | 25ms                
+Funnel: App JS Files                          | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 106ms               
+ES6: App Tree (1)                             | 63ms                
+SourcemapConcat (3)                           | 29ms (9 ms)         
+TreeMerger (appAndDependencies) (1)           | 25ms                
+Funnel: App JS Files (1)                      | 23ms                
+
+file added templates/mypreorders.emblem___jb_old___
+file changed templates/mypreorders.emblem
+file deleted templates/mypreorders.emblem___jb_old___
+file added routes/mypreorders.coffee___jb_bak___
+file deleted routes/mypreorders.coffee___jb_bak___
+file added routes/mypreorders.coffee___jb_old___
+file changed routes/mypreorders.coffee
+file deleted routes/mypreorders.coffee___jb_old___
+
+Build successful - 422ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 106ms               
+ES6: App Tree                                 | 65ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 106ms               
+ES6: App Tree (1)                             | 65ms                
+SourcemapConcat (3)                           | 30ms (10 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 399ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 106ms               
+ES6: App Tree                                 | 66ms                
+Funnel: App JS Files                          | 26ms                
+Concat: Test Support JS                       | 22ms                
+TreeMerger (appAndDependencies)               | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 106ms               
+ES6: App Tree (1)                             | 66ms                
+SourcemapConcat (3)                           | 29ms (9 ms)         
+Funnel: App JS Files (1)                      | 26ms                
+Concat: Test Support JS (1)                   | 22ms                
+TreeMerger (appAndDependencies) (1)           | 20ms                
+
+file added templates/mypreorders.emblem___jb_bak___
+file deleted templates/mypreorders.emblem___jb_bak___
+file added templates/mypreorders.emblem___jb_old___
+file changed templates/mypreorders.emblem
+file deleted templates/mypreorders.emblem___jb_old___
+
+Build successful - 407ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 106ms               
+ES6: App Tree                                 | 67ms                
+Funnel: App JS Files                          | 23ms                
+TreeMerger (appAndDependencies)               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 106ms               
+ES6: App Tree (1)                             | 67ms                
+SourcemapConcat (3)                           | 31ms (10 ms)        
+Funnel: App JS Files (1)                      | 23ms                
+TreeMerger (appAndDependencies) (1)           | 21ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 421ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 109ms               
+ES6: App Tree                                 | 64ms                
+Concat: Test Support JS                       | 25ms                
+Funnel: App JS Files                          | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 109ms               
+ES6: App Tree (1)                             | 64ms                
+SourcemapConcat (3)                           | 40ms (13 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+Funnel: App JS Files (1)                      | 23ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 427ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 107ms               
+ES6: App Tree                                 | 72ms                
+Funnel: App JS Files                          | 27ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 107ms               
+ES6: App Tree (1)                             | 72ms                
+SourcemapConcat (3)                           | 33ms (11 ms)        
+Funnel: App JS Files (1)                      | 27ms                
+Concat: Test Support JS (1)                   | 22ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 406ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 107ms               
+ES6: App Tree                                 | 68ms                
+Funnel: App JS Files                          | 23ms                
+TreeMerger (appAndDependencies)               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 107ms               
+ES6: App Tree (1)                             | 68ms                
+SourcemapConcat (3)                           | 29ms (9 ms)         
+Funnel: App JS Files (1)                      | 23ms                
+TreeMerger (appAndDependencies) (1)           | 21ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 441ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 110ms               
+SourcemapConcat                               | 53ms                
+Concat: Test Support JS                       | 40ms                
+Funnel: App JS Files                          | 26ms                
+Concat: App                                   | 23ms                
+TreeMerger (appAndDependencies)               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 110ms               
+SourcemapConcat (3)                           | 75ms (25 ms)        
+Concat: Test Support JS (1)                   | 40ms                
+Funnel: App JS Files (1)                      | 26ms                
+Concat: App (1)                               | 23ms                
+TreeMerger (appAndDependencies) (1)           | 22ms                
+
+file added templates/mypreorders.emblem___jb_bak___
+file deleted templates/mypreorders.emblem___jb_bak___
+file added templates/mypreorders.emblem___jb_old___
+file changed templates/mypreorders.emblem
+file deleted templates/mypreorders.emblem___jb_old___
+
+Build successful - 423ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 106ms               
+SourcemapConcat                               | 52ms                
+Concat: Test Support JS                       | 40ms                
+Concat: App                                   | 23ms                
+Funnel: App JS Files                          | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 106ms               
+SourcemapConcat (3)                           | 74ms (24 ms)        
+Concat: Test Support JS (1)                   | 40ms                
+Concat: App (1)                               | 23ms                
+Funnel: App JS Files (1)                      | 23ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 479ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 142ms               
+SourcemapConcat                               | 54ms                
+Concat: Test Support JS                       | 39ms                
+Funnel: App JS Files                          | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 142ms               
+SourcemapConcat (3)                           | 76ms (25 ms)        
+Concat: Test Support JS (1)                   | 39ms                
+Funnel: App JS Files (1)                      | 24ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 455ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 109ms               
+SourcemapConcat                               | 61ms                
+Concat: Test Support JS                       | 41ms                
+Concat: App                                   | 38ms                
+Funnel: App JS Files                          | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 109ms               
+SourcemapConcat (3)                           | 84ms (28 ms)        
+Concat: Test Support JS (1)                   | 41ms                
+Concat: App (1)                               | 38ms                
+Funnel: App JS Files (1)                      | 23ms                
+
+file added templates/mypreorders.emblem___jb_old___
+file changed templates/mypreorders.emblem
+file deleted templates/mypreorders.emblem___jb_old___
+
+Build successful - 430ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 107ms               
+SourcemapConcat                               | 55ms                
+Concat: Test Support JS                       | 39ms                
+Funnel: App JS Files                          | 25ms                
+Concat: App                                   | 23ms                
+ES6: App Tree                                 | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 107ms               
+SourcemapConcat (3)                           | 78ms (26 ms)        
+Concat: Test Support JS (1)                   | 39ms                
+Funnel: App JS Files (1)                      | 25ms                
+Concat: App (1)                               | 23ms                
+ES6: App Tree (1)                             | 21ms                
+
+file changed models/preorder.coffee
+
+Build successful - 467ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+SourcemapConcat                               | 54ms                
+Concat: Test Support JS                       | 42ms                
+SourcemapConcat                               | 25ms                
+Funnel: App JS Files                          | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+SourcemapConcat (3)                           | 81ms (27 ms)        
+Concat: Test Support JS (1)                   | 42ms                
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+Funnel: App JS Files (1)                      | 23ms                
+
+file changed models/preorder.coffee
+
+Build successful - 459ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 110ms               
+SourcemapConcat                               | 56ms                
+Concat: Test Support JS                       | 41ms                
+TreeMerger (appAndDependencies)               | 24ms                
+Funnel: App JS Files                          | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 110ms               
+SourcemapConcat (3)                           | 79ms (26 ms)        
+Concat: Test Support JS (1)                   | 41ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+Funnel: App JS Files (1)                      | 23ms                
+
+file added models/preorder.coffee___jb_bak___
+file deleted models/preorder.coffee___jb_bak___
+file added models/preorder.coffee___jb_old___
+file changed models/preorder.coffee
+file deleted models/preorder.coffee___jb_old___
+
+Build successful - 341ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 106ms               
+Concat: Test Support JS                       | 25ms                
+Funnel: App JS Files                          | 23ms                
+SourcemapConcat                               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 106ms               
+SourcemapConcat (3)                           | 36ms (12 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+Funnel: App JS Files (1)                      | 23ms                
+CoffeeScriptFilter (2)                        | 19ms (9 ms)         
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2456ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1794ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1794ms              
+
+file changed templates/mypreorders.emblem
+
+Build successful - 460ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 122ms               
+Concat: App                                   | 71ms                
+Funnel: App JS Files                          | 27ms                
+Concat: Test Support JS                       | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 122ms               
+Concat: App (1)                               | 71ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 27ms                
+Concat: Test Support JS (1)                   | 24ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 527ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 140ms               
+TreeMerger (appJS  & processedEmberCLITree)   | 78ms                
+Funnel: App JS Files                          | 47ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 140ms               
+TreeMerger (appJS  & processedEmberCLI... (1) | 78ms                
+Funnel: App JS Files (1)                      | 47ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+
+file changed templates/mypreorders.emblem
+
+Build successful - 448ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Funnel: App JS Files                          | 71ms                
+SourcemapConcat                               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+Funnel: App JS Files (1)                      | 71ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+
+file changed templates/mypreorders.emblem
+
+Build successful - 450ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+ES6: App Tree                                 | 73ms                
+Funnel: App JS Files                          | 27ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+ES6: App Tree (1)                             | 73ms                
+SourcemapConcat (3)                           | 41ms (13 ms)        
+Funnel: App JS Files (1)                      | 27ms                
+Concat: Test Support JS (1)                   | 22ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 448ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 122ms               
+Concat: App                                   | 64ms                
+Concat: Test Support JS                       | 27ms                
+Funnel: App JS Files                          | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 122ms               
+Concat: App (1)                               | 64ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+Funnel: App JS Files (1)                      | 25ms                
+CoffeeScriptFilter (2)                        | 23ms (11 ms)        
+
+file changed templates/mypreorders.emblem
+
+Build successful - 488ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 130ms               
+Concat: App                                   | 57ms                
+Concat: Test Support JS                       | 37ms                
+Funnel: App JS Files                          | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 130ms               
+Concat: App (1)                               | 57ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Concat: Test Support JS (1)                   | 37ms                
+Funnel: App JS Files (1)                      | 32ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 483ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+ES6: App Tree                                 | 74ms                
+Funnel: App JS Files                          | 27ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+ES6: App Tree (1)                             | 74ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+TemplateCompiler (2)                          | 32ms (16 ms)        
+Funnel: App JS Files (1)                      | 27ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/mypreorders.emblem
+
+Build successful - 468ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 123ms               
+Funnel: App JS Files                          | 84ms                
+Concat: Test Support JS                       | 26ms                
+SourcemapConcat                               | 25ms                
+ES6: App Tree                                 | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 123ms               
+Funnel: App JS Files (1)                      | 84ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+ES6: App Tree (1)                             | 24ms                
+
+file changed models/preorder.coffee
+
+Build successful - 474ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 112ms               
+Funnel: App JS Files                          | 73ms                
+Babel                                         | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 112ms               
+Funnel: App JS Files (1)                      | 73ms                
+SourcemapConcat (3)                           | 41ms (13 ms)        
+Babel (3)                                     | 37ms (12 ms)        
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+
+file added models/preorder.coffee___jb_old___
+file changed models/preorder.coffee
+file deleted models/preorder.coffee___jb_old___
+
+Build successful - 442ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 112ms               
+Funnel: App JS Files                          | 74ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 112ms               
+Funnel: App JS Files (1)                      | 74ms                
+SourcemapConcat (3)                           | 40ms (13 ms)        
+Funnel (36)                                   | 22ms (0 ms)         
+
+file added models/preorder.coffee___jb_bak___
+file deleted models/preorder.coffee___jb_bak___
+file added models/preorder.coffee___jb_old___
+file changed models/preorder.coffee
+file deleted models/preorder.coffee___jb_old___
+
+Build successful - 454ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+ES6: App Tree                                 | 65ms                
+Concat: Test Support JS                       | 29ms                
+Funnel: App JS Files                          | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+ES6: App Tree (1)                             | 65ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+Funnel: App JS Files (1)                      | 27ms                
+
+file changed models/preorder.coffee
+
+Build successful - 432ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 112ms               
+Concat: App                                   | 61ms                
+Funnel: App JS Files                          | 25ms                
+Concat: Test Support JS                       | 24ms                
+SourcemapConcat                               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 112ms               
+Concat: App (1)                               | 61ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 25ms                
+Concat: Test Support JS (1)                   | 24ms                
+
+file changed models/preorder.coffee
+
+Build successful - 464ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+Concat: App                                   | 62ms                
+Funnel: App JS Files                          | 27ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+Concat: App (1)                               | 62ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+Funnel: App JS Files (1)                      | 27ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed models/preorder.coffee
+
+Build successful - 451ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 125ms               
+Funnel: App JS Files                          | 79ms                
+Concat: Test Support JS                       | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 125ms               
+Funnel: App JS Files (1)                      | 79ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 24ms                
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+
+file changed models/preorder.coffee
+
+Build successful - 476ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+Funnel: App JS Files                          | 82ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+Funnel: App JS Files (1)                      | 82ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+Babel (3)                                     | 24ms (8 ms)         
+
