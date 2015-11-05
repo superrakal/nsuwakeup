@@ -9,9 +9,10 @@
           = else
             |Нет в наличии :(
         .action.pull-right
-          = if isAdded
-            button.btn.btn-danger{action 'remove'} Убрать
-          = else
-            button.btn.btn-success{action 'add'} Добавить
+          = if syurup.is_available
+            = if isAdded
+              button.btn.btn-danger{action 'remove'} Убрать
+            = else
+              button.btn.btn-success{action 'add'} Добавить
     .panel-footer.text-center
       = syurup.name

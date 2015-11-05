@@ -1,14 +1,19 @@
 class User
   include Mongoid::Document
-
+  require 'net/http'
+  require 'uri'
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  field :vk_id,        type: String, default: ""
-  field :token,        type: String, default: ""
-  field :first_name,   type: String, default: ""
-  field :last_name,    type: String, default: ""
-  field :isBanned,     type: Boolean, default: false
+  field :vk_id,          type: String, default: ""
+  field :vk_screen_name, type: String, default: ""
+  field :first_name,     type: String, default: ""
+  field :last_name,      type: String, default: ""
+  field :vk_photo,       type: String, default: ""
+  field :token,          type: String, default: ""
+  field :isBanned,       type: Boolean, default: false
+
+  has_many :preorders
 
   ## Database authenticatable
   field :email,              type: String, default: ""
@@ -32,7 +37,13 @@ class User
     if user = User.where(:vk_id => "id"+vk_user.user_id.to_s).first
       user
     else
-      User.create!(:vk_id => "id"+vk_user.user_id.to_s, :token => vk_user.token, :email => vk_user.email, :password => Devise.friendly_token[0,20])
+      url = "https://api.vkontakte.ru/method/getProfiles?uid=#{vk_user.user_id}&access_token=#{vk_user.token}&fields=photo_big,screen_name"
+      uri = URI.parse(url)
+      http = Net::HTTP.new(uri.host, uri.port)
+      http.use_ssl = true
+      response = http.request(Net::HTTP::Get.new(uri.request_uri))
+      json = JSON.parse(response.body)["response"][0]
+      User.create!(:vk_id => "id"+vk_user.user_id.to_s, :vk_screen_name => json["screen_name"], :vk_photo => json["photo_big"], :token => vk_user.token, :email => json["screen_name"]+"@vk.com", :password => Devise.friendly_token[0,20], :first_name => json["first_name"], :last_name => json["last_name"])
     end
   end
 end

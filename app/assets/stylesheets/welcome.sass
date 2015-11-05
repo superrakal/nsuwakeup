@@ -4,6 +4,9 @@
 div
   font-family: 'Kurale', sans-serif !important
 
+html, body
+  background-color: white
+
 a
   color: black
 
@@ -12,6 +15,7 @@ a
 
 .panel
   border: 2px solid black
+  border-radius: 0
   position: relative
   .panel-heading
     background-color: $mint !important
@@ -60,19 +64,20 @@ a
   font-size: 16px
 
 .sign_in_box
-  width: 400px
-  height: 400px
+  width: 300px
+  height: 300px
   text-align: center
   position: absolute
   top: 50%
   left: 50%
-  margin-left: -200px
-  margin-top: -200px
+  margin-left: -150px
+  margin-top: -150px
   img
-    width: 300px
-    height: 300px
+    width: 200px
+    height: 200px
   .actions
     a
+      border-radius: 0
       line-height: 40px
 
 .comments
@@ -110,9 +115,19 @@ a
 
 .items
   margin-bottom: 30px
+  .item
+    .img
+      margin-bottom: 10px
+    .border-bottom
+      margin-bottom: 10px
+      border-bottom: 1px solid black
 
 .admin_form
   width: 400px
   margin: 50px auto 0 auto
 
-
+.avatar
+  height: 50px
+  width: 50px
+  border-radius: 50%
+  border: 2px solid black

@@ -1,9 +1,15 @@
 VkontakteApi.configure do |config|
   # параметры, необходимые для авторизации средствами vkontakte_api
   # (не нужны при использовании сторонней авторизации)
-  config.app_id       = '4335361'
-  config.app_secret   = 'MrJLwKIFnKCajyNHGOUI'
-  config.redirect_uri = 'http://nsuwakeup.ru/welcome/vk_auth_callback'
+  if Rails.env.development?
+    config.app_id       = '4081089'
+    config.app_secret   = '8aPvPYjnYo8keIbEZYnm'
+    config.redirect_uri = 'http://local.vcap.me:3000/welcome/vk_auth_callback'
+  else
+    config.app_id       = '4335361'
+    config.app_secret   = 'MrJLwKIFnKCajyNHGOUI'
+    config.redirect_uri = 'http://nsuwakeup.ru/welcome/vk_auth_callback'
+  end
 
   # faraday-адаптер для сетевых запросов
   config.adapter = :net_http

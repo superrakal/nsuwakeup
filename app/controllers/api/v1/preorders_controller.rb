@@ -17,6 +17,8 @@ module Api
 
       def new
         @preorder = Preorder.find params[:id]
+        @preorder.status = 'Изготовляется'
+        @preorder.save
         PreorderMailer.new_preorder(@preorder).deliver
         respond_with @preorder, status: 200
       end
@@ -24,6 +26,7 @@ module Api
       def create
         @preorder = Preorder.new preorder_params
         @preorder.user_vk_id = current_user.vk_id
+        @preorder.user = current_user
         if @preorder.save
           respond_with @preorder, status: :created, location: false
         else
