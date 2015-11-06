@@ -6,7 +6,7 @@ module Api
       respond_to :json
 
       def index
-        @preorders = Preorder.all
+        @preorders = Preorder.all.order_by(created_at: 'desc').where(:status.ne => 'Создан')
         respond_with @preorders
       end
 
@@ -19,6 +19,10 @@ module Api
         @preorder = Preorder.find params[:id]
         @preorder.status = 'Изготовляется'
         @preorder.save
+        @will_destroyed_preorders = Preorder.where(user: current_user, status: 'Создан')
+        @will_destroyed_preorders.each do |preorder|
+          preorder.destroy
+        end
         PreorderMailer.new_preorder(@preorder).deliver
         respond_with @preorder, status: 200
       end

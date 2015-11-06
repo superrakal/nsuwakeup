@@ -1,0 +1,19 @@
+.ui.large.menu
+  = link-to 'root'
+    .small_logo
+  .right.menu
+    .ui.dropdown.item
+      img.ui.avatar.image src=model.vk_photo
+      span
+        = model.first_name
+        |&nbsp;
+        = model.last_name
+      i.dropdown.icon
+      .menu
+        a.item
+          = link-to 'mypreorders'
+            |Мои заказы (
+            = model.preorders_count
+            |)
+        a.item{action 'sign_out'}
+          |Выйти

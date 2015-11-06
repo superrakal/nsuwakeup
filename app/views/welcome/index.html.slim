@@ -2,8 +2,8 @@
   .sign_in_box
     =image_tag 'logo.jpg'
     .actions
-      a.btn.btn-lg.btn-success href=welcome_auth_by_vk_path
-        i.fa.fa-vk.fa-2x.pull-left
+      a.ui.vk.button href=welcome_auth_by_vk_path
+        i.vk.icon
         |Войти
 - else
   = include_ember_script_tags :frontend

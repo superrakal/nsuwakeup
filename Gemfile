@@ -15,9 +15,8 @@ gem 'paperclip', '~>4.2.0'
 gem 'slim-rails'
 gem 'html2slim'
 gem 'compass-rails', github: 'Compass/compass-rails', branch: 'master'
-gem 'twitter-bootstrap-rails'
 gem 'font-awesome-rails'
-gem 'animate-rails'
+gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 
 #Adminpanel
 gem 'rails_admin', '~> 0.6.8'

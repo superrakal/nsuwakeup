@@ -1,0 +1,14 @@
+.ui.last.container
+  .ui.three.steps
+    = link-to 'coffee' tagName='div' class='step'
+      i.fa.fa-coffee.icon
+      .content
+        .title Выберите кофе
+    .step
+      i.fa.fa-eyedropper.icon
+      .content
+        .title Добавьте сироп(ы)
+    .step
+      i.fa.fa-file-text-o.icon
+      .content
+        .title Подтвердите предзаказ

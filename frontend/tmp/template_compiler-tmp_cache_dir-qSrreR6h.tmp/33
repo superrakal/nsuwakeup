@@ -1,0 +1,69 @@
+export default Ember.HTMLBars.template((function() {
+  return {
+    meta: {
+      "revision": "Ember@1.13.3",
+      "loc": {
+        "source": null,
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 369
+        }
+      },
+      "moduleName": "frontend/templates/root.hbs"
+    },
+    arity: 0,
+    cachedFragment: null,
+    hasRendered: false,
+    buildFragment: function buildFragment(dom) {
+      var el0 = dom.createDocumentFragment();
+      var el1 = dom.createElement("div");
+      dom.setAttribute(el1,"class","container segment");
+      var el2 = dom.createElement("div");
+      dom.setAttribute(el2,"class","title text-center");
+      var el3 = dom.createElement("div");
+      dom.setAttribute(el3,"class","ui huge");
+      var el4 = dom.createTextNode("headerКак оформить предзаказ?");
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createComment("");
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("div");
+      dom.setAttribute(el2,"class","make_order text-center");
+      var el3 = dom.createElement("button");
+      dom.setAttribute(el3,"class","btn btn-lg btn-success");
+      var el4 = dom.createTextNode("Оформить предзаказ");
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("div");
+      dom.setAttribute(el2,"class","comments text-center");
+      var el3 = dom.createElement("h1");
+      dom.setAttribute(el3,"class","mark-style");
+      var el4 = dom.createTextNode("Оставьте отзыв!");
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      return el0;
+    },
+    buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+      var element0 = dom.childAt(fragment, [0]);
+      var element1 = dom.childAt(element0, [2, 0]);
+      var morphs = new Array(2);
+      morphs[0] = dom.createMorphAt(element0,1,1);
+      morphs[1] = dom.createElementMorph(element1);
+      return morphs;
+    },
+    statements: [
+      ["content","steps-component",["loc",[null,[1,124],[1,143]]]],
+      ["element","action",["create_preorder"],[],["loc",[null,[1,187],[1,215]]]]
+    ],
+    locals: [],
+    templates: []
+  };
+}()));

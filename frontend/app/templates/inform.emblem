@@ -19,8 +19,8 @@
       .panel-heading Сироп(ы)
       .panel-body
         = each syurup in model.syurups
-          = syurup.name
-          |&nbsp;
+          span.label.label-success
+            = syurup.name
   .col-lg-3.col-md-3.col-sm-12.col-xs-12
     .panel.panel-default.text-center
       .panel-heading Стоимость

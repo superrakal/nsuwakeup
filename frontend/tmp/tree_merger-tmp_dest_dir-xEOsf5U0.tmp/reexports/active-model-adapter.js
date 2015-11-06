@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/tree_merger-tmp_dest_dir-xvueXbZQ.tmp/reexports/active-model-adapter.js

@@ -1,32 +1,22 @@
-.title.text-center
-  h1 Выбор кофе
-.items
-  = each drink in drinks
-    .col-lg-3.col-md-4.col-sm-6.col-xs-12.item
-      .panel.panel-default.text-center
-        .panel-body
-          .img
-            img.img-responsive src=drink.image
-          .price.border-bottom
-            .pull-left
-              p Цена
-            .pull-right
-              p
-                = drink.price
-                |&nbsp;руб.
-            .clearfix
-          .volume.border-bottom
-            .pull-left
-              p Объем
-            .pull-right
-              p
+.ui.container
+  section
+    .title.text-center
+      h1.ui.header Выбор кофе
+    .ui.three.stackable.cards
+      = each drink in drinks
+        .ui.card
+          .image
+            img src=drink.image
+          .content
+            a.header
+              = drink.name
+            .meta
+              span.date
                 = drink.volume
                 |&nbsp;мл.
-            .clearfix
-          .action
-            .text-center
-              button.btn.btn-success{action 'choose' drink} Выбрать
-            .clearfix
-        .panel-footer.text-center
-          = drink.name
-
+            .description
+              |Цена&nbsp;
+              = drink.price
+              |&nbsp; руб.
+          .extra.content.text-center
+            button.ui.button.mint{action 'choose' drink} Выбрать

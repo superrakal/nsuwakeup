@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-gEpP92rm.tmp/frontend/tests/unit/routes/preorder.index-test.js

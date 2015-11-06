@@ -1,35 +1,14 @@
-.container
-  .title.text-center
-    h1.mark-style Как оформить предзаказ?
-  .steps
-    .col-lg-3.col-md-6.step
-      .panel.panel-default
-        .panel-body
-          .circle-number 1
-          i.fa.fa-coffee.fa-5x
-        .panel-footer.text-center Выбрать кофе
-    .col-lg-3.col-md-6.step
-      .panel.panel-default
-        .panel-body
-          .circle-number 2
-          i.fa.fa-eyedropper.fa-5x
-        .panel-footer.text-center Выбрать сироп
-    .col-lg-3.col-md-6.step
-      .panel.panel-default
-        .panel-body
-          .circle-number 3
-          i.fa.fa-file-text-o.fa-5x
-        .panel-footer.text-center Оформить предзаказ
-    .col-lg-3.col-md-6.step
-      .panel.panel-default
-        .panel-body
-          .circle-number 4
-          i.fa.fa-thumbs-o-up.fa-5x
-        .panel-footer.text-center Забрать заказ
-  .make_order.text-center
-    button.btn.btn-lg.btn-success{action 'create_preorder'} Оформить предзаказ
-  .comments.text-center
-    h1.mark-style Оставьте отзыв!
-    comments-component
+.ui.container.text-center
+  section
+    h2.ui.header Как оформить предзаказ?
+    steps-component
+  section
+    .ui.animated.fade.button.mint.huge{action 'create_preorder'} tabindex="0"
+      .visible.content Оформить предзаказ
+      .hidden.content
+        | Выбор кофе
+  section
+    h2.ui.header Оставьте отзыв!
+    /comments-component
 
 

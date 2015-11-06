@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/jshinter-tmp_cache_dir-P8nU7FII.tmp/0

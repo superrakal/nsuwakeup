@@ -1,0 +1,57 @@
+.title.text-center
+  h1 Очередь предзаказов
+.container
+  .preorders
+    = each preorder in preorders
+      .preorder
+        .title
+          .pull-left
+            p
+              |Статус предзаказа:&nbsp;
+              = preorder.status
+          .pull-right
+            p
+              = preorder.formatted_created_at
+          .clearfix
+        .user
+          .pull-left
+            p
+              |Заказчик:&nbsp;
+              a href="https://vk.com/#{preorder.user.vk_screen_name}"
+                = preorder.user.first_name
+                |&nbsp;
+                = preorder.user.last_name
+          .clearfix
+        .col-md-12
+          .col-lg-3.col-md-3.col-sm-12.col-xs-12
+            .panel.panel-default.text-center
+              .panel-heading id Заказа
+              .panel-body
+                = preorder.id
+          .col-lg-3.col-md-3.col-sm-12.col-xs-12
+            .panel.panel-default.text-center
+              .panel-heading Кофе
+              .panel-body
+                = preorder.drink.name
+                |&nbsp;(
+                = preorder.drink.volume
+                |&nbsp;мл.)
+          .col-lg-3.col-md-3.col-sm-12.col-xs-12
+            .panel.panel-default.text-center
+              .panel-heading Сироп(ы)
+              .panel-body
+                = each syurup in preorder.syurups
+                  span.label.label-success
+                    = syurup.name
+          .col-lg-3.col-md-3.col-sm-12.col-xs-12
+            .panel.panel-default.text-center
+              .panel-heading Стоимость
+              .panel-body
+                = preorder.drink.price
+                |&nbsp;руб.
+        .clearfix
+        = if preorder.comments.length
+          .comments
+            p
+              |Коментарий к заказу:&nbsp;
+              = preorder.comments

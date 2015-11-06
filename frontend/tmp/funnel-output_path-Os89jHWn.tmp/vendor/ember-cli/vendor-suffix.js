@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/custom_replace-tmp_dest_dir-BMyasLkC.tmp/vendor-suffix.js

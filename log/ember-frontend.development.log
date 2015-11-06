@@ -8100,3 +8100,2380 @@ CoffeeScriptFilter (2)                        | 27ms (13 ms)
 Concat: Test Support JS (1)                   | 25ms                
 Babel (3)                                     | 24ms (8 ms)         
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 3466ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 2369ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 2369ms              
+Babel (3)                                     | 403ms (134 ms)      
+
+file changed templates/inform.emblem
+
+Build successful - 465ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+Concat: App                                   | 70ms                
+Funnel: App JS Files                          | 27ms                
+Concat: Test Support JS                       | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+Concat: App (1)                               | 70ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 27ms                
+Concat: Test Support JS (1)                   | 24ms                
+
+file added templates/mypreorders.emblem___jb_bak___
+file deleted templates/mypreorders.emblem___jb_bak___
+file added templates/mypreorders.emblem___jb_old___
+file changed templates/mypreorders.emblem
+file deleted templates/mypreorders.emblem___jb_old___
+
+Build successful - 481ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 130ms               
+Concat: App                                   | 76ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 130ms               
+Concat: App (1)                               | 76ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 24ms                
+
+file added templates/mypreorders.emblem___jb_bak___
+file deleted templates/mypreorders.emblem___jb_bak___
+file added templates/mypreorders.emblem___jb_old___
+file changed templates/mypreorders.emblem
+file deleted templates/mypreorders.emblem___jb_old___
+
+Build successful - 473ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 168ms               
+Funnel: App JS Files                          | 44ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 168ms               
+Funnel: App JS Files (1)                      | 44ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file added routes/queue.coffee
+file added templates/queue.hbs
+file changed routes/queue.coffee
+file changed templates/queue.hbs
+file changed router.coffee
+file added unit/routes/queue-test.coffee
+file changed unit/routes/queue-test.coffee
+
+Build successful - 443ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 108ms               
+Funnel: App JS Files                          | 76ms                
+Concat: Test Support JS                       | 22ms                
+TreeMerger (appAndDependencies)               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 108ms               
+Funnel: App JS Files (1)                      | 76ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Concat: Test Support JS (1)                   | 22ms                
+CoffeeScriptFilter (2)                        | 22ms (11 ms)        
+TreeMerger (appAndDependencies) (1)           | 22ms                
+
+file deleted templates/queue.hbs
+file added templates/queue.emblem
+File: frontend/templates/queue.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file added templates/queue.emblem___jb_bak___
+file changed templates/queue.emblem___jb_bak___
+file deleted templates/queue.emblem___jb_bak___
+file changed templates/queue.emblem
+
+Build successful - 584ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 180ms               
+ES6: App Tree                                 | 81ms                
+Funnel: App JS Files                          | 41ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 180ms               
+ES6: App Tree (1)                             | 81ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 41ms                
+
+file added routes/queue.coffee___jb_old___
+file changed routes/queue.coffee
+file deleted routes/queue.coffee___jb_old___
+
+Build successful - 451ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Concat: App                                   | 60ms                
+Funnel: App JS Files                          | 27ms                
+Concat: Test Support JS                       | 26ms                
+SourcemapConcat                               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Concat: App (1)                               | 60ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 27ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed routes/queue.coffee
+
+Build successful - 466ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 163ms               
+Funnel: App JS Files                          | 26ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 163ms               
+SourcemapConcat (3)                           | 40ms (13 ms)        
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+Funnel: App JS Files (1)                      | 26ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file added templates/queue.emblem___jb_bak___
+file deleted templates/queue.emblem___jb_bak___
+file added templates/queue.emblem___jb_old___
+file changed templates/queue.emblem
+file deleted templates/queue.emblem___jb_old___
+
+Build successful - 490ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 132ms               
+Funnel: App JS Files                          | 77ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 132ms               
+Funnel: App JS Files (1)                      | 77ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+TemplateCompiler (2)                          | 28ms (14 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed router.coffee
+
+Build successful - 447ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+Funnel: App JS Files                          | 76ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+Funnel: App JS Files (1)                      | 76ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 22ms                
+
+file changed templates/queue.emblem
+
+Build successful - 464ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Funnel: App JS Files                          | 81ms                
+Concat: Test Support JS                       | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+Funnel: App JS Files (1)                      | 81ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Concat: Test Support JS (1)                   | 23ms                
+
+file added templates/queue.emblem___jb_bak___
+file deleted templates/queue.emblem___jb_bak___
+file changed templates/queue.emblem
+
+Build successful - 506ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 144ms               
+Funnel: App JS Files                          | 106ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 144ms               
+Funnel: App JS Files (1)                      | 106ms               
+SourcemapConcat (3)                           | 42ms (14 ms)        
+
+file changed templates/queue.emblem
+
+Build successful - 480ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+Funnel: App JS Files                          | 82ms                
+ES6: App Tree                                 | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+Funnel: App JS Files (1)                      | 82ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+ES6: App Tree (1)                             | 30ms                
+
+file changed routes/queue.coffee
+
+Build successful - 456ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+ES6: App Tree                                 | 66ms                
+Funnel: App JS Files                          | 29ms                
+SourcemapConcat                               | 27ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+ES6: App Tree (1)                             | 66ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 22ms                
+
+file changed templates/queue.emblem
+
+Build successful - 486ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 130ms               
+ES6: App Tree                                 | 70ms                
+Funnel: App JS Files                          | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 130ms               
+ES6: App Tree (1)                             | 70ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+TemplateCompiler (2)                          | 29ms (14 ms)        
+Funnel: App JS Files (1)                      | 27ms                
+
+file changed templates/queue.emblem
+
+Build successful - 442ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+ES6: App Tree                                 | 68ms                
+Funnel: App JS Files                          | 26ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+ES6: App Tree (1)                             | 68ms                
+SourcemapConcat (3)                           | 41ms (13 ms)        
+Funnel: App JS Files (1)                      | 26ms                
+Concat: Test Support JS (1)                   | 22ms                
+
+file changed templates/queue.emblem
+
+Build successful - 444ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+ES6: App Tree                                 | 68ms                
+Funnel: App JS Files                          | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+ES6: App Tree (1)                             | 68ms                
+SourcemapConcat (3)                           | 41ms (13 ms)        
+Funnel: App JS Files (1)                      | 27ms                
+
+file changed templates/queue.emblem
+
+Build successful - 465ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 130ms               
+ES6: App Tree                                 | 65ms                
+Funnel: App JS Files                          | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 130ms               
+ES6: App Tree (1)                             | 65ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+
+file changed templates/queue.emblem
+
+Build successful - 464ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 129ms               
+ES6: App Tree                                 | 66ms                
+Funnel: App JS Files                          | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 129ms               
+ES6: App Tree (1)                             | 66ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+
+file added templates/queue.emblem___jb_bak___
+file deleted templates/queue.emblem___jb_bak___
+file changed templates/queue.emblem
+
+Build successful - 501ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 123ms               
+ES6: App Tree                                 | 70ms                
+Funnel: App JS Files                          | 43ms                
+SourcemapConcat                               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 123ms               
+ES6: App Tree (1)                             | 70ms                
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Funnel: App JS Files (1)                      | 43ms                
+
+file changed templates/queue.emblem
+
+Build successful - 475ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+ES6: App Tree                                 | 64ms                
+Funnel: App JS Files                          | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+ES6: App Tree (1)                             | 64ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+TemplateCompiler (2)                          | 31ms (15 ms)        
+Funnel: App JS Files (1)                      | 27ms                
+
+file changed templates/queue.emblem
+
+Build successful - 503ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 137ms               
+ES6: App Tree                                 | 69ms                
+Funnel: App JS Files                          | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 137ms               
+ES6: App Tree (1)                             | 69ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+
+file added templates/queue.emblem___jb_bak___
+file deleted templates/queue.emblem___jb_bak___
+file added templates/queue.emblem___jb_old___
+file changed templates/queue.emblem
+file deleted templates/queue.emblem___jb_old___
+
+Build successful - 528ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 132ms               
+ES6: App Tree                                 | 72ms                
+SourcemapConcat                               | 35ms                
+Concat: Test Support JS                       | 34ms                
+Funnel: App JS Files                          | 28ms                
+TreeMerger (appAndDependencies)               | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 132ms               
+ES6: App Tree (1)                             | 72ms                
+SourcemapConcat (3)                           | 59ms (19 ms)        
+Concat: Test Support JS (1)                   | 34ms                
+Funnel: App JS Files (1)                      | 28ms                
+TreeMerger (appAndDependencies) (1)           | 28ms                
+
+file added routes/queue.coffee___jb_old___
+file changed routes/queue.coffee
+file deleted routes/queue.coffee___jb_old___
+
+Build successful - 458ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 111ms               
+ES6: App Tree                                 | 63ms                
+Funnel: App JS Files                          | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 111ms               
+ES6: App Tree (1)                             | 63ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 26ms                
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+
+file changed routes/queue.coffee
+
+Build successful - 611ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 152ms               
+Concat: App                                   | 89ms                
+Concat: Test Support JS                       | 46ms                
+SourcemapConcat                               | 39ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 152ms               
+Concat: App (1)                               | 89ms                
+SourcemapConcat (3)                           | 67ms (22 ms)        
+Concat: Test Support JS (1)                   | 46ms                
+CoffeeScriptFilter (2)                        | 33ms (16 ms)        
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2493ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1788ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1788ms              
+
+file changed routes/queue.coffee
+
+Build successful - 477ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 111ms               
+Funnel: App JS Files                          | 84ms                
+Babel                                         | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 111ms               
+Funnel: App JS Files (1)                      | 84ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Babel (3)                                     | 28ms (9 ms)         
+
+file changed routes/queue.coffee
+
+Build successful - 465ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 110ms               
+Funnel: App JS Files                          | 85ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 110ms               
+Funnel: App JS Files (1)                      | 85ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+
+file changed routes/queue.coffee
+
+Build successful - 491ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 125ms               
+ES6: App Tree                                 | 74ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 125ms               
+ES6: App Tree (1)                             | 74ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2864ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1816ms              
+Babel                                         | 144ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1816ms              
+Babel (3)                                     | 390ms (130 ms)      
+CoffeeScriptFilter (2)                        | 144ms (72 ms)       
+
+file changed templates/root.emblem
+
+Build successful - 486ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 86ms                
+SourcemapConcat                               | 26ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Funnel: App JS Files (1)                      | 86ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+
+file added templates/application.emblem___jb_old___
+file changed templates/application.emblem
+file deleted templates/application.emblem___jb_old___
+
+Build successful - 488ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 124ms               
+ES6: App Tree                                 | 77ms                
+Funnel: App JS Files                          | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 124ms               
+ES6: App Tree (1)                             | 77ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+
+file changed templates/application.emblem
+
+Build successful - 453ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+ES6: App Tree                                 | 68ms                
+Funnel: App JS Files                          | 28ms                
+Concat: Test Support JS                       | 26ms                
+SourcemapConcat                               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+ES6: App Tree (1)                             | 68ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/application.emblem
+
+Build successful - 467ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 124ms               
+Concat: App                                   | 66ms                
+Funnel: App JS Files                          | 28ms                
+Concat: Test Support JS                       | 27ms                
+SourcemapConcat                               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 124ms               
+Concat: App (1)                               | 66ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/application.emblem
+
+Build successful - 443ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 167ms               
+Funnel: App JS Files                          | 27ms                
+Concat: Test Support JS                       | 27ms                
+SourcemapConcat                               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 167ms               
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 27ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file added templates/components/menu-component.hbs
+file added components/menu-component.coffee
+file changed components/menu-component.coffee
+file changed templates/components/menu-component.hbs
+file added integration/components/menu-component-test.coffee
+file changed integration/components/menu-component-test.coffee
+
+Build successful - 459ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 109ms               
+Funnel: App JS Files                          | 66ms                
+Concat: Test Support JS                       | 25ms                
+SourcemapConcat                               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 109ms               
+Funnel: App JS Files (1)                      | 66ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+
+file deleted templates/components/menu-component.hbs
+file added templates/components/menu-component.emblem
+File: frontend/templates/components/menu-component.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file added components/menu-component.coffee___jb_bak___
+file deleted components/menu-component.coffee___jb_bak___
+file added components/menu-component.coffee___jb_old___
+file changed components/menu-component.coffee
+file deleted components/menu-component.coffee___jb_old___
+File: frontend/templates/components/menu-component.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file changed templates/components/menu-component.emblem
+file added templates/application.emblem___jb_bak___
+file deleted templates/application.emblem___jb_bak___
+file added templates/application.emblem___jb_old___
+file changed templates/application.emblem
+file deleted templates/application.emblem___jb_old___
+
+Build successful - 475ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 163ms               
+Funnel: App JS Files                          | 30ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 163ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+Concat: Test Support JS (1)                   | 28ms                
+
+file added templates/components/menu-component.emblem___jb_old___
+file changed templates/components/menu-component.emblem
+file deleted templates/components/menu-component.emblem___jb_old___
+
+Build successful - 466ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 83ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Funnel: App JS Files (1)                      | 83ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+
+file changed templates/components/menu-component.emblem
+
+Build successful - 493ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 109ms               
+Funnel: App JS Files                          | 76ms                
+TreeMerger (appAndDependencies)               | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 109ms               
+Funnel: App JS Files (1)                      | 76ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+TreeMerger (appAndDependencies) (1)           | 28ms                
+Funnel (36)                                   | 25ms (0 ms)         
+
+file added templates/application.emblem___jb_old___
+file changed templates/application.emblem
+file deleted templates/application.emblem___jb_old___
+
+Build successful - 441ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 109ms               
+ES6: App Tree                                 | 58ms                
+Funnel: App JS Files                          | 28ms                
+TreeMerger (appAndDependencies)               | 25ms                
+SourcemapConcat                               | 24ms                
+Concat: Test Support JS                       | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 109ms               
+ES6: App Tree (1)                             | 58ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+Funnel (36)                                   | 26ms (0 ms)         
+TreeMerger (appAndDependencies) (1)           | 25ms                
+Concat: Test Support JS (1)                   | 23ms                
+
+file changed templates/root.emblem
+
+Build successful - 443ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+ES6: App Tree                                 | 63ms                
+Funnel: App JS Files                          | 28ms                
+Concat: Test Support JS                       | 25ms                
+SourcemapConcat                               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+ES6: App Tree (1)                             | 63ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file added templates/root.emblem___jb_old___
+file changed templates/root.emblem
+file deleted templates/root.emblem___jb_old___
+
+Build successful - 449ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+Concat: App                                   | 62ms                
+Funnel: App JS Files                          | 28ms                
+TreeMerger (appAndDependencies)               | 26ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+Concat: App (1)                               | 62ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+TreeMerger (appAndDependencies) (1)           | 26ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed templates/root.emblem
+
+Build successful - 465ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Concat: App                                   | 60ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 26ms                
+SourcemapConcat                               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+Concat: App (1)                               | 60ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/root.emblem
+
+Build successful - 469ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 153ms               
+Funnel: App JS Files                          | 37ms                
+Concat: Test Support JS                       | 27ms                
+SourcemapConcat                               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 153ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 37ms                
+TemplateCompiler (2)                          | 28ms (14 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/root.emblem
+
+Build successful - 443ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 73ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Funnel: App JS Files (1)                      | 73ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/root.emblem
+
+Build successful - 479ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+Funnel: App JS Files                          | 73ms                
+TreeMerger (appAndDependencies)               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+Funnel: App JS Files (1)                      | 73ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+TreeMerger (appAndDependencies) (1)           | 26ms                
+Funnel (36)                                   | 24ms (0 ms)         
+
+file changed templates/root.emblem
+
+Build successful - 446ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 111ms               
+Funnel: App JS Files                          | 74ms                
+TreeMerger (appAndDependencies)               | 23ms                
+Concat: Test Support JS                       | 23ms                
+SourcemapConcat                               | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 111ms               
+Funnel: App JS Files (1)                      | 74ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 23ms                
+Concat: Test Support JS (1)                   | 23ms                
+
+file added templates/components/tmp
+file added components/steps-components.coffee
+file added templates/components/steps-components.hbs
+file changed components/steps-components.coffee
+file changed templates/components/steps-components.hbs
+file added integration/components/steps-components-test.coffee
+file changed integration/components/steps-components-test.coffee
+
+Build successful - 463ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 107ms               
+ES6: App Tree                                 | 63ms                
+Funnel: App JS Files                          | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 107ms               
+ES6: App Tree (1)                             | 63ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+Babel (3)                                     | 24ms (8 ms)         
+
+
+Build successful - 402ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 110ms               
+Concat: App                                   | 63ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 110ms               
+Concat: App (1)                               | 63ms                
+SourcemapConcat (3)                           | 37ms (12 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+CoffeeScriptFilter (2)                        | 20ms (10 ms)        
+Concat: Test Support JS (1)                   | 20ms                
+
+file added components/steps-component.coffee
+file added templates/components/steps-component.hbs
+file changed components/steps-component.coffee
+file changed templates/components/steps-component.hbs
+file added integration/components/steps-component-test.coffee
+file changed integration/components/steps-component-test.coffee
+
+Build successful - 454ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 109ms               
+Funnel: App JS Files                          | 76ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 109ms               
+Funnel: App JS Files (1)                      | 76ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+
+file deleted templates/components/steps-components.hbs
+
+Build successful - 452ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+Funnel: App JS Files                          | 77ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+Funnel: App JS Files (1)                      | 77ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+
+file deleted templates/components/steps-component.hbs
+file added templates/components/steps-component.emblem
+File: frontend/templates/components/steps-component.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file changed templates/root.emblem
+File: frontend/templates/components/steps-component.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file deleted components/steps-components.coffee
+file added templates/components/steps-component.emblem___jb_bak___
+file deleted templates/components/steps-component.emblem___jb_bak___
+file added templates/components/steps-component.emblem___jb_old___
+file changed templates/components/steps-component.emblem
+file deleted templates/components/steps-component.emblem___jb_old___
+ENOENT, no such file or directory '/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-pQVm64b8.tmp/frontend/components/steps-components.coffee'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-pQVm64b8.tmp/frontend/components/steps-components.coffee'
+  at Object.fs.unlinkSync (fs.js:765:18)
+  at CoffeeScriptFilter.<anonymous> (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:60:8)
+  at Array.forEach (native)
+  at CoffeeScriptFilter.build (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:59:35)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/read_compat.js:61:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added templates/components/steps-component.emblem___jb_old___
+file changed templates/components/steps-component.emblem
+file deleted templates/components/steps-component.emblem___jb_old___
+
+Build successful - 453ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+Funnel: App JS Files                          | 82ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+Funnel: App JS Files (1)                      | 82ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file added templates/root.emblem___jb_old___
+file changed templates/root.emblem
+file deleted templates/root.emblem___jb_old___
+
+Build successful - 445ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 111ms               
+Funnel: App JS Files                          | 79ms                
+Concat: Test Support JS                       | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 111ms               
+Funnel: App JS Files (1)                      | 79ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 23ms                
+
+file changed templates/root.emblem
+
+Build successful - 479ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+Funnel: App JS Files                          | 79ms                
+Concat: Test Support JS                       | 28ms                
+SourcemapConcat                               | 27ms                
+TreeMerger (appAndDependencies)               | 24ms                
+SourcemapConcat                               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+Funnel: App JS Files (1)                      | 79ms                
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+
+file changed templates/root.emblem
+
+Build successful - 465ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+ES6: App Tree                                 | 70ms                
+Funnel: App JS Files                          | 29ms                
+TreeMerger (appAndDependencies)               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+ES6: App Tree (1)                             | 70ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+
+file changed templates/root.emblem
+File: frontend/templates/root.emblem (2)
+Expected _4BeginStatement or end of input but "\uEFEF" found.
+file added templates/root.emblem___jb_old___
+file changed templates/root.emblem
+file deleted templates/root.emblem___jb_old___
+
+Build successful - 461ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 122ms               
+Concat: App                                   | 72ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 26ms                
+SourcemapConcat                               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 122ms               
+Concat: App (1)                               | 72ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/root.emblem
+
+Build successful - 461ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+Concat: App                                   | 67ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+Concat: App (1)                               | 67ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 25ms                
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+
+file changed templates/root.emblem
+
+Build successful - 508ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 168ms               
+Funnel: App JS Files                          | 50ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 168ms               
+Funnel: App JS Files (1)                      | 50ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/components/steps-component.emblem
+
+Build successful - 449ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 112ms               
+Funnel: App JS Files                          | 81ms                
+Concat: Test Support JS                       | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 112ms               
+Funnel: App JS Files (1)                      | 81ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 23ms                
+
+file changed templates/root.emblem
+
+Build successful - 454ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 112ms               
+Funnel: App JS Files                          | 83ms                
+TreeMerger (appAndDependencies)               | 24ms                
+Concat: Test Support JS                       | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 112ms               
+Funnel: App JS Files (1)                      | 83ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+TreeMerger (appAndDependencies) (1)           | 24ms                
+Concat: Test Support JS (1)                   | 23ms                
+
+file changed templates/root.emblem
+
+Build successful - 455ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 110ms               
+ES6: App Tree                                 | 71ms                
+Funnel: App JS Files                          | 29ms                
+TreeMerger (appAndDependencies)               | 24ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 110ms               
+ES6: App Tree (1)                             | 71ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+Concat: Test Support JS (1)                   | 22ms                
+
+file changed templates/root.emblem
+
+Build successful - 449ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 111ms               
+ES6: App Tree                                 | 74ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 111ms               
+ES6: App Tree (1)                             | 74ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 22ms                
+
+file added templates/root.emblem___jb_old___
+file changed templates/root.emblem
+file deleted templates/root.emblem___jb_old___
+
+Build successful - 467ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+ES6: App Tree                                 | 75ms                
+Funnel: App JS Files                          | 28ms                
+SourcemapConcat                               | 25ms                
+Concat: Test Support JS                       | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+ES6: App Tree (1)                             | 75ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+Concat: Test Support JS (1)                   | 24ms                
+
+file changed templates/root.emblem
+
+Build successful - 466ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+ES6: App Tree                                 | 70ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+ES6: App Tree (1)                             | 70ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 24ms                
+
+file changed templates/root.emblem
+
+Build successful - 493ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+ES6: App Tree                                 | 74ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+ES6: App Tree (1)                             | 74ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+TemplateCompiler (2)                          | 25ms (12 ms)        
+
+file changed templates/root.emblem
+
+Build successful - 492ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+ES6: App Tree                                 | 81ms                
+Concat: Test Support JS                       | 31ms                
+Funnel: App JS Files                          | 30ms                
+SourcemapConcat                               | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+ES6: App Tree (1)                             | 81ms                
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Concat: Test Support JS (1)                   | 31ms                
+Funnel: App JS Files (1)                      | 30ms                
+
+file changed templates/root.emblem
+
+Build successful - 460ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+ES6: App Tree                                 | 75ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 24ms                
+SourcemapConcat                               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+ES6: App Tree (1)                             | 75ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 24ms                
+
+file added templates/root.emblem___jb_bak___
+file deleted templates/root.emblem___jb_bak___
+file added templates/root.emblem___jb_old___
+file changed templates/root.emblem
+file deleted templates/root.emblem___jb_old___
+
+Build successful - 476ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+ES6: App Tree                                 | 76ms                
+Funnel: App JS Files                          | 38ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+ES6: App Tree (1)                             | 76ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 38ms                
+
+file added templates/root.emblem___jb_old___
+file changed templates/root.emblem
+file deleted templates/root.emblem___jb_old___
+
+Build successful - 469ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 112ms               
+ES6: App Tree                                 | 77ms                
+Funnel: App JS Files                          | 29ms                
+SourcemapConcat                               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 112ms               
+ES6: App Tree (1)                             | 77ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+
+file changed templates/root.emblem
+
+Build successful - 470ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+ES6: App Tree                                 | 74ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+ES6: App Tree (1)                             | 74ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+
+file changed templates/root.emblem
+
+Build successful - 495ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 124ms               
+ES6: App Tree                                 | 76ms                
+Funnel: App JS Files                          | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 124ms               
+ES6: App Tree (1)                             | 76ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+TemplateCompiler (2)                          | 26ms (13 ms)        
+
+file changed templates/root.emblem
+
+Build successful - 485ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+ES6: App Tree                                 | 82ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+ES6: App Tree (1)                             | 82ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed templates/root.emblem
+
+Build successful - 508ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Concat: Test Support JS                       | 46ms                
+SourcemapConcat                               | 35ms                
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support Suffix                   | 30ms                
+ES6: App Tree                                 | 27ms                
+Concat: App                                   | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+SourcemapConcat (3)                           | 59ms (19 ms)        
+Concat: Test Support JS (1)                   | 46ms                
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support Suffix (1)               | 30ms                
+ES6: App Tree (1)                             | 27ms                
+Concat: App (1)                               | 26ms                
+
+file changed templates/root.emblem
+
+Build successful - 489ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Concat: Test Support JS                       | 39ms                
+SourcemapConcat                               | 36ms                
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support Suffix                   | 31ms                
+ES6: App Tree                                 | 25ms                
+Concat: App                                   | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+SourcemapConcat (3)                           | 57ms (19 ms)        
+Concat: Test Support JS (1)                   | 39ms                
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support Suffix (1)               | 31ms                
+ES6: App Tree (1)                             | 25ms                
+Concat: App (1)                               | 25ms                
+
+file changed templates/root.emblem
+
+Build successful - 474ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+Concat: Test Support JS                       | 40ms                
+Concat: Test Support Suffix                   | 32ms                
+SourcemapConcat                               | 32ms                
+Funnel: App JS Files                          | 29ms                
+Concat: App                                   | 27ms                
+ES6: App Tree                                 | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Concat: Test Support JS (1)                   | 40ms                
+Concat: Test Support Suffix (1)               | 32ms                
+Funnel: App JS Files (1)                      | 29ms                
+Concat: App (1)                               | 27ms                
+ES6: App Tree (1)                             | 24ms                
+TreeMerger (146)                              | 23ms (0 ms)         
+
+file changed templates/root.emblem
+
+Build successful - 494ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 122ms               
+Concat: Test Support JS                       | 46ms                
+SourcemapConcat                               | 32ms                
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support Suffix                   | 31ms                
+Concat: App                                   | 25ms                
+ES6: App Tree                                 | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 122ms               
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Concat: Test Support JS (1)                   | 46ms                
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support Suffix (1)               | 31ms                
+Concat: App (1)                               | 25ms                
+ES6: App Tree (1)                             | 25ms                
+
+file changed templates/root.emblem
+
+Build successful - 470ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 110ms               
+Concat: Test Support JS                       | 38ms                
+SourcemapConcat                               | 36ms                
+Concat: Test Support Suffix                   | 31ms                
+Funnel: App JS Files                          | 29ms                
+Concat: App                                   | 25ms                
+ES6: App Tree                                 | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 110ms               
+SourcemapConcat (3)                           | 57ms (19 ms)        
+Concat: Test Support JS (1)                   | 38ms                
+Concat: Test Support Suffix (1)               | 31ms                
+Funnel: App JS Files (1)                      | 29ms                
+Concat: App (1)                               | 25ms                
+ES6: App Tree (1)                             | 24ms                
+
+file changed templates/root.emblem
+
+Build successful - 516ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 124ms               
+Concat: Test Support JS                       | 45ms                
+SourcemapConcat                               | 35ms                
+Concat: Test Support Suffix                   | 34ms                
+Funnel: App JS Files                          | 31ms                
+Concat: App                                   | 27ms                
+ES6: App Tree                                 | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 124ms               
+SourcemapConcat (3)                           | 58ms (19 ms)        
+Concat: Test Support JS (1)                   | 45ms                
+Concat: Test Support Suffix (1)               | 34ms                
+Funnel: App JS Files (1)                      | 31ms                
+Concat: App (1)                               | 27ms                
+ES6: App Tree (1)                             | 26ms                
+
+file changed templates/root.emblem
+
+Build successful - 509ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Concat: Test Support JS                       | 46ms                
+SourcemapConcat                               | 36ms                
+Concat: Test Support Suffix                   | 33ms                
+Funnel: App JS Files                          | 30ms                
+Concat: App                                   | 28ms                
+ES6: App Tree                                 | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+SourcemapConcat (3)                           | 59ms (19 ms)        
+Concat: Test Support JS (1)                   | 46ms                
+Concat: Test Support Suffix (1)               | 33ms                
+Funnel: App JS Files (1)                      | 30ms                
+Concat: App (1)                               | 28ms                
+ES6: App Tree (1)                             | 26ms                
+
+file added templates/root.emblem___jb_old___
+file changed templates/root.emblem
+file deleted templates/root.emblem___jb_old___
+
+Build successful - 441ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+SourcemapConcat                               | 43ms                
+Concat: Test Support JS                       | 35ms                
+Funnel: App JS Files                          | 29ms                
+SourcemapConcat                               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+SourcemapConcat (3)                           | 69ms (23 ms)        
+Concat: Test Support JS (1)                   | 35ms                
+Funnel: App JS Files (1)                      | 29ms                
+
+file changed templates/root.emblem
+
+Build successful - 472ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 145ms               
+SourcemapConcat                               | 30ms                
+Funnel: App JS Files                          | 28ms                
+Concat: Test Support JS                       | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 145ms               
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+Concat: Test Support JS (1)                   | 23ms                
+
+file changed templates/root.emblem
+
+Build successful - 466ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+TreeMerger (appAndDependencies)               | 46ms                
+Funnel: App JS Files                          | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+TreeMerger (appAndDependencies) (1)           | 46ms                
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+
+file changed templates/components/steps-component.emblem
+
+Build successful - 500ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 170ms               
+TreeMerger (appAndDependencies)               | 34ms                
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 170ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+TreeMerger (appAndDependencies) (1)           | 34ms                
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/components/steps-component.emblem
+
+Build successful - 473ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 187ms               
+Funnel: App JS Files                          | 30ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 187ms               
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 482ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+TreeMerger (appJS  & processedEmberCLITree)   | 63ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+TreeMerger (appJS  & processedEmberCLI... (1) | 63ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 549ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+SourcemapConcat                               | 111ms               
+Concat: Test Support JS                       | 55ms                
+SourcemapConcat                               | 30ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+SourcemapConcat (3)                           | 143ms (47 ms)       
+Concat: Vendor (1)                            | 120ms               
+Concat: Test Support JS (1)                   | 55ms                
+Funnel: App JS Files (1)                      | 29ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 399ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 25ms                
+SourcemapConcat                               | 21ms                
+ES6: App Tree                                 | 20ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 25ms                
+CoffeeScriptFilter (2)                        | 21ms (10 ms)        
+ES6: App Tree (1)                             | 20ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 536ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 188ms               
+TreeMerger (appAndDependencies)               | 39ms                
+Funnel: App JS Files                          | 34ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 188ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 39ms                
+Funnel: App JS Files (1)                      | 34ms                
+Concat: Test Support JS (1)                   | 28ms                
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+
+file changed templates/coffee.emblem
+
+Build successful - 512ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 201ms               
+Funnel: App JS Files                          | 30ms                
+SourcemapConcat                               | 29ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 201ms               
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 495ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 136ms               
+TreeMerger (appJS  & processedEmberCLITree)   | 68ms                
+Funnel: App JS Files                          | 30ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 136ms               
+TreeMerger (appJS  & processedEmberCLI... (1) | 68ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 516ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+Concat: Test Support JS                       | 89ms                
+SourcemapConcat                               | 44ms                
+Funnel: App JS Files                          | 39ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+Concat: Test Support JS (1)                   | 89ms                
+SourcemapConcat (3)                           | 66ms (22 ms)        
+Funnel: App JS Files (1)                      | 39ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 439ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+SourcemapConcat                               | 43ms                
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+SourcemapConcat (3)                           | 66ms (22 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 494ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+JSHint app- QUnit                             | 51ms                
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+JSHint app- QUnit (1)                         | 51ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 479ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 199ms               
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 199ms               
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 477ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+Funnel: App JS Files                          | 99ms                
+ES6: App Tree                                 | 27ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+Funnel: App JS Files (1)                      | 99ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+ES6: App Tree (1)                             | 27ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 547ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Concat: Test Support JS                       | 103ms               
+SourcemapConcat                               | 51ms                
+Funnel: App JS Files                          | 40ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+Concat: Test Support JS (1)                   | 103ms               
+SourcemapConcat (3)                           | 72ms (24 ms)        
+Funnel: App JS Files (1)                      | 40ms                
+
+file added templates/coffee.emblem___jb_bak___
+file deleted templates/coffee.emblem___jb_bak___
+file changed templates/coffee.emblem
+
+Build successful - 413ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 25ms                
+TreeMerger (appAndDependencies)               | 23ms                
+SourcemapConcat                               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 25ms                
+TreeMerger (appAndDependencies) (1)           | 23ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 499ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 154ms               
+TreeMerger (appAndDependencies)               | 33ms                
+Funnel: App JS Files                          | 30ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 154ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 33ms                
+Funnel: App JS Files (1)                      | 30ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 483ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+Funnel: App JS Files                          | 103ms               
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+Funnel: App JS Files (1)                      | 103ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 440ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+Concat: Test Support JS                       | 32ms                
+SourcemapConcat                               | 32ms                
+Funnel: App JS Files                          | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Concat: Test Support JS (1)                   | 32ms                
+Funnel: App JS Files (1)                      | 30ms                
+TemplateCompiler (2)                          | 22ms (11 ms)        
+
+file changed templates/coffee.emblem
+
+Build successful - 510ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 28ms                
+Funnel                                        | 26ms                
+TreeMerger (appAndDependencies)               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+Funnel (36)                                   | 50ms (1 ms)         
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 28ms                
+TreeMerger (appAndDependencies) (1)           | 25ms                
+
+file changed templates/components/steps-component.emblem
+
+Build successful - 565ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 192ms               
+TreeMerger (appAndDependencies)               | 31ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 192ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel (36)                                   | 39ms (1 ms)         
+TreeMerger (appAndDependencies) (1)           | 31ms                
+Funnel: App JS Files (1)                      | 29ms                
+TreeMerger (146)                              | 29ms (0 ms)         
+
+file changed templates/components/steps-component.emblem
+
+Build successful - 475ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Funnel: App JS Files                          | 100ms               
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+Funnel: App JS Files (1)                      | 100ms               
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/root.emblem
+
+Build successful - 416ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 25ms                
+SourcemapConcat                               | 23ms                
+TreeMerger (appAndDependencies)               | 21ms                
+SourcemapConcat                               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 25ms                
+TreeMerger (appAndDependencies) (1)           | 21ms                
+CoffeeScriptFilter (2)                        | 21ms (10 ms)        
+
+file added templates/coffee.emblem___jb_old___
+file changed templates/coffee.emblem
+file deleted templates/coffee.emblem___jb_old___
+
+Build successful - 485ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 186ms               
+Funnel: App JS Files                          | 29ms                
+SourcemapConcat                               | 26ms                
+TreeMerger (appAndDependencies)               | 26ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 186ms               
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+TreeMerger (appAndDependencies) (1)           | 26ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 513ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 207ms               
+Concat: Test Support JS                       | 32ms                
+Funnel: App JS Files                          | 32ms                
+SourcemapConcat                               | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 207ms               
+SourcemapConcat (3)                           | 51ms (17 ms)        
+Concat: Test Support JS (1)                   | 32ms                
+Funnel: App JS Files (1)                      | 32ms                
+
+file added templates/coffee.emblem___jb_old___
+file changed templates/coffee.emblem
+file deleted templates/coffee.emblem___jb_old___
+
+Build successful - 461ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+SourcemapConcat                               | 47ms                
+Concat: Test Support JS                       | 36ms                
+Funnel: App JS Files                          | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+SourcemapConcat (3)                           | 70ms (23 ms)        
+Concat: Test Support JS (1)                   | 36ms                
+Funnel: App JS Files (1)                      | 31ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 476ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+CoffeeScriptFilter                            | 36ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+CoffeeScriptFilter (2)                        | 51ms (25 ms)        
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 30ms                
+TreeMerger (146)                              | 25ms (0 ms)         
+
+file added templates/coffee.emblem___jb_old___
+file changed templates/coffee.emblem
+file deleted templates/coffee.emblem___jb_old___
+
+Build successful - 501ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+Funnel: App JS Files                          | 110ms               
+SourcemapConcat                               | 35ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+Funnel: App JS Files (1)                      | 110ms               
+SourcemapConcat (3)                           | 57ms (19 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 413ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 29ms                
+TreeMerger (appAndDependencies)               | 21ms                
+SourcemapConcat                               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 29ms                
+TreeMerger (appAndDependencies) (1)           | 21ms                
+CoffeeScriptFilter (2)                        | 21ms (10 ms)        
+
+file changed templates/coffee.emblem
+
+Build successful - 552ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 192ms               
+Concat: Test Support JS                       | 35ms                
+TreeMerger (appAndDependencies)               | 33ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 192ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Concat: Test Support JS (1)                   | 35ms                
+TreeMerger (appAndDependencies) (1)           | 33ms                
+Funnel: App JS Files (1)                      | 29ms                
+Funnel (36)                                   | 28ms (0 ms)         
+
+file changed templates/coffee.emblem
+
+Build successful - 515ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 138ms               
+TreeMerger (appJS  & processedEmberCLITree)   | 89ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 138ms               
+TreeMerger (appJS  & processedEmberCLI... (1) | 89ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 406ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 28ms                
+SourcemapConcat                               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 28ms                
+CoffeeScriptFilter (2)                        | 22ms (11 ms)        
+
+file changed templates/coffee.emblem
+
+Build successful - 480ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 196ms               
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 196ms               
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file added templates/coffee.emblem___jb_bak___
+file deleted templates/coffee.emblem___jb_bak___
+file changed templates/coffee.emblem
+
+Build successful - 514ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 226ms               
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 226ms               
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 397ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 26ms                
+SourcemapConcat                               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 26ms                
+CoffeeScriptFilter (2)                        | 21ms (10 ms)        
+
+file added templates/coffee.emblem___jb_old___
+file changed templates/coffee.emblem
+file deleted templates/coffee.emblem___jb_old___
+
+Build successful - 505ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 211ms               
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 211ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 28ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 494ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 123ms               
+Concat: App                                   | 100ms               
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 123ms               
+Concat: App (1)                               | 100ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 407ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+Concat: Test Support JS                       | 32ms                
+Funnel: App JS Files                          | 29ms                
+SourcemapConcat                               | 22ms                
+SourcemapConcat                               | 21ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Concat: Test Support JS (1)                   | 32ms                
+Funnel: App JS Files (1)                      | 29ms                
+

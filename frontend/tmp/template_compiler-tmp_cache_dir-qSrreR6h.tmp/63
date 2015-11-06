@@ -1,0 +1,214 @@
+export default Ember.HTMLBars.template((function() {
+  var child0 = (function() {
+    return {
+      meta: {
+        "revision": "Ember@1.13.3",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 1,
+            "column": 75
+          },
+          "end": {
+            "line": 1,
+            "column": 1236
+          }
+        },
+        "moduleName": "frontend/templates/coffee.hbs"
+      },
+      arity: 1,
+      cachedFragment: null,
+      hasRendered: false,
+      buildFragment: function buildFragment(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createElement("div");
+        dom.setAttribute(el1,"class","ui card");
+        var el2 = dom.createElement("div");
+        dom.setAttribute(el2,"class","image");
+        var el3 = dom.createElement("img");
+        dom.setAttribute(el3,"src","/images/avatar2/large/kristy.png");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("div");
+        dom.setAttribute(el2,"class","content");
+        var el3 = dom.createElement("a");
+        dom.setAttribute(el3,"class","header");
+        var el4 = dom.createTextNode("Kristy");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("div");
+        dom.setAttribute(el3,"class","meta");
+        var el4 = dom.createElement("span");
+        dom.setAttribute(el4,"class","date");
+        var el5 = dom.createTextNode("Joined in 2013");
+        dom.appendChild(el4, el5);
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("div");
+        dom.setAttribute(el3,"class","description");
+        var el4 = dom.createTextNode("Kristy is an art director living in New York.");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("div");
+        dom.setAttribute(el2,"class","extra content");
+        var el3 = dom.createElement("a");
+        var el4 = dom.createElement("i");
+        dom.setAttribute(el4,"class","user icon");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createTextNode("22 Friends");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        dom.appendChild(el0, el1);
+        var el1 = dom.createElement("div");
+        dom.setAttribute(el1,"class","col-lg-3 col-md-4 col-sm-6 col-xs-12 item");
+        var el2 = dom.createElement("div");
+        dom.setAttribute(el2,"class","panel panel-default text-center");
+        var el3 = dom.createElement("div");
+        dom.setAttribute(el3,"class","panel-body");
+        var el4 = dom.createElement("div");
+        dom.setAttribute(el4,"class","img");
+        var el5 = dom.createElement("img");
+        dom.setAttribute(el5,"class","img-responsive");
+        dom.appendChild(el4, el5);
+        dom.appendChild(el3, el4);
+        var el4 = dom.createElement("div");
+        dom.setAttribute(el4,"class","price border-bottom");
+        var el5 = dom.createElement("div");
+        dom.setAttribute(el5,"class","pull-left");
+        var el6 = dom.createElement("p");
+        var el7 = dom.createTextNode("Цена");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("div");
+        dom.setAttribute(el5,"class","pull-right");
+        var el6 = dom.createElement("p");
+        var el7 = dom.createComment("");
+        dom.appendChild(el6, el7);
+        var el7 = dom.createTextNode(" руб.");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("div");
+        dom.setAttribute(el5,"class","clearfix");
+        dom.appendChild(el4, el5);
+        dom.appendChild(el3, el4);
+        var el4 = dom.createElement("div");
+        dom.setAttribute(el4,"class","volume border-bottom");
+        var el5 = dom.createElement("div");
+        dom.setAttribute(el5,"class","pull-left");
+        var el6 = dom.createElement("p");
+        var el7 = dom.createTextNode("Объем");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("div");
+        dom.setAttribute(el5,"class","pull-right");
+        var el6 = dom.createElement("p");
+        var el7 = dom.createComment("");
+        dom.appendChild(el6, el7);
+        var el7 = dom.createTextNode(" мл.");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("div");
+        dom.setAttribute(el5,"class","clearfix");
+        dom.appendChild(el4, el5);
+        dom.appendChild(el3, el4);
+        var el4 = dom.createElement("div");
+        dom.setAttribute(el4,"class","action");
+        var el5 = dom.createElement("div");
+        dom.setAttribute(el5,"class","text-center");
+        var el6 = dom.createElement("button");
+        dom.setAttribute(el6,"class","btn btn-success");
+        var el7 = dom.createTextNode("Выбрать");
+        dom.appendChild(el6, el7);
+        dom.appendChild(el5, el6);
+        dom.appendChild(el4, el5);
+        var el5 = dom.createElement("div");
+        dom.setAttribute(el5,"class","clearfix");
+        dom.appendChild(el4, el5);
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("div");
+        dom.setAttribute(el3,"class","panel-footer text-center");
+        var el4 = dom.createComment("");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+        var element0 = dom.childAt(fragment, [1, 0]);
+        var element1 = dom.childAt(element0, [0]);
+        var element2 = dom.childAt(element1, [0, 0]);
+        var element3 = dom.childAt(element1, [3, 0, 0]);
+        var morphs = new Array(5);
+        morphs[0] = dom.createAttrMorph(element2, 'src');
+        morphs[1] = dom.createMorphAt(dom.childAt(element1, [1, 1, 0]),0,0);
+        morphs[2] = dom.createMorphAt(dom.childAt(element1, [2, 1, 0]),0,0);
+        morphs[3] = dom.createElementMorph(element3);
+        morphs[4] = dom.createMorphAt(dom.childAt(element0, [1]),0,0);
+        return morphs;
+      },
+      statements: [
+        ["attribute","src",["get","drink.image",["loc",[null,[1,618],[1,629]]]]],
+        ["content","drink.price",["loc",[null,[1,761],[1,776]]]],
+        ["content","drink.volume",["loc",[null,[1,932],[1,948]]]],
+        ["element","action",["choose",["get","drink",["loc",[null,[1,1072],[1,1077]]]]],[],["loc",[null,[1,1054],[1,1079]]]],
+        ["content","drink.name",["loc",[null,[1,1204],[1,1218]]]]
+      ],
+      locals: ["drink"],
+      templates: []
+    };
+  }());
+  return {
+    meta: {
+      "revision": "Ember@1.13.3",
+      "loc": {
+        "source": null,
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 1251
+        }
+      },
+      "moduleName": "frontend/templates/coffee.hbs"
+    },
+    arity: 0,
+    cachedFragment: null,
+    hasRendered: false,
+    buildFragment: function buildFragment(dom) {
+      var el0 = dom.createDocumentFragment();
+      var el1 = dom.createElement("div");
+      dom.setAttribute(el1,"class","title text-center");
+      var el2 = dom.createElement("h1");
+      var el3 = dom.createTextNode("Выбор кофе");
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      var el1 = dom.createElement("div");
+      dom.setAttribute(el1,"class","items");
+      var el2 = dom.createComment("");
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      return el0;
+    },
+    buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+      var morphs = new Array(1);
+      morphs[0] = dom.createMorphAt(dom.childAt(fragment, [1]),0,0);
+      return morphs;
+    },
+    statements: [
+      ["block","each",[["get","drinks",["loc",[null,[1,92],[1,98]]]]],[],0,null,["loc",[null,[1,75],[1,1245]]]]
+    ],
+    locals: [],
+    templates: [child0]
+  };
+}()));
