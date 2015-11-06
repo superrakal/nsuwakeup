@@ -10477,3 +10477,27 @@ SourcemapConcat (3)                           | 45ms (15 ms)
 Concat: Test Support JS (1)                   | 32ms                
 Funnel: App JS Files (1)                      | 29ms                
 
+file changed controllers/application.coffee
+file added components/menu-component.coffee___jb_bak___
+file deleted components/menu-component.coffee___jb_bak___
+file added components/menu-component.coffee___jb_old___
+file changed components/menu-component.coffee
+file deleted components/menu-component.coffee___jb_old___
+
+Build successful - 532ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 204ms               
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 204ms               
+SourcemapConcat (3)                           | 42ms (14 ms)        
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 29ms                
+Babel (3)                                     | 28ms (9 ms)         
+

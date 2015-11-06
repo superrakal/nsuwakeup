@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/class-tmp_cache_dir-nR3P25Kh.tmp/assets/frontend.js

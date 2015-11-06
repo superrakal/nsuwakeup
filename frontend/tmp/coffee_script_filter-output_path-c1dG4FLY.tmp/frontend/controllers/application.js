@@ -1,1 +1,6 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-pQVm64b8.tmp/frontend/controllers/application.js
+import Ember from 'ember';
+var ApplicationController;
+
+ApplicationController = Ember.Controller.extend();
+
+export default ApplicationController;

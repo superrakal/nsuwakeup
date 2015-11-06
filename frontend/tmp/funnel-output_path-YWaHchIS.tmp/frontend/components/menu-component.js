@@ -1,1 +1,1 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/tree_merger-tmp_dest_dir-q7tSfN3F.tmp/frontend/components/menu-component.js
+/home/egor/RubymineProjects/wakeup/frontend/tmp/tree_merger-tmp_dest_dir-abZGXNRz.tmp/frontend/components/menu-component.js
