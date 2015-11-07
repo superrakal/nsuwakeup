@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tests/integration/components/steps-components-test.coffee

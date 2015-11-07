@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/app/components/steps-component.coffee

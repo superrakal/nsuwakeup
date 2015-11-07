@@ -14716,3 +14716,20 @@ version: 1.13.1
 Could not find watchman, falling back to NodeWatcher for file system events.
 Visit http://www.ember-cli.com/#watchman for more info.
 BuildingBuilding.Building..Built project successfully. Stored in "/home/egor/RubymineProjects/wakeup/tmp/ember-cli-cb0441c4-4dcc-4138-a9a8-eaa703eff18b/apps/frontend".
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2608ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1823ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1823ms              
+CoffeeScriptFilter (2)                        | 145ms (72 ms)       
+

@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/reexporter-tmp_cache_dir-DQL3PNOi.tmp/reexports/active-model-adapter.js

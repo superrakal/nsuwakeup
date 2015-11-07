@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/babel-output_path-pjkfTfGi.tmp/frontend/tests/integration/components/menu-component-test.js
