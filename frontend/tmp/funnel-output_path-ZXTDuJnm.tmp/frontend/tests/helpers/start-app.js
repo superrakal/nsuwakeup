@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/babel-output_path-y0e8FDRb.tmp/frontend/tests/helpers/start-app.js

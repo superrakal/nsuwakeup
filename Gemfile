@@ -11,6 +11,8 @@ gem 'mongoid', '~>4.0.0'
 gem 'mongoid-paperclip', require: 'mongoid_paperclip'
 gem 'mongoid-autoinc'
 gem 'paperclip', '~>4.2.0'
+gem 'whenever', :require => false
+gem 'sidekiq'
 
 # View handles
 gem 'slim-rails'

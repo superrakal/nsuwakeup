@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/babel-output_path-xObIC1dr.tmp/frontend/app.js
