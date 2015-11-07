@@ -1,7 +1,11 @@
 class MailWorker
   include Sidekiq::Worker
 
-  def daily_preorders(name, count)
+  def perform
     PreorderMailer.today_preorders.deliver
+  end
+
+  def self.daily_preorders
+    self.perform_async
   end
 end

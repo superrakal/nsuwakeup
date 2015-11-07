@@ -1,14 +1,17 @@
-.admin_form.text-center
-  a href='/'
-    .logo_R
-  h1.text-uppercase
-    | Админпанель
-  = form_for(resource, as: resource_name, url: session_path(resource_name), :html => {:id => "new_user"}) do |f|
-    = devise_error_messages!
-    .form-group
-      = f.email_field :email, :placeholder => "e-mail", :class => "form-control"
-    .form-group
-      = f.password_field :password, :placeholder => "Пароль", :class => "form-control"
-    .actions
-      button.btn.btn-success.btn-lg.btn-block type='submit'
-        |Войти
+.ui.middle.aligned.center.aligned.grid
+  .column
+    h2.ui.image.header
+      =image_tag 'small_logo.jpg', class:'image'
+      br
+      | Админпанель
+    = form_for(resource, as: resource_name, url: session_path(resource_name), :html => {:id => "new_user", :class => "ui large form"}) do |f|
+      .ui.stacked.segment
+        .field
+          .ui.left.icon.input
+            i.user.icon
+            = f.email_field :email, :placeholder => "e-mail", :class => "form-control"
+        .field
+          .ui.left.icon.input
+            i.lock.icon
+            = f.password_field :password, :placeholder => "Пароль", :class => "form-control"
+        button.ui.fluid.large.mint.submit.button type='submit' Войти

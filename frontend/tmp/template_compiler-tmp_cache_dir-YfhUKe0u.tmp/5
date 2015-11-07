@@ -1,0 +1,1 @@
+{{#if syurup.is_available}}{{#if isAdded}}<button {{action 'remove'}} class="ui button red">Убрать</button>{{else}}<button {{action 'add'}} class="ui button mint">Добавить</button>{{/if}}{{else}}<button class="ui button mint disabled">Добавить</button>{{/if}}

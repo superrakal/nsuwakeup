@@ -1,5 +1,5 @@
 .ui.large.menu
-  = link-to 'root'
+  a href='/'
     .small_logo
   .right.menu
     .ui.dropdown.item
@@ -10,10 +10,10 @@
         = model.last_name
       i.dropdown.icon
       .menu
-        a.item
-          = link-to 'mypreorders'
-            |Мои заказы (
-            = model.preorders_count
-            |)
+        /a.item
+        /  = link-to 'mypreorders'
+        /    |Мои заказы (
+        /    = model.preorders_count
+        /    |)
         a.item{action 'sign_out'}
           |Выйти

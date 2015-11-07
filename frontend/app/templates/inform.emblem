@@ -34,7 +34,6 @@
   section
     = if isConfirmed
       .ui.success.message
-        i.close.icon
         .header
           | Ваш заказ принят. Заберите его у точки выдачи вовремя!
         p Хорошего дня :)

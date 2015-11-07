@@ -12346,3 +12346,95 @@ Concat: App (1)                               | 82ms
 SourcemapConcat (3)                           | 45ms (15 ms)        
 Funnel: App JS Files (1)                      | 44ms                
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2915ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1803ms              
+Babel                                         | 152ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1803ms              
+Babel (3)                                     | 424ms (141 ms)      
+CoffeeScriptFilter (2)                        | 167ms (83 ms)       
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2541ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1815ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1815ms              
+CoffeeScriptFilter (2)                        | 134ms (67 ms)       
+
+file changed templates/components/menu-component.emblem
+
+Build successful - 503ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Concat: App                                   | 76ms                
+Concat: Test Support JS                       | 43ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Concat: App (1)                               | 76ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Concat: Test Support JS (1)                   | 43ms                
+Funnel: App JS Files (1)                      | 29ms                
+
+file changed templates/components/menu-component.emblem
+
+Build successful - 567ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 157ms               
+Concat: App                                   | 76ms                
+Funnel: App JS Files                          | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 157ms               
+Concat: App (1)                               | 76ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+
+file changed templates/inform.emblem
+
+Build successful - 495ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+ES6: App Tree                                 | 79ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+ES6: App Tree (1)                             | 79ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 26ms                
+

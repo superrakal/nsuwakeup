@@ -1,1 +1,51 @@
-h1 TEST
+- if @preorders.length
+  css:
+    table {
+      width : 100%; /* Ширина таблицы */
+      border-collapse : collapse; /* Убираем двойные линии между ячейками */
+    }
+
+    td, th {
+      text-align: center;
+      padding : 3px; /* Поля вокруг содержимого таблицы */
+      border : 1px solid black; /* Параметры рамки */
+    }
+
+  h3
+    |Общее число заказов:&nbsp;
+    = @preorders.length
+  table cellspacing="10" cellpadding="10"  width="100%"
+    thead
+      tr
+        th id заказа
+        th Время заказа
+        th Заказчик
+        th Кофе
+        th Сироп(ы)
+        th Стоимость
+    tbody border="1"
+      - @preorders.each do |model|
+        tr
+          td
+            = model.number
+          td
+            = ((model.created_at)+6.hours).strftime("%H:%M")
+          td
+            a href="https://vk.com/#{model.user.vk_screen_name}"
+              = model.user.first_name
+              |&nbsp;
+              = model.user.last_name
+          td
+            = model.drink.name
+            |&nbsp;(
+            = model.drink.volume
+            |&nbsp;мл.)
+          td
+            - model.syurups.each do |syurup|
+              = syurup.name
+              |&nbsp;
+          td
+            = model.drink.price
+            |&nbsp;руб.
+- else
+  p Заказов нет :C

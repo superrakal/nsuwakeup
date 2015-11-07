@@ -1,0 +1,1 @@
+<div class="ui large menu"><a href="/"><div class="small_logo"></div></a><div class="right menu"><div class="ui dropdown item"><img src={{model.vk_photo}} class="ui avatar image"><span>{{model.first_name}}&nbsp;{{model.last_name}}</span><i class="dropdown icon"></i><div class="menu"><a {{action 'sign_out'}} class="item">Выйти</a></div></div></div></div>
