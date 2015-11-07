@@ -31,7 +31,7 @@
   p Если у Вас есть скидочная карта, то скидка предоставляется при личной демонстрации наличия карты.
   .ui.form
     .field
-      = textarea value=model.comments placeholder='Оставьте Ваши пожелания и мы постараемся их воплотить в жизнь'
+      = textarea value=model.comments placeholder='Оставьте Ваши пожелания и мы постараемся их воплотить в жизнь' disabled=isConfirmed
   section
     = if isConfirmed
       .ui.success.message

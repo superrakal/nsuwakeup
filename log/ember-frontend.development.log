@@ -14537,3 +14537,60 @@ SourcemapConcat (3)                           | 50ms (16 ms)
 Concat: Test Support JS (1)                   | 28ms                
 TreeMerger (appAndDependencies) (1)           | 24ms                
 
+file changed templates/components/steps-component.emblem
+
+Build successful - 488ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+ES6: App Tree                                 | 67ms                
+Funnel: App JS Files                          | 31ms                
+SourcemapConcat                               | 25ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+ES6: App Tree (1)                             | 67ms                
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed templates/inform.emblem
+
+Build successful - 511ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 143ms               
+Concat: App                                   | 65ms                
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 143ms               
+Concat: App (1)                               | 65ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed templates/inform.emblem
+
+Build successful - 551ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 190ms               
+Funnel: App JS Files                          | 45ms                
+SourcemapConcat                               | 30ms                
+ES6: App Tree                                 | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 190ms               
+SourcemapConcat (3)                           | 58ms (19 ms)        
+Funnel: App JS Files (1)                      | 45ms                
+ES6: App Tree (1)                             | 28ms                
+
