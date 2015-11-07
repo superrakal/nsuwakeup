@@ -14516,3 +14516,24 @@ Funnel: App JS Files (1)                      | 84ms
 SourcemapConcat (3)                           | 66ms (22 ms)        
 Concat: Test Support JS (1)                   | 43ms                
 
+file changed templates/components/menu-component.emblem
+
+Build successful - 488ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 125ms               
+Funnel: App JS Files                          | 79ms                
+Concat: Test Support JS                       | 28ms                
+TreeMerger (appAndDependencies)               | 24ms                
+SourcemapConcat                               | 24ms                
+SourcemapConcat                               | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 125ms               
+Funnel: App JS Files (1)                      | 79ms                
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+TreeMerger (appAndDependencies) (1)           | 24ms                
+

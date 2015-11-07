@@ -10,7 +10,7 @@
         = model.last_name
       i.dropdown.icon
       .menu
-        = link-to 'queue'  class='item'
+        a.item href='/queue'
           |Очередь предзаказов
         a.item{action 'sign_out'}
           |Выйти
