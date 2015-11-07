@@ -18,6 +18,7 @@ gem 'html2slim'
 gem 'compass-rails', github: 'Compass/compass-rails', branch: 'master'
 gem 'font-awesome-rails'
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
+gem 'prerender_rails'
 
 #Adminpanel
 gem 'rails_admin', '~> 0.6.8'
