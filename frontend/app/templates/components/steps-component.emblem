@@ -1,6 +1,6 @@
 .ui.last.container
   .ui.three.steps
-    = link-to 'coffee' tagName='div' class='step'
+    .step
       i.fa.fa-coffee.icon
       .content
         .title Выберите кофе

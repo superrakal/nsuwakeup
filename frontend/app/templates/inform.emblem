@@ -22,6 +22,7 @@
           = each syurup in model.syurups
             span.label.label-success
               = syurup.name
+              |;&nbsp;
         td
           = model.drink.price
           |&nbsp;руб.
