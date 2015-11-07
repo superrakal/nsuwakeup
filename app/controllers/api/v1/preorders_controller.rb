@@ -6,7 +6,7 @@ module Api
       respond_to :json
 
       def index
-        @preorders = Preorder.all.order_by(created_at: 'desc').where(:status.ne => 'Создан')
+        @preorders = Preorder.where(:status => 'Изготовляется').desc(:created_at)
         respond_with @preorders
       end
 
@@ -53,7 +53,7 @@ module Api
 
       private
         def preorder_params
-          params.require(:preorder).permit :drink_id, :comments, {syurup_ids: []}
+          params.require(:preorder).permit :drink_id, :comments, :status, {syurup_ids: []}
         end
     end
   end

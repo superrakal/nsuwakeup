@@ -10,10 +10,7 @@
         = model.last_name
       i.dropdown.icon
       .menu
-        /a.item
-        /  = link-to 'mypreorders'
-        /    |Мои заказы (
-        /    = model.preorders_count
-        /    |)
+        = link-to 'queue'  class='item'
+          |Очередь предзаказов
         a.item{action 'sign_out'}
           |Выйти

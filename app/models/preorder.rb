@@ -4,6 +4,7 @@ class Preorder
   include Mongoid::Document
   include Mongoid::Timestamps
   include Mongoid::Autoinc
+
   field                     :user_vk_id
   field                     :comments
   field                     :status, default: 'Создан'

@@ -3,6 +3,11 @@
 InformController = Ember.Controller.extend
   isConfirmed: false
   isConfirming: false
+  socketIOService: Ember.inject.service('socket-io')
+
+  init: ->
+    @_super.apply(this, arguments)
+    @socket = this.get('socketIOService').socketFor('http://nsuwakeup.ru:1488/')
 
   actions:
     confirm: ->
@@ -15,6 +20,7 @@ InformController = Ember.Controller.extend
           success: =>
             @set 'isConfirmed', true
             @set 'isConfirming', false
+            @socket.emit('preorder added')
 
 
 `export default InformController`

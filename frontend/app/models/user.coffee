@@ -5,6 +5,7 @@ User = DS.Model.extend
   last_name:      DS.attr 'string'
   vk_photo:       DS.attr 'string'
   vk_screen_name: DS.attr 'string'
+  is_admin:       DS.attr 'boolean'
 
   preorders: DS.hasMany 'preorder', async: true
 

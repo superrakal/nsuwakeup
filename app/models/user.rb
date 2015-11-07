@@ -11,7 +11,8 @@ class User
   field :last_name,      type: String, default: ""
   field :vk_photo,       type: String, default: ""
   field :token,          type: String, default: ""
-  field :isBanned,       type: Boolean, default: false
+  field :is_banned,      type: Boolean, default: false
+  field :is_admin,       type: Boolean, default: false
 
   has_many :preorders
 
