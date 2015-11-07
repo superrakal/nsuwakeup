@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-input_base_path-6XmOk896.tmp/0/frontend/instance-initializers/app-version.js

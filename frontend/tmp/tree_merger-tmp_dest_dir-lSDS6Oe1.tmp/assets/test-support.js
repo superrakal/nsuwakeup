@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/caching-writer-dest-dir_0ZMk4J.tmp/assets/test-support.js

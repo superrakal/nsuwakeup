@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/funnel-output_path-8lP9RMkQ.tmp/ember-data/Makefile
