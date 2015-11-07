@@ -4,7 +4,7 @@ class WelcomeController < ApplicationController
 
   def auth_by_vk
     session[:state] = Digest::MD5.hexdigest(rand.to_s)
-    redirect_to VkontakteApi.authorization_url(scope: [:notify, :friends, :photos, :email, :first_name, :last_name], state: session[:state])
+    redirect_to VkontakteApi.authorization_url(scope: [:first_name, :last_name], state: session[:state])
   end
 
   def vk_auth_callback

@@ -14,8 +14,6 @@ class User
   field :is_banned,      type: Boolean, default: false
   field :is_admin,       type: Boolean, default: false
 
-  has_many :preorders
-
   ## Database authenticatable
   field :email,              type: String, default: ""
   field :encrypted_password, type: String, default: ""

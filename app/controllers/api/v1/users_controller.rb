@@ -8,7 +8,6 @@ module Api
         @user = User.find params[:id]
         respond_with @user
       end
-
     end
   end
 end

@@ -15,7 +15,7 @@
                     i.fa.fa-check.icon
               .summary
                 a href="https://vk.com/#{preorder.user.vk_screen_name}"
-                  = preorder.user.first_name
+                  = preorder.user.content.first_name
                   |&nbsp;
                   = preorder.user.last_name
                 span &nbsp;заказал:

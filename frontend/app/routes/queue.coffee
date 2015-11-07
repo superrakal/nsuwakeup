@@ -3,7 +3,7 @@
 QueueRoute = Ember.Route.extend
 
   model: ->
-    @store.find('preorder', {status: 'Изготовляется'})
+    @store.find('preorder')
 
   setupController: (controller, model) ->
     controller.set 'preorders', model

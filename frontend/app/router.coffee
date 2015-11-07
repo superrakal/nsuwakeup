@@ -9,7 +9,6 @@ Router.map ()->
   @route 'coffee'
   @route 'syurup'
   @route 'inform'
-  @route 'mypreorders'
   @route 'queue'
 
 `export default Router`
