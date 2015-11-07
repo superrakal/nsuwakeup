@@ -10501,3 +10501,1848 @@ Funnel: App JS Files (1)                      | 29ms
 Concat: Test Support JS (1)                   | 29ms                
 Babel (3)                                     | 28ms (9 ms)         
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 3227ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 2050ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 2050ms              
+Babel (3)                                     | 441ms (147 ms)      
+CoffeeScriptFilter (2)                        | 185ms (92 ms)       
+
+file changed templates/syurup.emblem
+
+Build successful - 482ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+Concat: App                                   | 77ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+Concat: App (1)                               | 77ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 28ms                
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+
+file changed templates/components/syurup-component.emblem
+
+Build successful - 595ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 146ms               
+Concat: App                                   | 82ms                
+Concat: Test Support JS                       | 32ms                
+TreeMerger (appAndDependencies)               | 30ms                
+Funnel: App JS Files                          | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 146ms               
+Concat: App (1)                               | 82ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+CoffeeScriptFilter (2)                        | 34ms (17 ms)        
+Concat: Test Support JS (1)                   | 32ms                
+TreeMerger (146)                              | 30ms (0 ms)         
+TreeMerger (appAndDependencies) (1)           | 30ms                
+Funnel: App JS Files (1)                      | 30ms                
+
+file changed templates/syurup.emblem
+
+Build successful - 485ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 170ms               
+Funnel: App JS Files                          | 41ms                
+Concat: Test Support JS                       | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 170ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 41ms                
+Concat: Test Support JS (1)                   | 30ms                
+
+file changed templates/syurup.emblem
+
+Build successful - 531ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 92ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Funnel: App JS Files (1)                      | 92ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+CoffeeScriptFilter (2)                        | 35ms (17 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/syurup.emblem
+
+Build successful - 458ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+Funnel: App JS Files                          | 78ms                
+Concat: Test Support JS                       | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+Funnel: App JS Files (1)                      | 78ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 23ms                
+
+file changed templates/syurup.emblem
+
+Build successful - 470ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+Funnel: App JS Files                          | 68ms                
+Concat: Test Support JS                       | 26ms                
+SourcemapConcat                               | 24ms                
+SourcemapConcat                               | 24ms                
+ES6: App Tree                                 | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+Funnel: App JS Files (1)                      | 68ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+ES6: App Tree (1)                             | 23ms                
+
+file changed templates/syurup.emblem
+
+Build successful - 510ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 82ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Funnel: App JS Files (1)                      | 82ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+TemplateCompiler (2)                          | 27ms (13 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/syurup.emblem
+
+Build successful - 452ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 122ms               
+ES6: App Tree                                 | 60ms                
+Funnel: App JS Files                          | 28ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 122ms               
+ES6: App Tree (1)                             | 60ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 28ms                
+Concat: Test Support JS (1)                   | 22ms                
+
+file added templates/syurup.emblem___jb_old___
+file changed templates/syurup.emblem
+file deleted templates/syurup.emblem___jb_old___
+
+Build successful - 480ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 136ms               
+ES6: App Tree                                 | 62ms                
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 24ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 136ms               
+ES6: App Tree (1)                             | 62ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 24ms                
+
+file changed templates/components/syurup-component.emblem
+file added templates/syurup.emblem___jb_bak___
+file deleted templates/syurup.emblem___jb_bak___
+file added templates/syurup.emblem___jb_old___
+file changed templates/syurup.emblem
+file deleted templates/syurup.emblem___jb_old___
+
+Build successful - 470ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 124ms               
+ES6: App Tree                                 | 70ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 124ms               
+ES6: App Tree (1)                             | 70ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 23ms                
+
+file changed templates/components/syurup-component.emblem
+file added templates/syurup.emblem___jb_bak___
+file deleted templates/syurup.emblem___jb_bak___
+file changed templates/syurup.emblem
+File: frontend/templates/syurup.hbs
+Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+Error: Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+  at Object.parseError (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16418:23)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16487:34)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16076:44)
+  at Object.preprocess (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:17365:73)
+  at compileSpec (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12529:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12447:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file changed templates/components/syurup-component.emblem
+file changed templates/syurup.emblem
+File: frontend/templates/components/syurup-component.hbs
+Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+Error: Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+  at Object.parseError (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16418:23)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16487:34)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16076:44)
+  at Object.preprocess (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:17365:73)
+  at compileSpec (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12529:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12447:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file changed templates/syurup.emblem
+File: frontend/templates/components/syurup-component.hbs
+Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+Error: Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+  at Object.parseError (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16418:23)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16487:34)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16076:44)
+  at Object.preprocess (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:17365:73)
+  at compileSpec (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12529:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12447:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file changed templates/syurup.emblem
+File: frontend/templates/components/syurup-component.hbs
+Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+Error: Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+  at Object.parseError (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16418:23)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16487:34)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16076:44)
+  at Object.preprocess (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:17365:73)
+  at compileSpec (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12529:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12447:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file changed templates/components/syurup-component.emblem
+
+Build successful - 441ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+Funnel: App JS Files                          | 78ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+Funnel: App JS Files (1)                      | 78ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+
+file added controllers/syurup-item.coffee
+file changed controllers/syurup-item.coffee
+file added unit/controllers/syurup-item-test.coffee
+file changed unit/controllers/syurup-item-test.coffee
+
+Build successful - 474ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 110ms               
+Funnel: App JS Files                          | 73ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 110ms               
+Funnel: App JS Files (1)                      | 73ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed controllers/syurup-item.coffee
+file added templates/components/syurup-component.emblem___jb_bak___
+file deleted templates/components/syurup-component.emblem___jb_bak___
+file added templates/components/syurup-component.emblem___jb_old___
+file changed templates/components/syurup-component.emblem
+file deleted templates/components/syurup-component.emblem___jb_old___
+file added templates/syurup.emblem___jb_bak___
+file deleted templates/syurup.emblem___jb_bak___
+file added templates/syurup.emblem___jb_old___
+file changed templates/syurup.emblem
+file deleted templates/syurup.emblem___jb_old___
+file added components/syurup-component.coffee___jb_bak___
+file deleted components/syurup-component.coffee___jb_bak___
+file added components/syurup-component.coffee___jb_old___
+file changed components/syurup-component.coffee
+file deleted components/syurup-component.coffee___jb_old___
+
+Build successful - 530ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Concat: App                                   | 76ms                
+Funnel: App JS Files                          | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+Concat: App (1)                               | 76ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+TemplateCompiler (2)                          | 34ms (17 ms)        
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+
+file deleted components/syurup-component.coffee
+ENOENT, no such file or directory '/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-qIag3UDw.tmp/frontend/components/syurup-component.coffee'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-qIag3UDw.tmp/frontend/components/syurup-component.coffee'
+  at Object.fs.unlinkSync (fs.js:765:18)
+  at CoffeeScriptFilter.<anonymous> (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:60:8)
+  at Array.forEach (native)
+  at CoffeeScriptFilter.build (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:59:35)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/read_compat.js:61:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file deleted templates/components/syurup-component.emblem
+
+Build successful - 451ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+Funnel: App JS Files                          | 84ms                
+Concat: Test Support JS                       | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+Funnel: App JS Files (1)                      | 84ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 23ms                
+
+file added templates/syurup.emblem___jb_old___
+file changed templates/syurup.emblem
+file deleted templates/syurup.emblem___jb_old___
+
+Build successful - 453ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+ES6: App Tree                                 | 66ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+ES6: App Tree (1)                             | 66ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 22ms                
+
+file added templates/syurup.emblem___jb_bak___
+file deleted templates/syurup.emblem___jb_bak___
+file added templates/syurup.emblem___jb_old___
+file changed templates/syurup.emblem
+file deleted templates/syurup.emblem___jb_old___
+
+Build successful - 469ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 135ms               
+Funnel: App JS Files                          | 74ms                
+SourcemapConcat                               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 135ms               
+Funnel: App JS Files (1)                      | 74ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+
+file changed templates/syurup.emblem
+
+Build successful - 485ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 130ms               
+Funnel: App JS Files                          | 75ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 130ms               
+Funnel: App JS Files (1)                      | 75ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed templates/syurup.emblem
+
+Build successful - 449ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+Funnel: App JS Files                          | 73ms                
+SourcemapConcat                               | 26ms                
+Concat: Test Support JS                       | 22ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+Funnel: App JS Files (1)                      | 73ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Concat: Test Support JS (1)                   | 22ms                
+
+file added controllers/item.coffee
+file changed controllers/item.coffee
+file added unit/controllers/item-test.coffee
+file changed unit/controllers/item-test.coffee
+
+Build successful - 494ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+Funnel: App JS Files                          | 76ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+Funnel: App JS Files (1)                      | 76ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+Babel (3)                                     | 25ms (8 ms)         
+
+file changed templates/syurup.emblem
+
+Build successful - 497ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 82ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Funnel: App JS Files (1)                      | 82ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+TemplateCompiler (2)                          | 28ms (14 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+
+file deleted controllers/syurup-item.coffee
+file added controllers/item.coffee___jb_old___
+file changed controllers/item.coffee
+file deleted controllers/item.coffee___jb_old___
+ENOENT, no such file or directory '/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-qIag3UDw.tmp/frontend/controllers/syurup-item.coffee'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-qIag3UDw.tmp/frontend/controllers/syurup-item.coffee'
+  at Object.fs.unlinkSync (fs.js:765:18)
+  at CoffeeScriptFilter.<anonymous> (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:60:8)
+  at Array.forEach (native)
+  at CoffeeScriptFilter.build (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:59:35)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/read_compat.js:61:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added controllers/item.coffee___jb_bak___
+file deleted controllers/item.coffee___jb_bak___
+file added controllers/item.coffee___jb_old___
+file changed controllers/item.coffee
+file deleted controllers/item.coffee___jb_old___
+
+Build successful - 481ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 122ms               
+ES6: App Tree                                 | 71ms                
+Funnel: App JS Files                          | 30ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 122ms               
+ES6: App Tree (1)                             | 71ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+Concat: Test Support JS (1)                   | 29ms                
+
+file changed controllers/item.coffee
+
+Build successful - 563ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 129ms               
+ES6: App Tree                                 | 95ms                
+SourcemapConcat                               | 44ms                
+Funnel: App JS Files                          | 40ms                
+TreeMerger (appAndDependencies)               | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 129ms               
+ES6: App Tree (1)                             | 95ms                
+SourcemapConcat (3)                           | 68ms (22 ms)        
+Funnel: App JS Files (1)                      | 40ms                
+TreeMerger (appAndDependencies) (1)           | 31ms                
+
+file changed controllers/item.coffee
+
+Build successful - 441ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+ES6: App Tree                                 | 54ms                
+Funnel: App JS Files                          | 34ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+ES6: App Tree (1)                             | 54ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 34ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed controllers/item.coffee
+
+Build successful - 476ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 112ms               
+Concat: App                                   | 74ms                
+Concat: Test Support JS                       | 34ms                
+Funnel: App JS Files                          | 29ms                
+SourcemapConcat                               | 28ms                
+SourcemapConcat                               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 112ms               
+Concat: App (1)                               | 74ms                
+SourcemapConcat (3)                           | 56ms (18 ms)        
+Concat: Test Support JS (1)                   | 34ms                
+Funnel: App JS Files (1)                      | 29ms                
+
+file changed controllers/item.coffee
+
+Build successful - 481ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Concat: App                                   | 75ms                
+Funnel: App JS Files                          | 30ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+Concat: App (1)                               | 75ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/coffee.emblem
+
+Build successful - 524ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Concat: App                                   | 74ms                
+SourcemapConcat                               | 35ms                
+Concat: Test Support JS                       | 33ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Concat: App (1)                               | 74ms                
+SourcemapConcat (3)                           | 59ms (19 ms)        
+Concat: Test Support JS (1)                   | 33ms                
+Funnel: App JS Files (1)                      | 29ms                
+TemplateCompiler (2)                          | 29ms (14 ms)        
+
+file added controllers/item.coffee___jb_old___
+file changed controllers/item.coffee
+file deleted controllers/item.coffee___jb_old___
+
+Build successful - 565ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Concat: App                                   | 84ms                
+Concat: Test Support JS                       | 43ms                
+SourcemapConcat                               | 37ms                
+SourcemapConcat                               | 34ms                
+Funnel: App JS Files                          | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+Concat: App (1)                               | 84ms                
+SourcemapConcat (3)                           | 73ms (24 ms)        
+Concat: Test Support JS (1)                   | 43ms                
+Funnel: App JS Files (1)                      | 28ms                
+Babel (3)                                     | 28ms (9 ms)         
+
+file changed templates/syurup.emblem
+
+Build successful - 537ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 147ms               
+Concat: App                                   | 95ms                
+Funnel: App JS Files                          | 30ms                
+SourcemapConcat                               | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 147ms               
+Concat: App (1)                               | 95ms                
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+
+file added components/syurup-component.coffee
+file changed components/syurup-component.coffee
+file added templates/components/syurup-component.hbs
+file changed templates/components/syurup-component.hbs
+
+Build successful - 454ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 113ms               
+Concat: App                                   | 76ms                
+Funnel: App JS Files                          | 30ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 113ms               
+Concat: App (1)                               | 76ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file deleted templates/components/syurup-component.hbs
+file added templates/components/syurup-component.emblem
+File: frontend/templates/components/syurup-component.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file changed templates/syurup.emblem
+File: frontend/templates/components/syurup-component.emblem (1)
+Expected _4BeginStatement or end of input but "{" found.
+file changed templates/syurup.emblem
+file added templates/components/syurup-component.emblem___jb_bak___
+file deleted templates/components/syurup-component.emblem___jb_bak___
+file added templates/components/syurup-component.emblem___jb_old___
+file changed templates/components/syurup-component.emblem
+file deleted templates/components/syurup-component.emblem___jb_old___
+File: frontend/templates/components/syurup-component.hbs
+Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+Error: Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+  at Object.parseError (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16418:23)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16487:34)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16076:44)
+  at Object.preprocess (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:17365:73)
+  at compileSpec (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12529:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12447:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added templates/syurup.emblem___jb_bak___
+file deleted templates/syurup.emblem___jb_bak___
+file added templates/syurup.emblem___jb_old___
+file changed templates/syurup.emblem
+file deleted templates/syurup.emblem___jb_old___
+File: frontend/templates/components/syurup-component.hbs
+Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+Error: Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+  at Object.parseError (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16418:23)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16487:34)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16076:44)
+  at Object.preprocess (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:17365:73)
+  at compileSpec (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12529:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12447:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file changed controllers/item.coffee
+file added components/syurup-component.coffee___jb_bak___
+file deleted components/syurup-component.coffee___jb_bak___
+file changed components/syurup-component.coffee
+File: frontend/templates/components/syurup-component.hbs
+Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+Error: Parse error on line 1:
+...t">Добавить</button>{{else}}<button clas
+-----------------------^
+Expecting 'OPEN_ENDBLOCK', got 'INVERSE'
+  at Object.parseError (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16418:23)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16487:34)
+  at Object.parse (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:16076:44)
+  at Object.preprocess (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:17365:73)
+  at compileSpec (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12529:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/wakeup/frontend/bower_components/ember/ember-template-compiler.js:12447:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file deleted controllers/item.coffee
+ENOENT, no such file or directory '/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-qIag3UDw.tmp/frontend/controllers/item.coffee'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-qIag3UDw.tmp/frontend/controllers/item.coffee'
+  at Object.fs.unlinkSync (fs.js:765:18)
+  at CoffeeScriptFilter.<anonymous> (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:60:8)
+  at Array.forEach (native)
+  at CoffeeScriptFilter.build (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:59:35)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/read_compat.js:61:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file changed components/syurup-component.coffee
+file added templates/components/syurup-component.emblem___jb_bak___
+file deleted templates/components/syurup-component.emblem___jb_bak___
+file added templates/components/syurup-component.emblem___jb_old___
+file changed templates/components/syurup-component.emblem
+file deleted templates/components/syurup-component.emblem___jb_old___
+
+Build successful - 690ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 184ms               
+Funnel: App JS Files                          | 138ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 184ms               
+Funnel: App JS Files (1)                      | 138ms               
+SourcemapConcat (3)                           | 55ms (18 ms)        
+
+file changed templates/components/syurup-component.emblem
+
+Build successful - 480ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+TreeMerger (appJS  & processedEmberCLITree)   | 60ms                
+Concat: Test Support JS                       | 33ms                
+Funnel: App JS Files                          | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+TreeMerger (appJS  & processedEmberCLI... (1) | 60ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Concat: Test Support JS (1)                   | 33ms                
+Funnel: App JS Files (1)                      | 30ms                
+
+file changed templates/components/syurup-component.emblem
+
+Build successful - 487ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+TreeMerger (appJS  & processedEmberCLITree)   | 60ms                
+Funnel: App JS Files                          | 30ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+TreeMerger (appJS  & processedEmberCLI... (1) | 60ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed components/syurup-component.coffee
+
+Build successful - 537ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 128ms               
+Concat: App                                   | 85ms                
+Funnel: App JS Files                          | 32ms                
+TreeMerger (appAndDependencies)               | 28ms                
+Concat: Test Support JS                       | 27ms                
+Babel                                         | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 128ms               
+Concat: App (1)                               | 85ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+Babel (3)                                     | 29ms (9 ms)         
+TreeMerger (appAndDependencies) (1)           | 28ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed components/syurup-component.coffee
+
+Build successful - 486ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+Concat: App                                   | 81ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+Concat: App (1)                               | 81ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+
+file added components/syurup-component.coffee___jb_bak___
+file deleted components/syurup-component.coffee___jb_bak___
+file added components/syurup-component.coffee___jb_old___
+file changed components/syurup-component.coffee
+file deleted components/syurup-component.coffee___jb_old___
+
+Build successful - 483ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 124ms               
+Concat: App                                   | 77ms                
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 124ms               
+Concat: App (1)                               | 77ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+
+file changed components/syurup-component.coffee
+
+Build successful - 469ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+ES6: App Tree                                 | 73ms                
+Funnel: App JS Files                          | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+ES6: App Tree (1)                             | 73ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+
+file changed components/syurup-component.coffee
+
+Build successful - 518ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 138ms               
+Funnel: App JS Files                          | 88ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 138ms               
+Funnel: App JS Files (1)                      | 88ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+
+file changed templates/syurup.emblem
+file added components/syurup-component.coffee___jb_old___
+file changed components/syurup-component.coffee
+file deleted components/syurup-component.coffee___jb_old___
+
+Build successful - 545ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+Funnel: App JS Files                          | 104ms               
+SourcemapConcat                               | 36ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+Funnel: App JS Files (1)                      | 104ms               
+SourcemapConcat (3)                           | 59ms (19 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+TemplateCompiler (2)                          | 28ms (14 ms)        
+
+file added templates/components/syurup-component.emblem___jb_bak___
+file deleted templates/components/syurup-component.emblem___jb_bak___
+file added templates/components/syurup-component.emblem___jb_old___
+file changed templates/components/syurup-component.emblem
+file deleted templates/components/syurup-component.emblem___jb_old___
+
+Build successful - 666ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 175ms               
+Funnel: App JS Files                          | 145ms               
+Concat: Test Support JS                       | 45ms                
+SourcemapConcat                               | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 175ms               
+Funnel: App JS Files (1)                      | 145ms               
+SourcemapConcat (3)                           | 68ms (22 ms)        
+Concat: Test Support JS (1)                   | 45ms                
+
+file changed templates/syurup.emblem
+
+Build successful - 502ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 132ms               
+Funnel: App JS Files                          | 94ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 132ms               
+Funnel: App JS Files (1)                      | 94ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/syurup.emblem
+
+Build successful - 501ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 125ms               
+Funnel: App JS Files                          | 96ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 125ms               
+Funnel: App JS Files (1)                      | 96ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file added templates/syurup.emblem___jb_bak___
+file deleted templates/syurup.emblem___jb_bak___
+file changed templates/syurup.emblem
+
+Build successful - 625ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 154ms               
+Funnel: App JS Files                          | 150ms               
+SourcemapConcat                               | 37ms                
+ES6: App Tree                                 | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 154ms               
+Funnel: App JS Files (1)                      | 150ms               
+SourcemapConcat (3)                           | 59ms (19 ms)        
+ES6: App Tree (1)                             | 32ms                
+
+file changed templates/syurup.emblem
+
+Build successful - 516ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 148ms               
+Funnel: App JS Files                          | 87ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 148ms               
+Funnel: App JS Files (1)                      | 87ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/syurup.emblem
+
+Build successful - 509ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Funnel: App JS Files                          | 98ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+Funnel: App JS Files (1)                      | 98ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+TemplateCompiler (2)                          | 27ms (13 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file added templates/syurup.emblem___jb_bak___
+file deleted templates/syurup.emblem___jb_bak___
+file added templates/syurup.emblem___jb_old___
+file changed templates/syurup.emblem
+file deleted templates/syurup.emblem___jb_old___
+
+Build successful - 538ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 134ms               
+Concat: Test Support JS                       | 97ms                
+Funnel: App JS Files                          | 37ms                
+SourcemapConcat                               | 32ms                
+ES6: App Tree                                 | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 134ms               
+Concat: Test Support JS (1)                   | 97ms                
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Funnel: App JS Files (1)                      | 37ms                
+ES6: App Tree (1)                             | 30ms                
+
+file added templates/syurup.emblem___jb_old___
+file changed templates/syurup.emblem
+file deleted templates/syurup.emblem___jb_old___
+
+Build successful - 619ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 164ms               
+Concat: Test Support JS                       | 92ms                
+SourcemapConcat                               | 55ms                
+Funnel: App JS Files                          | 42ms                
+Concat: App                                   | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 164ms               
+Concat: Test Support JS (1)                   | 92ms                
+SourcemapConcat (3)                           | 87ms (29 ms)        
+Funnel: App JS Files (1)                      | 42ms                
+Concat: App (1)                               | 32ms                
+
+file changed templates/inform.emblem
+
+Build successful - 605ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 153ms               
+Concat: Test Support JS                       | 83ms                
+SourcemapConcat                               | 54ms                
+Funnel: App JS Files                          | 42ms                
+ES6: App Tree                                 | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 153ms               
+Concat: Test Support JS (1)                   | 83ms                
+SourcemapConcat (3)                           | 77ms (25 ms)        
+Funnel: App JS Files (1)                      | 42ms                
+ES6: App Tree (1)                             | 33ms                
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file changed templates/inform.emblem
+
+Build successful - 508ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+Concat: Test Support JS                       | 53ms                
+Concat: Test Support Suffix                   | 35ms                
+SourcemapConcat                               | 30ms                
+Funnel: App JS Files                          | 29ms                
+Concat: App                                   | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+Concat: Test Support JS (1)                   | 53ms                
+SourcemapConcat (3)                           | 52ms (17 ms)        
+Concat: Test Support Suffix (1)               | 35ms                
+Funnel: App JS Files (1)                      | 29ms                
+Concat: App (1)                               | 26ms                
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file changed templates/inform.emblem
+
+Build successful - 545ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 127ms               
+Concat: Test Support JS                       | 80ms                
+SourcemapConcat                               | 36ms                
+ES6: App Tree                                 | 33ms                
+Funnel: App JS Files                          | 33ms                
+SourcemapConcat                               | 30ms                
+Concat: App                                   | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 127ms               
+Concat: Test Support JS (1)                   | 80ms                
+SourcemapConcat (3)                           | 69ms (23 ms)        
+ES6: App Tree (1)                             | 33ms                
+Funnel: App JS Files (1)                      | 33ms                
+Concat: App (1)                               | 28ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2611ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1871ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1871ms              
+CoffeeScriptFilter (2)                        | 132ms (66 ms)       
+
+file changed models/preorder.coffee
+
+Build successful - 530ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 123ms               
+ES6: App Tree                                 | 79ms                
+Babel                                         | 38ms                
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 123ms               
+ES6: App Tree (1)                             | 79ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Babel (3)                                     | 40ms (13 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/inform.emblem
+
+Build successful - 595ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 135ms               
+ES6: App Tree                                 | 85ms                
+Concat: Test Support JS                       | 41ms                
+SourcemapConcat                               | 40ms                
+SourcemapConcat                               | 39ms                
+Concat: App                                   | 31ms                
+Funnel: App JS Files                          | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 135ms               
+ES6: App Tree (1)                             | 85ms                
+SourcemapConcat (3)                           | 82ms (27 ms)        
+Concat: Test Support JS (1)                   | 41ms                
+Concat: App (1)                               | 31ms                
+Funnel: App JS Files (1)                      | 30ms                
+
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 524ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 125ms               
+ES6: App Tree                                 | 90ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 125ms               
+ES6: App Tree (1)                             | 90ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/inform.emblem
+
+Build successful - 491ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+Funnel: App JS Files                          | 81ms                
+Concat: Test Support JS                       | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+Funnel: App JS Files (1)                      | 81ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Concat: Test Support JS (1)                   | 30ms                
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 528ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 136ms               
+ES6: App Tree                                 | 80ms                
+Funnel: App JS Files                          | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 136ms               
+ES6: App Tree (1)                             | 80ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+TemplateCompiler (2)                          | 27ms (13 ms)        
+
+file changed templates/inform.emblem
+
+Build successful - 595ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 137ms               
+ES6: App Tree                                 | 71ms                
+Concat: Test Support JS                       | 47ms                
+SourcemapConcat                               | 42ms                
+SourcemapConcat                               | 32ms                
+Funnel: App JS Files                          | 31ms                
+Concat: App                                   | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 137ms               
+SourcemapConcat (3)                           | 77ms (25 ms)        
+ES6: App Tree (1)                             | 71ms                
+Concat: Test Support JS (1)                   | 47ms                
+Funnel: App JS Files (1)                      | 31ms                
+Concat: App (1)                               | 30ms                
+
+file changed templates/inform.emblem
+
+Build successful - 518ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 123ms               
+Funnel: App JS Files                          | 75ms                
+SourcemapConcat                               | 31ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 123ms               
+Funnel: App JS Files (1)                      | 75ms                
+SourcemapConcat (3)                           | 54ms (18 ms)        
+TemplateCompiler (2)                          | 36ms (18 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 481ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+Funnel: App JS Files                          | 76ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+Funnel: App JS Files (1)                      | 76ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 483ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 171ms               
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 171ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 475ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 116ms               
+Concat: App                                   | 69ms                
+Concat: Test Support JS                       | 41ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 116ms               
+Concat: App (1)                               | 69ms                
+SourcemapConcat (3)                           | 41ms (13 ms)        
+Concat: Test Support JS (1)                   | 41ms                
+Funnel: App JS Files (1)                      | 29ms                
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file changed templates/inform.emblem
+File: frontend/templates/inform.emblem
+Cannot nest under void element br
+Error: Cannot nest under void element br
+  at Object.visitor.element (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/emblem/dist/cjs/emblem/template-visitor.js:74:15)
+  at visit (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/emblem/dist/cjs/emblem/template-visitor.js:11:21)
+  at visitArray (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/emblem/dist/cjs/emblem/template-visitor.js:23:71)
+  at Object.visitor.element (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/emblem/dist/cjs/emblem/template-visitor.js:77:7)
+  at visit (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/emblem/dist/cjs/emblem/template-visitor.js:11:21)
+  at visitArray (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/emblem/dist/cjs/emblem/template-visitor.js:23:71)
+  at Object.visitor.program (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/emblem/dist/cjs/emblem/template-visitor.js:46:5)
+  at Object.visit (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/emblem/dist/cjs/emblem/template-visitor.js:11:21)
+  at Object.compile (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/emblem/dist/cjs/emblem/template-compiler.js:13:20)
+  at TemplateCompiler.compile (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/emblem/dist/cjs/emblem/compiler.js:18:34)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/index.js:28:15)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/wakeup/frontend/node_modules/ember-cli-emblem/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file changed templates/inform.emblem
+
+Build successful - 477ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 181ms               
+Funnel: App JS Files                          | 40ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 181ms               
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 40ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 466ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+Concat: App                                   | 65ms                
+Concat: Test Support JS                       | 33ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+Concat: App (1)                               | 65ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Concat: Test Support JS (1)                   | 33ms                
+Funnel: App JS Files (1)                      | 29ms                
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 520ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+ES6: App Tree                                 | 91ms                
+Funnel: App JS Files                          | 34ms                
+SourcemapConcat                               | 32ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+ES6: App Tree (1)                             | 91ms                
+SourcemapConcat (3)                           | 56ms (18 ms)        
+Funnel: App JS Files (1)                      | 34ms                
+Concat: Test Support JS (1)                   | 28ms                
+
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 472ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+ES6: App Tree                                 | 69ms                
+Funnel: App JS Files                          | 30ms                
+SourcemapConcat                               | 23ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+ES6: App Tree (1)                             | 69ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 30ms                
+
+file changed templates/inform.emblem
+
+Build successful - 504ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+ES6: App Tree                                 | 70ms                
+Concat: Test Support JS                       | 35ms                
+Funnel: App JS Files                          | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+ES6: App Tree (1)                             | 70ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Concat: Test Support JS (1)                   | 35ms                
+TemplateCompiler (2)                          | 33ms (16 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file changed templates/inform.emblem
+
+Build successful - 476ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 127ms               
+Funnel: App JS Files                          | 80ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 127ms               
+Funnel: App JS Files (1)                      | 80ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+
+file changed templates/inform.emblem
+
+Build successful - 484ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Funnel: App JS Files                          | 82ms                
+Concat: Test Support JS                       | 27ms                
+SourcemapConcat                               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+Funnel: App JS Files (1)                      | 82ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/inform.emblem
+
+Build successful - 461ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+Funnel: App JS Files                          | 77ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+Funnel: App JS Files (1)                      | 77ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Concat: Test Support JS (1)                   | 25ms                
+
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 454ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 160ms               
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 160ms               
+SourcemapConcat (3)                           | 41ms (13 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed templates/inform.emblem
+
+Build successful - 540ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Concat: App                                   | 80ms                
+Concat: Test Support JS                       | 41ms                
+SourcemapConcat                               | 38ms                
+SourcemapConcat                               | 32ms                
+Funnel: App JS Files                          | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Concat: App (1)                               | 80ms                
+SourcemapConcat (3)                           | 73ms (24 ms)        
+Concat: Test Support JS (1)                   | 41ms                
+Funnel: App JS Files (1)                      | 30ms                
+
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 556ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+ES6: App Tree                                 | 107ms               
+Funnel: App JS Files                          | 50ms                
+Concat: App                                   | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+ES6: App Tree (1)                             | 107ms               
+SourcemapConcat (3)                           | 51ms (17 ms)        
+Funnel: App JS Files (1)                      | 50ms                
+Concat: App (1)                               | 32ms                
+
+file changed templates/inform.emblem
+
+Build successful - 520ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 135ms               
+ES6: App Tree                                 | 73ms                
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 135ms               
+ES6: App Tree (1)                             | 73ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+TemplateCompiler (2)                          | 34ms (17 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/inform.emblem
+
+Build successful - 510ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 149ms               
+ES6: App Tree                                 | 77ms                
+Funnel: App JS Files                          | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 149ms               
+ES6: App Tree (1)                             | 77ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+
+file added templates/inform.emblem___jb_old___
+file changed templates/inform.emblem
+file deleted templates/inform.emblem___jb_old___
+
+Build successful - 532ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 133ms               
+Funnel: App JS Files                          | 85ms                
+Concat: Test Support JS                       | 33ms                
+SourcemapConcat                               | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 133ms               
+Funnel: App JS Files (1)                      | 85ms                
+SourcemapConcat (3)                           | 56ms (18 ms)        
+Concat: Test Support JS (1)                   | 33ms                
+
+file changed templates/inform.emblem
+
+Build successful - 478ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+Funnel: App JS Files                          | 93ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+Funnel: App JS Files (1)                      | 93ms                
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/inform.emblem
+
+Build successful - 510ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 127ms               
+Concat: App                                   | 76ms                
+Funnel: App JS Files                          | 29ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 127ms               
+Concat: App (1)                               | 76ms                
+SourcemapConcat (3)                           | 43ms (14 ms)        
+TemplateCompiler (2)                          | 29ms (14 ms)        
+Funnel: App JS Files (1)                      | 29ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/root.emblem
+
+Build successful - 537ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 150ms               
+Concat: App                                   | 82ms                
+Funnel: App JS Files                          | 44ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 150ms               
+Concat: App (1)                               | 82ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 44ms                
+

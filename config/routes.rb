@@ -18,4 +18,5 @@ Rails.application.routes.draw do
   get 'welcome/auth_by_vk'
   get 'welcome/current_user_id'
   root 'welcome#index'
+  get '/*path' => 'welcome#index', format: 'html'
 end

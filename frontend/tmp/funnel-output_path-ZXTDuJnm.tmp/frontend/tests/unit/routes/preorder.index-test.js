@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/babel-output_path-y0e8FDRb.tmp/frontend/tests/unit/routes/preorder.index-test.js

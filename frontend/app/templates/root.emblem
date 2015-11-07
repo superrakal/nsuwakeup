@@ -9,6 +9,6 @@
         | Выбор кофе
   section
     h2.ui.header Оставьте отзыв!
-    /comments-component
+    comments-component
 
 

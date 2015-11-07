@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-input_base_path-4RJ2wJT0.tmp/0/frontend/tests/helpers/resolver.js

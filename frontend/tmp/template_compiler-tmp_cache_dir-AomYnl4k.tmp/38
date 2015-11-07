@@ -1,1 +1,0 @@
-<div class="container segment text-center"><section><h2 class="ui header">Как оформить предзаказ?</h2>{{steps-component}}</section><section><button {{action 'create_preorder'}} class="btn btn-lg btn-success">Оформить предзаказ</button></section><div class="comments text-center"><h1 class="mark-style">Оставьте отзыв!</h1></div></div>

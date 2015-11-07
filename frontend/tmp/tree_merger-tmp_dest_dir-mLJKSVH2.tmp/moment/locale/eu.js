@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/funnel-output_path-xTIekpuL.tmp/moment/locale/eu.js

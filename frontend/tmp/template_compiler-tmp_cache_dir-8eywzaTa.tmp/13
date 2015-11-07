@@ -1,0 +1,546 @@
+export default Ember.HTMLBars.template((function() {
+  var child0 = (function() {
+    return {
+      meta: {
+        "revision": "Ember@1.13.3",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 1,
+            "column": 305
+          },
+          "end": {
+            "line": 1,
+            "column": 333
+          }
+        },
+        "moduleName": "frontend/templates/inform.hbs"
+      },
+      arity: 0,
+      cachedFragment: null,
+      hasRendered: false,
+      buildFragment: function buildFragment(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createTextNode(" (");
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      buildRenderNodes: function buildRenderNodes() { return []; },
+      statements: [
+
+      ],
+      locals: [],
+      templates: []
+    };
+  }());
+  var child1 = (function() {
+    return {
+      meta: {
+        "revision": "Ember@1.13.3",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 1,
+            "column": 395
+          },
+          "end": {
+            "line": 1,
+            "column": 484
+          }
+        },
+        "moduleName": "frontend/templates/inform.hbs"
+      },
+      arity: 1,
+      cachedFragment: null,
+      hasRendered: false,
+      buildFragment: function buildFragment(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createElement("span");
+        dom.setAttribute(el1,"class","label label-success");
+        var el2 = dom.createComment("");
+        dom.appendChild(el1, el2);
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+        var morphs = new Array(1);
+        morphs[0] = dom.createMorphAt(dom.childAt(fragment, [0]),0,0);
+        return morphs;
+      },
+      statements: [
+        ["content","syurup.name",["loc",[null,[1,462],[1,477]]]]
+      ],
+      locals: ["syurup"],
+      templates: []
+    };
+  }());
+  var child2 = (function() {
+    return {
+      meta: {
+        "revision": "Ember@1.13.3",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 1,
+            "column": 1298
+          },
+          "end": {
+            "line": 1,
+            "column": 1387
+          }
+        },
+        "moduleName": "frontend/templates/inform.hbs"
+      },
+      arity: 1,
+      cachedFragment: null,
+      hasRendered: false,
+      buildFragment: function buildFragment(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createElement("span");
+        dom.setAttribute(el1,"class","label label-success");
+        var el2 = dom.createComment("");
+        dom.appendChild(el1, el2);
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+        var morphs = new Array(1);
+        morphs[0] = dom.createMorphAt(dom.childAt(fragment, [0]),0,0);
+        return morphs;
+      },
+      statements: [
+        ["content","syurup.name",["loc",[null,[1,1365],[1,1380]]]]
+      ],
+      locals: ["syurup"],
+      templates: []
+    };
+  }());
+  var child3 = (function() {
+    return {
+      meta: {
+        "revision": "Ember@1.13.3",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 1,
+            "column": 2011
+          },
+          "end": {
+            "line": 1,
+            "column": 2327
+          }
+        },
+        "moduleName": "frontend/templates/inform.hbs"
+      },
+      arity: 0,
+      cachedFragment: null,
+      hasRendered: false,
+      buildFragment: function buildFragment(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createElement("div");
+        dom.setAttribute(el1,"role","alert");
+        dom.setAttribute(el1,"class","alert alert-success alert-dismissible fade in");
+        var el2 = dom.createElement("button");
+        dom.setAttribute(el2,"aria-label","Close");
+        dom.setAttribute(el2,"data-dismiss","alert");
+        dom.setAttribute(el2,"type","button");
+        dom.setAttribute(el2,"class","close");
+        var el3 = dom.createElement("span");
+        dom.setAttribute(el3,"aria-hidden","true");
+        var el4 = dom.createTextNode(" ×");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("p");
+        var el3 = dom.createTextNode("Ваш заказ принят. Заберите его у точки выдачи вовремя!  ");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("strong");
+        var el3 = dom.createTextNode("Хорошего дня :)");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      buildRenderNodes: function buildRenderNodes() { return []; },
+      statements: [
+
+      ],
+      locals: [],
+      templates: []
+    };
+  }());
+  var child4 = (function() {
+    var child0 = (function() {
+      return {
+        meta: {
+          "revision": "Ember@1.13.3",
+          "loc": {
+            "source": null,
+            "start": {
+              "line": 1,
+              "column": 2335
+            },
+            "end": {
+              "line": 1,
+              "column": 2405
+            }
+          },
+          "moduleName": "frontend/templates/inform.hbs"
+        },
+        arity: 0,
+        cachedFragment: null,
+        hasRendered: false,
+        buildFragment: function buildFragment(dom) {
+          var el0 = dom.createDocumentFragment();
+          var el1 = dom.createElement("i");
+          dom.setAttribute(el1,"class","fa fa-circle-o-notch fa-spin fa-3x");
+          dom.appendChild(el0, el1);
+          return el0;
+        },
+        buildRenderNodes: function buildRenderNodes() { return []; },
+        statements: [
+
+        ],
+        locals: [],
+        templates: []
+      };
+    }());
+    var child1 = (function() {
+      return {
+        meta: {
+          "revision": "Ember@1.13.3",
+          "loc": {
+            "source": null,
+            "start": {
+              "line": 1,
+              "column": 2405
+            },
+            "end": {
+              "line": 1,
+              "column": 2503
+            }
+          },
+          "moduleName": "frontend/templates/inform.hbs"
+        },
+        arity: 0,
+        cachedFragment: null,
+        hasRendered: false,
+        buildFragment: function buildFragment(dom) {
+          var el0 = dom.createDocumentFragment();
+          var el1 = dom.createElement("button");
+          dom.setAttribute(el1,"class","btn btn-success btn-lg");
+          var el2 = dom.createTextNode("Подтвердить предзаказ");
+          dom.appendChild(el1, el2);
+          dom.appendChild(el0, el1);
+          return el0;
+        },
+        buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+          var element0 = dom.childAt(fragment, [0]);
+          var morphs = new Array(1);
+          morphs[0] = dom.createElementMorph(element0);
+          return morphs;
+        },
+        statements: [
+          ["element","action",["confirm"],[],["loc",[null,[1,2421],[1,2441]]]]
+        ],
+        locals: [],
+        templates: []
+      };
+    }());
+    return {
+      meta: {
+        "revision": "Ember@1.13.3",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 1,
+            "column": 2327
+          },
+          "end": {
+            "line": 1,
+            "column": 2510
+          }
+        },
+        "moduleName": "frontend/templates/inform.hbs"
+      },
+      arity: 0,
+      cachedFragment: null,
+      hasRendered: false,
+      buildFragment: function buildFragment(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createComment("");
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+        var morphs = new Array(1);
+        morphs[0] = dom.createMorphAt(fragment,0,0,contextualElement);
+        dom.insertBoundary(fragment, 0);
+        dom.insertBoundary(fragment, null);
+        return morphs;
+      },
+      statements: [
+        ["block","if",[["get","isConfirming",["loc",[null,[1,2341],[1,2353]]]]],[],0,1,["loc",[null,[1,2335],[1,2510]]]]
+      ],
+      locals: [],
+      templates: [child0, child1]
+    };
+  }());
+  return {
+    meta: {
+      "revision": "Ember@1.13.3",
+      "loc": {
+        "source": null,
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 2995
+        }
+      },
+      "moduleName": "frontend/templates/inform.hbs"
+    },
+    arity: 0,
+    cachedFragment: null,
+    hasRendered: false,
+    buildFragment: function buildFragment(dom) {
+      var el0 = dom.createDocumentFragment();
+      var el1 = dom.createElement("div");
+      dom.setAttribute(el1,"class","ui container text-center");
+      var el2 = dom.createElement("section");
+      var el3 = dom.createElement("div");
+      dom.setAttribute(el3,"class","title text-center");
+      var el4 = dom.createElement("h1");
+      dom.setAttribute(el4,"class","ui huge");
+      var el5 = dom.createTextNode("Подтверждение предзаказа");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("table");
+      dom.setAttribute(el2,"class","ui table segment");
+      var el3 = dom.createElement("thead");
+      var el4 = dom.createElement("tr");
+      var el5 = dom.createElement("th");
+      var el6 = dom.createTextNode("id заказа");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("th");
+      var el6 = dom.createTextNode("Кофе");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("th");
+      var el6 = dom.createTextNode("Сироп(ы)");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("th");
+      var el6 = dom.createTextNode("Стоимость");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("tbody");
+      var el4 = dom.createElement("tr");
+      var el5 = dom.createElement("td");
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("td");
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      var el6 = dom.createTextNode(" мл.)");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("td");
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("td");
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      var el6 = dom.createTextNode(" руб.");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("tfoot");
+      var el4 = dom.createElement("tr");
+      var el5 = dom.createElement("th");
+      dom.setAttribute(el5,"colspan","3");
+      var el6 = dom.createElement("div");
+      dom.setAttribute(el6,"class","ui blue labeled icon button");
+      var el7 = dom.createElement("i");
+      dom.setAttribute(el7,"class","user icon");
+      dom.appendChild(el6, el7);
+      var el7 = dom.createTextNode("Add User");
+      dom.appendChild(el6, el7);
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("div");
+      dom.setAttribute(el2,"class","col-md-12");
+      var el3 = dom.createElement("div");
+      dom.setAttribute(el3,"class","col-lg-3 col-md-3 col-sm-12 col-xs-12");
+      var el4 = dom.createElement("div");
+      dom.setAttribute(el4,"class","panel panel-default text-center");
+      var el5 = dom.createElement("div");
+      dom.setAttribute(el5,"class","panel-heading");
+      var el6 = dom.createTextNode("id Заказа");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("div");
+      dom.setAttribute(el5,"class","panel-body");
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("div");
+      dom.setAttribute(el3,"class","col-lg-3 col-md-3 col-sm-12 col-xs-12");
+      var el4 = dom.createElement("div");
+      dom.setAttribute(el4,"class","panel panel-default text-center");
+      var el5 = dom.createElement("div");
+      dom.setAttribute(el5,"class","panel-heading");
+      var el6 = dom.createTextNode("Кофе");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("div");
+      dom.setAttribute(el5,"class","panel-body");
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      var el6 = dom.createTextNode(" (");
+      dom.appendChild(el5, el6);
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      var el6 = dom.createTextNode(" мл.)");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("div");
+      dom.setAttribute(el3,"class","col-lg-3 col-md-3 col-sm-12 col-xs-12");
+      var el4 = dom.createElement("div");
+      dom.setAttribute(el4,"class","panel panel-default text-center");
+      var el5 = dom.createElement("div");
+      dom.setAttribute(el5,"class","panel-heading");
+      var el6 = dom.createTextNode("Сироп(ы)");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("div");
+      dom.setAttribute(el5,"class","panel-body");
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("div");
+      dom.setAttribute(el3,"class","col-lg-3 col-md-3 col-sm-12 col-xs-12");
+      var el4 = dom.createElement("div");
+      dom.setAttribute(el4,"class","panel panel-default text-center");
+      var el5 = dom.createElement("div");
+      dom.setAttribute(el5,"class","panel-heading");
+      var el6 = dom.createTextNode("Стоимость");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      var el5 = dom.createElement("div");
+      dom.setAttribute(el5,"class","panel-body");
+      var el6 = dom.createComment("");
+      dom.appendChild(el5, el6);
+      var el6 = dom.createTextNode(" руб.");
+      dom.appendChild(el5, el6);
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("div");
+      dom.setAttribute(el2,"class","col-md-12 comments text-center");
+      var el3 = dom.createElement("h3");
+      var el4 = dom.createTextNode("Вы можете оставить комментарий к заказу.");
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("small");
+      var el4 = dom.createTextNode("Если у Вас есть скидочная карта, то скидка предоставляется при личной демонстрации наличия карты.");
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("br");
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("br");
+      dom.appendChild(el2, el3);
+      var el3 = dom.createComment("");
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("div");
+      dom.setAttribute(el2,"class","col-md-12 confirm_preorder text-center");
+      var el3 = dom.createComment("");
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("div");
+      dom.setAttribute(el2,"class","col-md-12");
+      var el3 = dom.createElement("blockquote");
+      var el4 = dom.createElement("p");
+      var el5 = dom.createTextNode("Огласим некоторые правила. Ваш предзаказ доступен к выдаче в течении двух часов с момента оформления и, соответственно, изготовления.");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      var el4 = dom.createElement("p");
+      var el5 = dom.createTextNode("Если Вы не забрали свой заказ в указанный срок, то он автоматически анулируется, кофе выливается, а Вы добавляетесь в черный список нашего заведения.");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      var el4 = dom.createElement("p");
+      var el5 = dom.createTextNode("При оплате штрафа за ложный предзаказ Вы убираетесь из черного списка.");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      var el4 = dom.createElement("footer");
+      var el5 = dom.createTextNode("Команда WakeUp! Coffee");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      return el0;
+    },
+    buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+      var element1 = dom.childAt(fragment, [0]);
+      var element2 = dom.childAt(element1, [1, 1, 0]);
+      var element3 = dom.childAt(element2, [1]);
+      var element4 = dom.childAt(element1, [2]);
+      var element5 = dom.childAt(element4, [1, 0, 1]);
+      var morphs = new Array(12);
+      morphs[0] = dom.createMorphAt(dom.childAt(element2, [0]),0,0);
+      morphs[1] = dom.createMorphAt(element3,0,0);
+      morphs[2] = dom.createMorphAt(element3,1,1);
+      morphs[3] = dom.createMorphAt(dom.childAt(element2, [2]),0,0);
+      morphs[4] = dom.createMorphAt(dom.childAt(element2, [3]),0,0);
+      morphs[5] = dom.createMorphAt(dom.childAt(element4, [0, 0, 1]),0,0);
+      morphs[6] = dom.createMorphAt(element5,0,0);
+      morphs[7] = dom.createMorphAt(element5,2,2);
+      morphs[8] = dom.createMorphAt(dom.childAt(element4, [2, 0, 1]),0,0);
+      morphs[9] = dom.createMorphAt(dom.childAt(element4, [3, 0, 1]),0,0);
+      morphs[10] = dom.createMorphAt(dom.childAt(element1, [3]),4,4);
+      morphs[11] = dom.createMorphAt(dom.childAt(element1, [4]),0,0);
+      return morphs;
+    },
+    statements: [
+      ["content","model.number",["loc",[null,[1,280],[1,296]]]],
+      ["block","model.drink.name",[],[],0,null,["loc",[null,[1,305],[1,354]]]],
+      ["content","model.drink.volume",["loc",[null,[1,354],[1,376]]]],
+      ["block","each",[["get","model.syurups",["loc",[null,[1,413],[1,426]]]]],[],1,null,["loc",[null,[1,395],[1,493]]]],
+      ["content","model.drink.price",["loc",[null,[1,502],[1,523]]]],
+      ["content","model.number",["loc",[null,[1,869],[1,885]]]],
+      ["content","model.drink.name",["loc",[null,[1,1060],[1,1080]]]],
+      ["content","model.drink.volume",["loc",[null,[1,1087],[1,1109]]]],
+      ["block","each",[["get","model.syurups",["loc",[null,[1,1316],[1,1329]]]]],[],2,null,["loc",[null,[1,1298],[1,1396]]]],
+      ["content","model.drink.price",["loc",[null,[1,1576],[1,1597]]]],
+      ["inline","textarea",[],["value",["subexpr","@mut",[["get","model.comments",["loc",[null,[1,1861],[1,1875]]]]],[],[]],"placeholder","Оставьте Ваши пожелания и мы постараемся их воплотить в жизнь"],["loc",[null,[1,1844],[1,1953]]]],
+      ["block","if",[["get","isConfirmed",["loc",[null,[1,2017],[1,2028]]]]],[],3,4,["loc",[null,[1,2011],[1,2517]]]]
+    ],
+    locals: [],
+    templates: [child0, child1, child2, child3, child4]
+  };
+}()));

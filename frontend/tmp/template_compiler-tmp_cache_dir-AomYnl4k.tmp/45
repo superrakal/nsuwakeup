@@ -1,1 +1,0 @@
-<div class="container segment text-center"><section><h2 class="ui header">Как оформить предзаказ?</h2>{{steps-component}}</section><section><div class="ui animated fade button inverted green">{action 'create_preorder'} tabindex="0" .visible.content Оформить предзаказ .hidden.content | Выбор кофе</div></section><section><h2 class="ui header">Оставьте отзыв!</h2></section></div>

@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/babel-output_path-pLqSUzBY.tmp/frontend/tests/test-helper.js

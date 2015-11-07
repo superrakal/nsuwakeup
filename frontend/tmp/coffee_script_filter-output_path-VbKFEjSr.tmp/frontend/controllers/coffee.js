@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-E2slXhPI.tmp/frontend/controllers/coffee.js

@@ -1,9 +1,25 @@
-.title.text-center
-  h1 Выбор сиропа(ов)
-.items.col-md-12
-  .row
-    = each syurup in syurups
-      syurup-component syurup=syurup preorder=model
-  .row
-    .text-center
-      button.btn.btn-lg.btn-success{action 'confirm'} Оформить
+.ui.container
+  section
+    .title.text-center
+      h1.ui.header Выбор сиропа(ов)
+    .ui.three.stackable.cards
+      = each syurup in syurups
+        .ui.card
+          .image
+            img src=syurup.image
+          .content
+            a.header
+              = syurup.name
+            .description
+              = if syurup.is_available
+                |В наличии
+              = else
+                |Нет в наличии :(
+          .extra.content.text-center
+            syurup-component syurup=syurup preorder=model
+  section.text-center
+    .ui.animated.fade.button.mint.huge{action 'confirm'} tabindex="0"
+      .visible.content Подтвердить предзаказ
+      .hidden.content
+        | Подтвердить
+

@@ -23,4 +23,5 @@ SyurupComponentComponent = Ember.Component.extend
     remove: ->
       preorder = @get 'preorder'
       (preorder.get 'syurups').removeObject (@get 'syurup')
+
 `export default SyurupComponentComponent`

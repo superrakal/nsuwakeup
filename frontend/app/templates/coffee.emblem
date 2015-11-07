@@ -3,7 +3,7 @@
     .title.text-center
       h1.ui.header Выбор кофе
     .ui.three.stackable.cards
-      = each drink in drinks
+      = each drinks as |drink|
         .ui.card
           .image
             img src=drink.image

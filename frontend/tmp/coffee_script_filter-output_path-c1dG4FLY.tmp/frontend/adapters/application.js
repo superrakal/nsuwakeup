@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/app/adapters/application.js
