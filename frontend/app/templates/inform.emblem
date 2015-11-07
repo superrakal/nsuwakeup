@@ -20,7 +20,7 @@
           |&nbsp;мл.)
         td
           = each syurup in model.syurups
-            span.label.label-success
+            span
               = syurup.name
               |;&nbsp;
         td

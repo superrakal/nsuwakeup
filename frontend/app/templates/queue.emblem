@@ -6,7 +6,7 @@
         .ui.feed
           .event
             .label
-              img src=preorder.user.content.vk_photo
+              img src=preorder.user.vk_photo
             .content
               .date
                 = preorder.formatted_created_at

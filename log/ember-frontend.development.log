@@ -14594,3 +14594,44 @@ SourcemapConcat (3)                           | 58ms (19 ms)
 Funnel: App JS Files (1)                      | 45ms                
 ES6: App Tree (1)                             | 28ms                
 
+file added templates/inform.emblem___jb_bak___
+file deleted templates/inform.emblem___jb_bak___
+file changed templates/inform.emblem
+
+Build successful - 532ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 200ms               
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 29ms                
+ES6: App Tree                                 | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 200ms               
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 29ms                
+ES6: App Tree (1)                             | 27ms                
+
+file changed templates/queue.emblem
+
+Build successful - 558ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 127ms               
+Funnel: App JS Files                          | 88ms                
+Concat: Test Support JS                       | 36ms                
+SourcemapConcat                               | 35ms                
+SourcemapConcat                               | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 127ms               
+Funnel: App JS Files (1)                      | 88ms                
+SourcemapConcat (3)                           | 69ms (23 ms)        
+Concat: Test Support JS (1)                   | 36ms                
+TemplateCompiler (2)                          | 33ms (16 ms)        
+
