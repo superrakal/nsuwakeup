@@ -459,6 +459,7 @@ DEPENDENCIES
   rack
   rails (= 4.2.3)
   rails_admin (~> 0.6.8)
+  redis
   responders (~> 2.0)
   rspec-mocks
   rspec-rails (~> 3.0.0)
