@@ -1,13 +1,11 @@
 require 'rvm/capistrano' # Для работы rvm
 require 'bundler/capistrano' # Для работы bundler. При изменении гемов bundler автоматически обновит все гемы на сервере, чтобы они в точности соответствовали гемам разработчика.
 require 'capistrano-unicorn'
-require 'whenever/capistrano'
-set :whenever_command, 'bundle exec whenever'
 
 set :application, 'nsuwakeup'
 set :rails_env, 'production'
 set :domain, 'root@5.101.119.56'
-set :deploy_to, '/var/www/#{application}'
+set :deploy_to, "/var/www/#{application}"
 set :use_sudo, false
 set :normalize_asset_timestamps, false
 set :keep_releases, 5
@@ -32,18 +30,18 @@ before 'deploy:assets:precompile', 'bower:install'
 
 namespace :deploy do
   task :init_vhost do
-    run 'ln -s #{deploy_to}/current/config/#{application}.vhost /etc/nginx/sites-enabled/#{application}'
+    run "ln -s #{deploy_to}/current/config/#{application}.vhost /etc/nginx/sites-enabled/#{application}"
   end
 
   task :seed do
-    run 'cd #{current_path}; bundle exec rake db:seed RAILS_ENV=#{rails_env}'
+    run "cd #{current_path}; bundle exec rake db:seed RAILS_ENV=#{rails_env}"
   end
 end
 
 namespace :bower do
   desc 'Install bower components'
   task :install do
-    run 'cd #{current_release}/frontend && bower install --allow-root'
+    run "cd #{current_release}/frontend && bower install --allow-root"
   end
 end
 
