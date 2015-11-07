@@ -1,5 +1,4 @@
 require 'capistrano/sidekiq'
-require 'capistrano/sidekiq/monit'
 load 'deploy'
 # Uncomment if you are using Rails' asset pipeline
 load 'deploy/assets'
