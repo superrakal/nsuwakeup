@@ -1,6 +1,8 @@
 require 'rvm/capistrano' # Для работы rvm
 require 'bundler/capistrano' # Для работы bundler. При изменении гемов bundler автоматически обновит все гемы на сервере, чтобы они в точности соответствовали гемам разработчика.
 require 'capistrano-unicorn'
+set :whenever_command, "bundle exec whenever"
+require "whenever/capistrano"
 
 set :application, 'nsuwakeup'
 set :rails_env, 'production'
