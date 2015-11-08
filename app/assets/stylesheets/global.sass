@@ -2,7 +2,14 @@
 @import "semantic-ui"
 
 html, body
-  background-color: $bodyBackground
+  background: asset_url('background.png')
+
+h1.ui.header
+  &.hero
+    font-size: 5rem
+
+.mint-text
+  color: $mint !important
 
 .small_logo
   vertical-align: middle
@@ -18,9 +25,6 @@ section
   padding: 20px
   h1
     margin-bottom: 20px !important
-
-.step
-  cursor: pointer
 
 .card
   img

@@ -1,6 +1,10 @@
 - if !user_signed_in?
-  .sign_in_box.wow.pulse data-wow-iteration='infinite'
-    =image_tag 'logo.jpg'
+  .sign_in_box.wow.pulse
+    =image_tag 'logo.png'
+    = if @error
+      .ui.negative.message
+        .header
+          = @error
     .actions
       a.ui.vk.button href=welcome_auth_by_vk_path
         i.vk.icon

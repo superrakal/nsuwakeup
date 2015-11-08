@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_for :admins
   namespace :api do
     namespace :v1 do
-      resources :users, only:[:show]
+      resources :users, only:[:show, :update]
       resources :drinks, except:[:destroy]
       resources :syurups, except:[:destroy]
       resources :preorders, except:[:destroy]  do

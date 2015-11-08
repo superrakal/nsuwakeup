@@ -482,6 +482,3 @@ DEPENDENCIES
   vkontakte_api (~> 1.4)
   whenever
   wow-rails
-
-BUNDLED WITH
-   1.10.5

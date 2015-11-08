@@ -6,4 +6,5 @@ User = DS.Model.extend
   vk_photo:       DS.attr 'string'
   vk_screen_name: DS.attr 'string'
   is_admin:       DS.attr 'boolean'
+  is_banned:      DS.attr 'boolean'
 `export default User`

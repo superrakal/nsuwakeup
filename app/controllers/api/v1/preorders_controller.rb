@@ -28,13 +28,15 @@ module Api
       end
 
       def create
-        @preorder = Preorder.new preorder_params
-        @preorder.user_vk_id = current_user.vk_id
-        @preorder.user = current_user
-        if @preorder.save
-          respond_with @preorder, status: :created, location: false
-        else
-          respond_with @preorder, status: :unprocessable_entity
+        unless current_user.is_banned
+          @preorder = Preorder.new preorder_params
+          @preorder.user_vk_id = current_user.vk_id
+          @preorder.user = current_user
+          if @preorder.save
+            respond_with @preorder, status: :created, location: false
+          else
+            respond_with @preorder, status: :unprocessable_entity
+          end
         end
       end
 

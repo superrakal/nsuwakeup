@@ -13,6 +13,8 @@
                 = if currentUser.is_admin
                   button.ui.circular.mint.icon.button{action 'done' preorder}
                     i.fa.fa-check.icon
+                  button.ui.circular.red.icon.button{action 'ban' preorder}
+                    i.fa.fa-times.icon
               .summary
                 a href="https://vk.com/#{preorder.user.vk_screen_name}"
                   = preorder.user.content.first_name

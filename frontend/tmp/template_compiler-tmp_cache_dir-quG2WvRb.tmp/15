@@ -1,0 +1,126 @@
+export default Ember.HTMLBars.template((function() {
+  return {
+    meta: {
+      "revision": "Ember@1.13.3",
+      "loc": {
+        "source": null,
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 771
+        }
+      },
+      "moduleName": "frontend/templates/root.hbs"
+    },
+    arity: 0,
+    cachedFragment: null,
+    hasRendered: false,
+    buildFragment: function buildFragment(dom) {
+      var el0 = dom.createDocumentFragment();
+      var el1 = dom.createElement("div");
+      dom.setAttribute(el1,"class","ui container text-center");
+      var el2 = dom.createElement("section");
+      var el3 = dom.createElement("h1");
+      dom.setAttribute(el3,"class","title");
+      var el4 = dom.createTextNode("WakeUp! Coffee");
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("h3");
+      var el4 = dom.createElement("b");
+      var el5 = dom.createTextNode("OnePage / OneProduct / OneTemplate");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("p");
+      var el4 = dom.createElement("br");
+      dom.appendChild(el3, el4);
+      var el4 = dom.createTextNode("If you want sell only one digital product,");
+      dom.appendChild(el3, el4);
+      var el4 = dom.createElement("b");
+      var el5 = dom.createTextNode("1E-shop");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      var el4 = dom.createTextNode("template is for you.");
+      dom.appendChild(el3, el4);
+      var el4 = dom.createElement("br");
+      dom.appendChild(el3, el4);
+      var el4 = dom.createElement("b");
+      var el5 = dom.createTextNode("1E-shop");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      var el4 = dom.createTextNode("is onePage full responsive bootstrap template.");
+      dom.appendChild(el3, el4);
+      var el4 = dom.createElement("br");
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("br");
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("a");
+      dom.setAttribute(el3,"data-target","#product-modal");
+      dom.setAttribute(el3,"data-toggle","modal");
+      dom.setAttribute(el3,"href","#");
+      dom.setAttribute(el3,"class","btn white");
+      var el4 = dom.createElement("b");
+      var el5 = dom.createTextNode("$5");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      var el4 = dom.createTextNode("BUY NOW");
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createElement("h2");
+      dom.setAttribute(el3,"class","ui header");
+      var el4 = dom.createTextNode("Как оформить предзаказ?");
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createComment("");
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("section");
+      var el3 = dom.createElement("div");
+      dom.setAttribute(el3,"tabindex","0");
+      dom.setAttribute(el3,"class","ui animated fade button mint huge");
+      var el4 = dom.createElement("div");
+      dom.setAttribute(el4,"class","visible content");
+      var el5 = dom.createTextNode("Оформить предзаказ");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      var el4 = dom.createElement("div");
+      dom.setAttribute(el4,"class","hidden content");
+      var el5 = dom.createTextNode("Выбор кофе");
+      dom.appendChild(el4, el5);
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      var el2 = dom.createElement("section");
+      var el3 = dom.createElement("h2");
+      dom.setAttribute(el3,"class","ui header");
+      var el4 = dom.createTextNode("Оставьте отзыв!");
+      dom.appendChild(el3, el4);
+      dom.appendChild(el2, el3);
+      var el3 = dom.createComment("");
+      dom.appendChild(el2, el3);
+      dom.appendChild(el1, el2);
+      dom.appendChild(el0, el1);
+      return el0;
+    },
+    buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+      var element0 = dom.childAt(fragment, [0]);
+      var element1 = dom.childAt(element0, [1, 0]);
+      var morphs = new Array(3);
+      morphs[0] = dom.createMorphAt(dom.childAt(element0, [0]),6,6);
+      morphs[1] = dom.createElementMorph(element1);
+      morphs[2] = dom.createMorphAt(dom.childAt(element0, [2]),1,1);
+      return morphs;
+    },
+    statements: [
+      ["content","steps-component",["loc",[null,[1,442],[1,461]]]],
+      ["element","action",["create_preorder"],[],["loc",[null,[1,485],[1,513]]]],
+      ["content","comments-component",["loc",[null,[1,733],[1,755]]]]
+    ],
+    locals: [],
+    templates: []
+  };
+}()));

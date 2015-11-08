@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/custom_replace-tmp_dest_dir-a57h03lk.tmp/app-prefix.js

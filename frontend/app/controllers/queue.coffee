@@ -23,4 +23,12 @@ QueueController = Ember.Controller.extend
       preorder.save().then ->
         location.reload()
 
+    ban: (preorder) ->
+      preorder.set 'status', 'Не выдан'
+      preorder.save().then ->
+        user = (preorder.get 'user').content
+        user.set 'is_banned', true
+        user.save().then ->
+          location.reload()
+
 `export default QueueController`

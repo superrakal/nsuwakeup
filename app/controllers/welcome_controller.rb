@@ -1,5 +1,7 @@
 class WelcomeController < ApplicationController
   def index
+    @error = session[:error]
+    session.delete(:error)
   end
 
   def auth_by_vk
@@ -11,8 +13,14 @@ class WelcomeController < ApplicationController
       @vk = VkontakteApi.authorize(code: params[:code])
       @user = User.find_for_vkontakte_oauth @vk
       if @user.persisted?
-        sign_in @user
-        redirect_to root_path
+        if @user.is_banned
+          session[:error] = 'Ваш аккаунт добавлен в черный список'
+          redirect_to root_path
+        else
+          sign_in @user
+          redirect_to root_path
+        end
+
       else
         flash[:notice] = "authentication error"
         redirect_to root_path
