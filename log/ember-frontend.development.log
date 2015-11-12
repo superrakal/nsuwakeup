@@ -15349,3 +15349,912 @@ SourcemapConcat (3)                           | 50ms (16 ms)
 CoffeeScriptFilter (2)                        | 30ms (15 ms)        
 Concat: Test Support JS (1)                   | 28ms                
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 3089ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1795ms              
+Babel                                         | 216ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1795ms              
+Babel (4)                                     | 552ms (138 ms)      
+CoffeeScriptFilter (2)                        | 179ms (89 ms)       
+
+file changed templates/root.emblem
+
+Build successful - 524ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+ES6: App Tree                                 | 78ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 29ms                
+SourcemapConcat                               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+ES6: App Tree (1)                             | 78ms                
+SourcemapConcat (3)                           | 51ms (17 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 29ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 541ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 129ms               
+Funnel: App JS Files                          | 91ms                
+SourcemapConcat                               | 39ms                
+Concat: Test Support JS                       | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 129ms               
+Funnel: App JS Files (1)                      | 91ms                
+SourcemapConcat (3)                           | 67ms (22 ms)        
+Concat: Test Support JS (1)                   | 30ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 508ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 125ms               
+Funnel: App JS Files                          | 87ms                
+Concat: Test Support JS                       | 29ms                
+SourcemapConcat                               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 125ms               
+Funnel: App JS Files (1)                      | 87ms                
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 510ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 128ms               
+Funnel: App JS Files                          | 89ms                
+Concat: Test Support JS                       | 30ms                
+SourcemapConcat                               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 128ms               
+Funnel: App JS Files (1)                      | 89ms                
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Concat: Test Support JS (1)                   | 30ms                
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 644ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 146ms               
+Funnel: App JS Files                          | 75ms                
+Concat: Test Support JS                       | 58ms                
+SourcemapConcat                               | 49ms                
+SourcemapConcat                               | 48ms                
+ES6: App Tree                                 | 42ms                
+Concat: App                                   | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 146ms               
+SourcemapConcat (3)                           | 100ms (33 ms)       
+Funnel: App JS Files (1)                      | 75ms                
+Concat: Test Support JS (1)                   | 58ms                
+ES6: App Tree (1)                             | 42ms                
+Concat: App (1)                               | 32ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 534ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 178ms               
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 31ms                
+CoffeeScriptFilter                            | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 178ms               
+SourcemapConcat (3)                           | 51ms (17 ms)        
+CoffeeScriptFilter (2)                        | 36ms (18 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 31ms                
+Babel (4)                                     | 28ms (7 ms)         
+
+file changed controllers/inform.coffee
+
+Build successful - 499ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 178ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 28ms                
+TreeMerger (appAndDependencies)               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 178ms               
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 28ms                
+TreeMerger (appAndDependencies) (1)           | 25ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 547ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 206ms               
+SourcemapConcat                               | 42ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 206ms               
+SourcemapConcat (3)                           | 66ms (22 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 29ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 511ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 167ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 29ms                
+SourcemapConcat                               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 167ms               
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 29ms                
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+Funnel (39)                                   | 26ms (0 ms)         
+
+file changed controllers/inform.coffee
+
+Build successful - 640ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 228ms               
+SourcemapConcat                               | 35ms                
+Funnel: App JS Files                          | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 228ms               
+SourcemapConcat (3)                           | 63ms (21 ms)        
+CoffeeScriptFilter (2)                        | 39ms (19 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 506ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 169ms               
+Concat: Test Support JS                       | 34ms                
+Funnel: App JS Files                          | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 169ms               
+SourcemapConcat (3)                           | 51ms (17 ms)        
+Concat: Test Support JS (1)                   | 34ms                
+Funnel: App JS Files (1)                      | 32ms                
+CoffeeScriptFilter (2)                        | 25ms (12 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 571ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 177ms               
+Concat: Test Support JS                       | 51ms                
+SourcemapConcat                               | 48ms                
+SourcemapConcat                               | 43ms                
+Funnel: App JS Files                          | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 177ms               
+SourcemapConcat (3)                           | 94ms (31 ms)        
+Concat: Test Support JS (1)                   | 51ms                
+CoffeeScriptFilter (2)                        | 36ms (18 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 530ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 180ms               
+SourcemapConcat                               | 34ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 180ms               
+SourcemapConcat (3)                           | 60ms (20 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 30ms                
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 567ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 237ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 237ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 29ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 567ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 175ms               
+Concat: Test Support JS                       | 55ms                
+SourcemapConcat                               | 45ms                
+Funnel: App JS Files                          | 32ms                
+SourcemapConcat                               | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 175ms               
+SourcemapConcat (3)                           | 79ms (26 ms)        
+Concat: Test Support JS (1)                   | 55ms                
+Funnel: App JS Files (1)                      | 32ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2700ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1904ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1904ms              
+CoffeeScriptFilter (2)                        | 148ms (74 ms)       
+
+file changed controllers/inform.coffee
+
+Build successful - 575ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 189ms               
+Babel                                         | 46ms                
+Funnel: App JS Files                          | 42ms                
+Concat: Test Support JS                       | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 189ms               
+Babel (4)                                     | 50ms (12 ms)        
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 42ms                
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+Concat: Test Support JS (1)                   | 30ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 536ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 187ms               
+Funnel: App JS Files                          | 34ms                
+SourcemapConcat                               | 32ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 187ms               
+SourcemapConcat (3)                           | 56ms (18 ms)        
+Funnel: App JS Files (1)                      | 34ms                
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 634ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 189ms               
+Funnel: App JS Files                          | 48ms                
+SourcemapConcat                               | 48ms                
+SourcemapConcat                               | 44ms                
+Concat: Test Support JS                       | 42ms                
+ES6: App Tree                                 | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 189ms               
+SourcemapConcat (3)                           | 97ms (32 ms)        
+Funnel: App JS Files (1)                      | 48ms                
+Concat: Test Support JS (1)                   | 42ms                
+ES6: App Tree (1)                             | 32ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 597ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+Funnel: App JS Files                          | 92ms                
+Concat: Test Support JS                       | 52ms                
+SourcemapConcat                               | 46ms                
+SourcemapConcat                               | 36ms                
+Concat: App                                   | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+Funnel: App JS Files (1)                      | 92ms                
+SourcemapConcat (3)                           | 84ms (28 ms)        
+Concat: Test Support JS (1)                   | 52ms                
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+Concat: App (1)                               | 30ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 526ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 125ms               
+Funnel: App JS Files                          | 100ms               
+Concat: Test Support JS                       | 29ms                
+SourcemapConcat                               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 125ms               
+Funnel: App JS Files (1)                      | 100ms               
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 510ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 129ms               
+Funnel: App JS Files                          | 75ms                
+Concat: Test Support JS                       | 29ms                
+SourcemapConcat                               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 129ms               
+Funnel: App JS Files (1)                      | 75ms                
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 529ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 178ms               
+Concat: Test Support JS                       | 32ms                
+Funnel: App JS Files                          | 32ms                
+CoffeeScriptFilter                            | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 178ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+CoffeeScriptFilter (2)                        | 36ms (18 ms)        
+Concat: Test Support JS (1)                   | 32ms                
+Funnel: App JS Files (1)                      | 32ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 510ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 171ms               
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 171ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 29ms                
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+Babel (4)                                     | 26ms (6 ms)         
+
+file changed controllers/inform.coffee
+
+Build successful - 491ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 178ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 28ms                
+SourcemapConcat                               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 178ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 28ms                
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+
+file added controllers/inform.coffee___jb_bak___
+file deleted controllers/inform.coffee___jb_bak___
+file changed controllers/inform.coffee
+
+Build successful - 564ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 233ms               
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 233ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+
+file changed controllers/inform.coffee
+File: frontend/controllers/inform.coffee (17)
+octal literal '00' must be prefixed with '0o'
+[stdin]:17:49: error: octal literal '00' must be prefixed with '0o'
+    now > startTime && moment().hour(0).minutes(00)
+                                                ^^
+file changed controllers/inform.coffee
+File: frontend/controllers/inform.coffee (17)
+octal literal '00' must be prefixed with '0o'
+[stdin]:17:55: error: octal literal '00' must be prefixed with '0o'
+    now < startTime && now > moment().hour(0).minutes(00)
+                                                      ^^
+file changed templates/inform.emblem
+file added controllers/inform.coffee___jb_bak___
+file deleted controllers/inform.coffee___jb_bak___
+file changed controllers/inform.coffee
+File: frontend/controllers/inform.coffee (17)
+octal literal '00' must be prefixed with '0o'
+[stdin]:17:55: error: octal literal '00' must be prefixed with '0o'
+    now < startTime && now > moment().hour(0).minutes(00)
+                                                      ^^
+file added controllers/inform.coffee___jb_bak___
+file deleted controllers/inform.coffee___jb_bak___
+file changed controllers/inform.coffee
+
+Build successful - 606ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 187ms               
+Concat: Test Support JS                       | 43ms                
+Funnel: App JS Files                          | 37ms                
+SourcemapConcat                               | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 187ms               
+SourcemapConcat (3)                           | 62ms (20 ms)        
+Concat: Test Support JS (1)                   | 43ms                
+Funnel: App JS Files (1)                      | 37ms                
+TemplateCompiler (2)                          | 35ms (17 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 520ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 125ms               
+Concat: App                                   | 66ms                
+Funnel: App JS Files                          | 31ms                
+Concat: Test Support JS                       | 29ms                
+SourcemapConcat                               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 125ms               
+Concat: App (1)                               | 66ms                
+SourcemapConcat (3)                           | 55ms (18 ms)        
+Funnel (40)                                   | 39ms (0 ms)         
+Funnel: App JS Files (1)                      | 31ms                
+Concat: Test Support JS (1)                   | 29ms                
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+
+file changed templates/inform.emblem
+
+Build successful - 566ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 218ms               
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 31ms                
+ES6: App Tree                                 | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 218ms               
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 31ms                
+ES6: App Tree (1)                             | 28ms                
+
+file changed templates/inform.emblem
+
+Build successful - 513ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 186ms               
+Funnel: App JS Files                          | 33ms                
+ES6: App Tree                                 | 26ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 186ms               
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+ES6: App Tree (1)                             | 26ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed templates/inform.emblem
+
+Build successful - 886ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 282ms               
+Concat: Test Support JS                       | 94ms                
+SourcemapConcat                               | 64ms                
+Funnel: App JS Files                          | 52ms                
+Concat: App                                   | 47ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 282ms               
+SourcemapConcat (3)                           | 108ms (36 ms)       
+Concat: Test Support JS (1)                   | 94ms                
+Funnel: App JS Files (1)                      | 52ms                
+Concat: App (1)                               | 47ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 530ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+Funnel: App JS Files                          | 79ms                
+Concat: Test Support JS                       | 30ms                
+Babel                                         | 30ms                
+CoffeeScriptFilter                            | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+Funnel: App JS Files (1)                      | 79ms                
+SourcemapConcat (3)                           | 53ms (17 ms)        
+CoffeeScriptFilter (2)                        | 38ms (19 ms)        
+Babel (4)                                     | 32ms (8 ms)         
+Concat: Test Support JS (1)                   | 30ms                
+
+file added controllers/inform.coffee___jb_bak___
+file deleted controllers/inform.coffee___jb_bak___
+file changed controllers/inform.coffee
+
+Build successful - 505ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+Funnel: App JS Files                          | 80ms                
+SourcemapConcat                               | 29ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+Funnel: App JS Files (1)                      | 80ms                
+SourcemapConcat (3)                           | 56ms (18 ms)        
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 521ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 128ms               
+Funnel: App JS Files                          | 83ms                
+SourcemapConcat                               | 32ms                
+Concat: Test Support JS                       | 30ms                
+SourcemapConcat                               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 128ms               
+Funnel: App JS Files (1)                      | 83ms                
+SourcemapConcat (3)                           | 61ms (20 ms)        
+Concat: Test Support JS (1)                   | 30ms                
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 492ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 121ms               
+Funnel: App JS Files                          | 79ms                
+Concat: Test Support JS                       | 29ms                
+SourcemapConcat                               | 25ms                
+SourcemapConcat                               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 121ms               
+Funnel: App JS Files (1)                      | 79ms                
+SourcemapConcat (3)                           | 52ms (17 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 525ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+Funnel: App JS Files                          | 92ms                
+Concat: Test Support JS                       | 33ms                
+SourcemapConcat                               | 29ms                
+SourcemapConcat                               | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+Funnel: App JS Files (1)                      | 92ms                
+SourcemapConcat (3)                           | 61ms (20 ms)        
+Concat: Test Support JS (1)                   | 33ms                
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 513ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+Funnel: App JS Files                          | 87ms                
+Concat: Test Support JS                       | 29ms                
+SourcemapConcat                               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+Funnel: App JS Files (1)                      | 87ms                
+SourcemapConcat (3)                           | 54ms (18 ms)        
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 557ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 145ms               
+Funnel: App JS Files                          | 93ms                
+Babel                                         | 31ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 145ms               
+Funnel: App JS Files (1)                      | 93ms                
+SourcemapConcat (3)                           | 51ms (17 ms)        
+Babel (4)                                     | 33ms (8 ms)         
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 649ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 187ms               
+Funnel: App JS Files                          | 115ms               
+SourcemapConcat                               | 43ms                
+Concat: App                                   | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 187ms               
+Funnel: App JS Files (1)                      | 115ms               
+SourcemapConcat (3)                           | 70ms (23 ms)        
+Concat: App (1)                               | 33ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 741ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 203ms               
+Funnel: App JS Files                          | 150ms               
+SourcemapConcat                               | 46ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 203ms               
+Funnel: App JS Files (1)                      | 150ms               
+SourcemapConcat (3)                           | 76ms (25 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 607ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 233ms               
+Funnel: App JS Files                          | 32ms                
+TreeMerger (appAndDependencies)               | 31ms                
+Concat: App                                   | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 233ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+TreeMerger (appAndDependencies) (1)           | 31ms                
+Concat: App (1)                               | 30ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 598ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 198ms               
+Funnel: App JS Files                          | 70ms                
+ES6: App Tree                                 | 31ms                
+Concat: App                                   | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 198ms               
+Funnel: App JS Files (1)                      | 70ms                
+SourcemapConcat (3)                           | 52ms (17 ms)        
+ES6: App Tree (1)                             | 31ms                
+Concat: App (1)                               | 30ms                
+
+file changed controllers/inform.coffee
+
+Build successful - 507ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+Funnel: App JS Files                          | 92ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+Funnel: App JS Files (1)                      | 92ms                
+SourcemapConcat (3)                           | 51ms (17 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+
+file changed controllers/inform.coffee
+
+Build successful - 581ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 130ms               
+Funnel: App JS Files                          | 93ms                
+SourcemapConcat                               | 45ms                
+Concat: Test Support JS                       | 39ms                
+Concat: App                                   | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 130ms               
+Funnel: App JS Files (1)                      | 93ms                
+SourcemapConcat (3)                           | 73ms (24 ms)        
+Concat: Test Support JS (1)                   | 39ms                
+Concat: App (1)                               | 32ms                
+
+file changed templates/inform.emblem
+
+Build successful - 633ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 136ms               
+Funnel: App JS Files                          | 121ms               
+SourcemapConcat                               | 43ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 136ms               
+Funnel: App JS Files (1)                      | 121ms               
+SourcemapConcat (3)                           | 71ms (23 ms)        
+TemplateCompiler (2)                          | 37ms (18 ms)        
+

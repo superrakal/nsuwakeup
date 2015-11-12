@@ -9,6 +9,20 @@ InformController = Ember.Controller.extend
     @_super.apply(this, arguments)
     @socket = this.get('socketIOService').socketFor('http://nsuwakeup.ru:1488/')
 
+  isAvailableTodayButNotNow: (->
+    startTime = moment().hour(8).minutes(30)
+    now =       moment()
+    now < startTime && now > moment().hour(0).minutes(0)
+  ).property()
+
+  isNotAvailableToday: (->
+    startTime = moment().hour(8).minutes(30)
+    endTime =   moment().hour(18).minutes(45)
+    range =     moment().range(startTime, endTime)
+    now =       moment()
+    !range.contains(now)
+  ).property()
+
   actions:
     confirm: ->
       @set 'isConfirming', true

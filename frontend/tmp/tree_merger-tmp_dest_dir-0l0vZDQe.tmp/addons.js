@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/wakeup/frontend/tmp/caching-writer-dest-dir_UfG9uQ.tmp/addons.js

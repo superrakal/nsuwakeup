@@ -3,7 +3,7 @@
     h1.ui.header.hero.mint-text
       | WakeUp! Coffee
     h3
-      b 08:30 - 18:45 / понедельник-суббота / Главный корпус
+      b 08:30 - 18:45 / понедельник-пятница / Главный корпус
     br
     h2.ui.header Как оформить предзаказ?
     steps-component

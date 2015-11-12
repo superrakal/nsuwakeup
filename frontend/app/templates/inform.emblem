@@ -12,6 +12,7 @@
     tbody
       tr
         td
+          |#
           = model.number
         td
           = model.drink.name
@@ -33,6 +34,14 @@
     .field
       = textarea value=model.comments placeholder='Оставьте Ваши пожелания и мы постараемся их воплотить в жизнь' disabled=isConfirmed
   section
+    = if isAvailableTodayButNotNow
+      .ui.warning.message
+        .header
+          |Ваш заказ будет доступен с 8:30 у точки выдачи
+    = if isNotAvailableToday
+      .ui.warning.message
+        .header
+          |К сожалению, мы уже не работаем :( Давайте мы приготовим его Вам завтра в 8:30!
     = if isConfirmed
       .ui.success.message
         .header

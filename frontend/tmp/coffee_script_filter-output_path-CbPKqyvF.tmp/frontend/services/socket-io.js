@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-input_base_path-s9O7pD8V.tmp/0/frontend/services/socket-io.js

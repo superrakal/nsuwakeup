@@ -21,8 +21,6 @@ gem 'compass-rails', github: 'Compass/compass-rails', branch: 'master'
 gem 'font-awesome-rails'
 gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
 gem 'prerender_rails'
-gem 'animate-rails'
-gem 'wow-rails'
 gem 'redis'
 
 #Adminpanel
