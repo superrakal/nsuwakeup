@@ -477,6 +477,3 @@ DEPENDENCIES
   unicorn_service (~> 0.5.1)
   vkontakte_api (~> 1.4)
   whenever
-
-BUNDLED WITH
-   1.10.5
