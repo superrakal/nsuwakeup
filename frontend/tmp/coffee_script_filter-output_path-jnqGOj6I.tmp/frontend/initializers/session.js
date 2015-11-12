@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/coffee_script_filter-cache_path-U4SnIr58.tmp/frontend/initializers/session.js

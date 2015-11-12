@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/funnel-output_path-BprxLJqa.tmp/moment/locale/mr.js

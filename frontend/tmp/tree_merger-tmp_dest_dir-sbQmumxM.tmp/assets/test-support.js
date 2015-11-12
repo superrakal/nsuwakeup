@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/class-tmp_cache_dir-Ys4KlJBQ.tmp/assets/test-support.js

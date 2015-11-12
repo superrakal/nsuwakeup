@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/template_compiler-tmp_cache_dir-Vq7nnVJ1.tmp/2

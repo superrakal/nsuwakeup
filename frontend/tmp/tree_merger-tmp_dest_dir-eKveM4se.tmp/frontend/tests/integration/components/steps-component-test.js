@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/babel-output_path-HZxdFLL2.tmp/frontend/tests/integration/components/steps-component-test.js

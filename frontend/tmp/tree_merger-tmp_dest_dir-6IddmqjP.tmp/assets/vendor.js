@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tmp/caching-writer-dest-dir_YTTDhA.tmp/assets/vendor.js

@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/wakeup/frontend/tests/integration/components/comments-component-test.coffee
