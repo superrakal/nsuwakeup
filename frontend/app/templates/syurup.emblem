@@ -4,7 +4,7 @@
       h1.ui.header Выбор сиропа(ов)
     .ui.three.stackable.cards
       = each syurup in syurups
-        .ui.card
+        .ui.card.syurup
           .image
             img src=syurup.image
           .content
