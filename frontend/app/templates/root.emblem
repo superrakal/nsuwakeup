@@ -12,7 +12,7 @@
       .visible.content Оформить предзаказ
       .hidden.content
         | Выбор кофе
-  section
+  section.comments
     h2.ui.header Оставьте отзыв!
     comments-component
 
