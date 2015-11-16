@@ -4,13 +4,10 @@ RootController = Ember.Controller.extend
 
   actions:
     create_preorder: ->
-      @store.findAll('preorder').then (preorders) =>
-        preorders.toArray().forEach (preorder) ->
-          preorder.deleteRecord()
-        preorder = @store.createRecord('preorder')
-        preorder.save().then =>
-          cookie.set('preorder_id', preorder.get('id'))
-          location.replace('/coffee')
+      preorder = @store.createRecord('preorder')
+      preorder.save().then =>
+        cookie.set('preorder_id', preorder.get('id'))
+        location.replace('/coffee')
 
 
 `export default RootController`

@@ -16385,3 +16385,25 @@ SourcemapConcat (3)                           | 112ms (37 ms)
 Concat: Test Support JS (1)                   | 52ms                
 Funnel: App JS Files (1)                      | 35ms                
 
+file added controllers/root.coffee___jb_old___
+file changed controllers/root.coffee
+file deleted controllers/root.coffee___jb_old___
+
+Build successful - 492ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 125ms               
+ES6: App Tree                                 | 63ms                
+Funnel: App JS Files                          | 33ms                
+SourcemapConcat                               | 26ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 125ms               
+ES6: App Tree (1)                             | 63ms                
+SourcemapConcat (3)                           | 52ms (17 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 25ms                
+
