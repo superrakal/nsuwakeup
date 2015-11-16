@@ -16258,3 +16258,130 @@ Funnel: App JS Files (1)                      | 121ms
 SourcemapConcat (3)                           | 71ms (23 ms)        
 TemplateCompiler (2)                          | 37ms (18 ms)        
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+File: frontend/templates/components/steps-component.emblem (2)
+Expected _4BeginStatement or end of input but "\uEFEF" found.
+File: frontend/templates/components/steps-component.emblem (2)
+Expected _4BeginStatement or end of input but "\uEFEF" found.
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2796ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1826ms              
+Babel                                         | 210ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1826ms              
+Babel (4)                                     | 273ms (68 ms)       
+CoffeeScriptFilter (2)                        | 141ms (70 ms)       
+
+file changed templates/components/steps-component.emblem
+
+Build successful - 532ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 185ms               
+Funnel: App JS Files                          | 34ms                
+Concat: Test Support JS                       | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 185ms               
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Funnel: App JS Files (1)                      | 34ms                
+Concat: Test Support JS (1)                   | 32ms                
+
+file added templates/components/steps-component.emblem___jb_bak___
+file deleted templates/components/steps-component.emblem___jb_bak___
+file added templates/components/steps-component.emblem___jb_old___
+file changed templates/components/steps-component.emblem
+file deleted templates/components/steps-component.emblem___jb_old___
+
+Build successful - 520ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 193ms               
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 193ms               
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 29ms                
+
+file added templates/components/steps-component.emblem___jb_old___
+file changed templates/components/steps-component.emblem
+file deleted templates/components/steps-component.emblem___jb_old___
+
+Build successful - 511ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 181ms               
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 30ms                
+SourcemapConcat                               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 181ms               
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 30ms                
+
+file added templates/components/steps-component.emblem___jb_old___
+file changed templates/components/steps-component.emblem
+file deleted templates/components/steps-component.emblem___jb_old___
+
+Build successful - 633ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 234ms               
+Funnel: App JS Files                          | 56ms                
+SourcemapConcat                               | 39ms                
+TreeMerger (appAndDependencies)               | 32ms                
+Concat: App                                   | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 234ms               
+SourcemapConcat (3)                           | 63ms (21 ms)        
+Funnel: App JS Files (1)                      | 56ms                
+TreeMerger (appAndDependencies) (1)           | 32ms                
+Concat: App (1)                               | 32ms                
+
+file changed controllers/root.coffee
+
+Build successful - 612ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 185ms               
+SourcemapConcat                               | 67ms                
+Concat: Test Support JS                       | 52ms                
+SourcemapConcat                               | 39ms                
+Funnel: App JS Files                          | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 185ms               
+SourcemapConcat (3)                           | 112ms (37 ms)       
+Concat: Test Support JS (1)                   | 52ms                
+Funnel: App JS Files (1)                      | 35ms                
+

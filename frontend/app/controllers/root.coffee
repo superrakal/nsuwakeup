@@ -9,7 +9,8 @@ RootController = Ember.Controller.extend
           preorder.deleteRecord()
         preorder = @store.createRecord('preorder')
         preorder.save().then =>
-          cookie.set('preorder_id', preorder.get('id'));
-          @transitionToRoute 'coffee'
+          cookie.set('preorder_id', preorder.get('id'))
+          location.replace('/coffee')
+
 
 `export default RootController`
