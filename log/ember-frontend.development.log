@@ -16407,3 +16407,42 @@ SourcemapConcat (3)                           | 52ms (17 ms)
 Funnel: App JS Files (1)                      | 33ms                
 Concat: Test Support JS (1)                   | 25ms                
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 3249ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1847ms              
+Babel                                         | 228ms               
+Babel                                         | 198ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1847ms              
+Babel (4)                                     | 640ms (160 ms)      
+CoffeeScriptFilter (2)                        | 180ms (90 ms)       
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 3318ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1953ms              
+Babel                                         | 259ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1953ms              
+Babel (4)                                     | 606ms (151 ms)      
+CoffeeScriptFilter (2)                        | 199ms (99 ms)       
+

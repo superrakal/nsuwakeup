@@ -1,18 +1,19 @@
-- if !user_signed_in?
-  .sign_in_box
-    =image_tag 'logo.png'
-    = if @error
-      .ui.negative.message
-        .header
-          = @error
-    .actions
-      a.ui.vk.button href=welcome_auth_by_vk_path
-        i.vk.icon
-        |Войти
-- else
-  = include_ember_script_tags :frontend
-  = include_ember_stylesheet_tags :frontend
-
-  #ember
-
+/- if !user_signed_in?
+/  .sign_in_box
+/    =image_tag 'logo.png'
+/    = if @error
+/      .ui.negative.message
+/        .header
+/          = @error
+/    .actions
+/      a.ui.vk.button href=welcome_auth_by_vk_path
+/        i.vk.icon
+/        |Войти
+/- else
+/  = include_ember_script_tags :frontend
+/  = include_ember_stylesheet_tags :frontend
+/
+/  #ember
+.disabled_service
+  h1.text-center Сервис временно отключен. Извините за неудобства
 
